@@ -1,9 +1,9 @@
-import {paper,normalizePapers,matches,mergeBackup,markdown,bibtex,safeTranslate} from './core.mjs';
+import {normalizePapers,matches,mergeBackup,markdown,bibtex,safeTranslate} from './core.mjs';
 const $=id=>document.getElementById(id);
 const PREFIX='hep-match:v1:'+location.pathname.replace(/index\.html$/,'')+':';
-let storageFailed=false, toastTimer, locked=false, queue=[], history=[], view='ja', translationBusy=false;
+let toastTimer, locked=false, queue=[], history=[], view='en', translationBusy=false;
 function notify(message){$('toast').textContent=message;$('toast').classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').classList.remove('visible'),4000);}
-function storageWarning(){storageFailed=true;$('storage-warning').hidden=false;$('storage-warning').textContent='このブラウザにデータを保存できません。記録を失わないよう、設定からJSONバックアップを書き出してください。';}
+function storageWarning(){$('storage-warning').hidden=false;$('storage-warning').textContent='このブラウザにデータを保存できません。記録を失わないよう、設定からJSONバックアップを書き出してください。';}
 function read(key,fallback){try{const value=localStorage.getItem(PREFIX+key);return value?JSON.parse(value):fallback;}catch{storageWarning();return fallback;}}
 function write(key,value){try{localStorage.setItem(PREFIX+key,JSON.stringify(value));return true;}catch{storageWarning();return false;}}
 let stored=read('reading',{schema_version:1,saved:[],read:[]});
@@ -12,7 +12,8 @@ try{state=mergeBackup({saved:[],read:[]},stored);}catch{state={schema_version:1,
 let readSet=new Set(state.read),saved=new Map(state.saved.map(p=>[p.id,p]));
 let preferences=read('preferences',{});
 if(!preferences||typeof preferences!=='object') preferences={};
-view=preferences.language==='en'?'en':'ja';
+// Research abstracts need the original wording: unreviewed MT is opt-in.
+view=preferences.language==='ja'?'ja':'en';
 $('show-read').checked=preferences.showRead===true;
 let doc={papers:[],categories:['hep-th']}, all=[], loaded=false;
 let localTranslations=read('translations',{});
@@ -27,8 +28,8 @@ function typeset(element){if(!window.MathJax?.typesetPromise)return;mathQueue=ma
 function clearMath(element){try{window.MathJax?.typesetClear?.([element]);}catch{}}
 document.addEventListener('math-ready',()=>typeset($('paper-content')));
 function cachedPaper(p){const value=localTranslations[p.id];if(value&&value.source===p.title+'\n'+p.abstract){return {...p,title_ja:typeof value.title==='string'?value.title:p.title_ja,abstract_ja:typeof value.abstract==='string'?value.abstract:p.abstract_ja,title_translator:'browser',abstract_translator:'browser'};}return p;}
-function provider(name){return ({argos:'Argos参考訳',deepl:'DeepL参考訳',browser:'端末内の参考訳'})[name]||'参考訳';}
-function updateMetrics(){const unread=all.filter(p=>!readSet.has(p.id)&&matches(p,$('category').value,$('search').value)).length;$('remaining').textContent=String(unread);$('saved-count').textContent=String(saved.size);$('undo').disabled=history.length===0||locked;$('language').textContent=view==='ja'?'日本語優先':'原文表示';$('language').setAttribute('aria-pressed',String(view==='ja'));}
+function provider(name){return ({argos:'Argos試験訳 · 要原文確認',deepl:'DeepL参考訳',browser:'端末内の参考訳'})[name]||'参考訳';}
+function updateMetrics(){const unread=all.filter(p=>!readSet.has(p.id)&&matches(p,$('category').value,$('search').value)).length;$('remaining').textContent=String(unread);$('saved-count').textContent=String(saved.size);$('undo').disabled=history.length===0||locked;$('language').textContent=view==='ja'?'原文に戻す':'日本語の参考訳を表示';$('language').setAttribute('aria-pressed',String(view==='ja'));}
 function rebuild(){queue=all.filter(p=>($('show-read').checked||!readSet.has(p.id))&&matches(p,$('category').value,$('search').value));render();}
 function render(){
   const raw=queue[0],content=$('paper-content');clearMath(content);content.replaceChildren();$('card').scrollTop=0;
@@ -74,6 +75,7 @@ async function load(){
     if(doc.truncated)warnings.push('取得上限に達しています。期間内のすべての論文を含まない可能性があります。');
     if(doc.generated_at && Date.now()-new Date(doc.generated_at).valueOf()>3*86400000)warnings.push('最終取得から3日以上経過しています。Actionsの実行状況をご確認ください。');
     if(['engine_error','initializing','pending'].includes(doc.translation?.status)&&all.length)warnings.push('事前翻訳が完了していません。未翻訳の論文は原文で利用できます。');
+    if(doc.translation?.engine==='argos'&&all.length)warnings.push('Argosの参考訳には物理用語の誤訳が見られます。初期表示は原文とし、訳は補助的に表示できます。');
     $('notice').textContent=warnings.join(' ');$('notice').hidden=!warnings.length;
     history=[];rebuild();
   }catch{
