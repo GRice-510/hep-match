@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T00:46:56Z",
-  "since": "2026-10-14T00:46:53.590511+00:00",
+  "generated_at": "2026-10-21T06:05:35Z",
+  "since": "2026-10-14T06:04:23.650287+00:00",
   "categories": [
     "hep-th"
   ],
@@ -9,13 +9,1247 @@
   "translation": {
     "engine": "argos",
     "status": "complete",
-    "processed_fields": 64,
-    "characters_this_run": 76065,
-    "updated_at": "2026-10-21T00:48:34Z",
-    "titles": 171,
-    "abstracts": 171
+    "processed_fields": 115,
+    "characters_this_run": 62989,
+    "updated_at": "2026-10-21T06:07:52Z",
+    "titles": 220,
+    "abstracts": 220
   },
   "papers": [
+    {
+      "id": "2610.28608",
+      "version": 1,
+      "title": "Slow-Roll Inflation at Arbitrary Order",
+      "abstract": "We derive explicit expressions for the primordial scalar and tensor spectra at arbitrary finite order $p$ in the slow-roll expansion, valid both for canonical single-field inflation and $k$-inflation. At any order, the spectra are determined by known combinations of slow-roll parameters weighted by universal coefficients entirely fixed by the free de Sitter solutions, without requiring perturbatively corrected mode functions. Using these spectra, we obtain closed-form consistency relations that connect the tensor tilt $n_t$ and its runnings $α_n^t\\equiv d^n n_t/d(\\ln k)^n$ to the tensor-to-scalar ratio $r$, the scalar spectral index $n_s$, and its runnings $α_n^s\\equiv d^n(n_s-1)/d(\\ln k)^n$. The consistency relations are valid for arbitrary $n\\geq 0$ and any finite $p\\geq 0$, without recursion over lower-order relations. For $k$-inflation, they additionally depend on the scalar sound speed and its scale derivatives. We develop an algorithm that generates both the spectra and consistency relations for any pair $(n,p)$. We reproduce known results through next-to-next-to-next-to-leading order (N3LO) and extend the explicit calculations up to N10LO.",
+      "authors": [
+        "William Giarè"
+      ],
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
+      ],
+      "primary": "astro-ph.CO",
+      "published": "2026-10-20T17:50:14Z",
+      "updated": "2026-10-20T17:50:14Z",
+      "comment": "33 pages. Companion code and results available at https://github.com/williamgiare/slow-roll-inflation",
+      "abs_url": "https://arxiv.org/abs/2610.28608",
+      "pdf_url": "https://arxiv.org/pdf/2610.28608",
+      "title_ja": "Arbitrary Orderのスローロールインフレ",
+      "title_translator": "argos",
+      "abstract_ja": "原始的スカラーと、任意のフィニトオーダーでのテンソルトスペクトの派手な明示的な表現 $p$ 遅いロールの拡張では、canonical の単一フィールドのインフレのための有効な両方および $k$-インフレ。 任意の順序で、spectra は、過度に補正されたモード機能を必要としない、完全に無料の de Sitter ソリューションによって固定された普遍的な係数によって重量を量られた遅いロール パラメータの既知の組み合わせで決定されます。 これらのスペクトラを使用して、テンソルの傾きを接続するクローズドフォームの整合関係を取得します。 $n_t$ そしてそのランニング $α_n^t\\equiv d^n n_t/d(\\ln k)^n$ tensor-to-scalarの比率へ $r$、スカラースペクトルインデックス $n_s$およびそのランニング $α_n^s\\equiv d^n(n_s-1)/d(\\ln k)^n$. 一貫性関係は任意のために有効です $n\\geq 0$ 任意の有限 $p\\geq 0$、低い順序の関係上の再帰なしで。 お問い合わせ $k$-inflationは、スカラーサウンド速度とスケールデリバティブに依存します。 任意のペアのスペクトルと一貫性の関係の両方を生成するアルゴリズムを開発 $(n,p)$. 既知の結果は、次の対次順(N3LO)で再現し、N10LOまでの明示的な計算を拡張します。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.28531",
+      "version": 1,
+      "title": "Towards differential expansion for generic representations",
+      "abstract": "We report the first results of phenomenological analysis, based on extended set of explicitly calculated colored HOMFLY-PT polynomials in \\cite{knotebook}. They concern differential expansion (DE), which separates the dependencies on the knot ${\\cal K}$ and the representation $R$. %of colored HOMFLY-PT polynomials. DE is well understood for symmetric and rectangular representations, while for non-rectangular $R$ even the knot-independent basis $Z_R^X$ of DE is not known. We concentrate on two issues: the possible derivation of DE and on improved characteristic of its defect. We discuss how evolution families -- twist knots, double braids and 3-pretzels -- can be used to find DE by a peculiar triangular transformation of evolution coefficients. Once $Z^R_X$ are found for particular family, they are expected to stay basically the same for arbitrary knots -- modulo controllable reductions, characterized by the defect of DE, which puts knots into different universality classes. Contrary to original expectation, these classes appear labeled not by a single number $δ^{\\cal K}$, but by a whole non-decreasing sequence $\\{k_j\\}$, which is squeezed between two staircases, ${\\rm entier}\\left(\\frac{j-1}{δ+1}\\right)\\leq k_j\\leq{\\rm entier}\\left(\\frac{j-1}{{\\rm deg}\\,Δ}\\right)$, where the upper bound involves Alexander polynomial $Δ(q^2)$ and follows from the continuation of the Melvin--Morton--Rozansky-Kashaev limit to $A=q^{-m}$ with $m>0$, when the limit gives a {\\it positive} power of Alexander. The old assumption $δ+1={\\rm deg}\\,Δ$ is oversimplified and fails for 19 non-alternating knots with 11 and 12 crossings. Last, we list the differences of non-rectangularly colored HOMFLY for various mutant pairs to demonstrate their universality (knot-independence) and nice consistency with the spirit of DE.",
+      "authors": [
+        "Ya. Kononov",
+        "A. Morozov"
+      ],
+      "categories": [
+        "hep-th",
+        "math-ph",
+        "math.GT"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-20T17:04:39Z",
+      "updated": "2026-10-20T17:04:39Z",
+      "comment": "13 pages",
+      "abs_url": "https://arxiv.org/abs/2610.28531",
+      "pdf_url": "https://arxiv.org/pdf/2610.28531",
+      "title_ja": "ジェネリック表現の差別化に向けて",
+      "title_translator": "argos",
+      "abstract_ja": "明示的に計算された色の HOMFLY-PT 多項式を \\cite{knotebook} の拡張セットに基づいて、現象解析の最初の結果が報告されます。 彼らは差分拡張(DE)を懸念し、ノットの依存関係を分離します ${\\cal K}$ そして表現 $R$. %of色のHOMFLY-PTのpolynomials。 DEは対称および長方形の表現のために、非長方形のためによく理解されます $R$ ノット独立系でも $Z_R^X$ DEは知られていません。 当社では、DEの導出や欠陥の改良など、2つの課題に集中しています。 私たちは、進化する家族、ツイストノット、ダブルブラッド、および3プレッツェルを話し合います。これは、進化係数の特殊三角形の変形によってDEを見つけるために使用することができます。 おすすめ $Z^R_X$ 特定の家族のために発見され、それらは基本的に任意のノットのために同じとどまることが期待されます - さまざまな汎用性クラスにノットを置くDEの欠陥によって特徴付けられるmodulo制御可能な減少。 元の期待に反して、これらのクラスは単一数ではなくラベル付けされる $δ^{\\cal K}$, しかし、全体の非減少シーケンスによって $\\{k_j\\}$2つの階段の間に絞られる、 ${\\rm entier}\\left(\\frac{j-1}{δ+1}\\right)\\leq k_j\\leq{\\rm entier}\\left(\\frac{j-1}{{\\rm deg}\\,Δ}\\right)$アレクサンダー・ポリノミアルを含む上限が関与する場所 $Δ(q^2)$ Melvin--Morton---Rozansky-Kashaevの限界の続きから続いて下さい $A=q^{-m}$ お問い合わせ $m>0$限界がアレクサンダーの肯定的な}力を与えるとき。 古い仮定 $δ+1={\\rm deg}\\,Δ$ 11と12の交差で19の非交互のノットのために過密で失敗しています。 最後に、私たちは、様々な変異のペアに対して、非矩形色のHOMFLYの違いをリストし、その普遍性(ノット独立)とDEの精神と素敵な一貫性を実証します。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.28526",
+      "version": 1,
+      "title": "MadStree: automated evaluation of tree-level de Sitter correlators",
+      "abstract": "We first derived the formulae of recursive reduction and dlog-form differential equations for arbitrary tree-level cosmological correlator, taking the external relations of massless bulk propagators into consideration. The differential equations could be systematically solved and provide the efficient evaluation of them. We have implemented this methodology as a user-friendly Mathematica package MadStree for computing arbitrary tree-level cosmological correlators.",
+      "authors": [
+        "Jiaqi Chen",
+        "Yi-Xiao Tao",
+        "Xinyi Wang",
+        "Dong Zhang"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "primary": "hep-ph",
+      "published": "2026-10-20T17:00:09Z",
+      "updated": "2026-10-20T17:00:09Z",
+      "comment": "68 pages, 9 figures, 5 tables",
+      "abs_url": "https://arxiv.org/abs/2610.28526",
+      "pdf_url": "https://arxiv.org/pdf/2610.28526",
+      "title_ja": "マッドストリート:ツリーレベルのデシッターの相関者の自動評価",
+      "title_translator": "argos",
+      "abstract_ja": "私たちはまず、再帰的削減と任意のツリーレベルのコズモロジーコリテーターのためのdlog-form差分式を導き出しました。 差動式は、体系的に解決し、それらの効率的な評価を提供することができます。 この方法論は、計算仲裁ツリーレベルの共同相関者のためのユーザーフレンドリーなMathematicaパッケージMadStreeとして実装されています。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.28516",
+      "version": 1,
+      "title": "Cosmological correlators from the Euclidean sphere",
+      "abstract": "We propose a new framework for computing late-time cosmological correlators in de Sitter spacetime by analytic continuation from the Euclidean sphere. In this framework, correlators of arbitrary massive scalar fields take the universal form of generalized Euler integrals. Using this representation, we reproduce the results obtained using the Schwinger-Keldysh formalism for a range of tree-level and loop diagrams, providing nontrivial checks of the equivalence between the Euclidean and the in-in formalisms. We further show that a Landau analysis of the generalized Euler integrals determines the singularities of the corresponding correlators in momentum space. This framework provides a systematic approach to studying the analytic structure of cosmological correlators.",
+      "authors": [
+        "Andrei Katsevich",
+        "Zimo Sun"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-20T16:54:26Z",
+      "updated": "2026-10-20T16:54:26Z",
+      "comment": "29 pages, 6 figures",
+      "abs_url": "https://arxiv.org/abs/2610.28516",
+      "pdf_url": "https://arxiv.org/pdf/2610.28516",
+      "title_ja": "Euclideanの球からのCosmologicalの相関",
+      "title_translator": "argos",
+      "abstract_ja": "Euclidean 球からの分析的な継続による、ディタースペクティカル・スペクティショナーの遅延時間共生者を計算するための新しいフレームワークを提案します。 このフレームワークでは、任意の大規模なスカラーフィールドの相関者は、一般化されたユーラーインテグレーターの普遍的な形態を取ります。 この表現を用いて、シュウダー・ケルディッシュのフォーミュラリズムを使って得られた結果をツリーレベルとループ図の範囲で再現し、エクリッドとイン・イン・フォーミュラ間の同等性の非トリビアチェックを提供します。 さらに、一般化ユーラーインテグレーターのランドロー分析により、対応するコレータの分数を瞬時に決定します。 このフレームワークは、コズモロジーの相関の分析構造を研究するための体系的なアプローチを提供します。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.28367",
+      "version": 1,
+      "title": "Geometrically Induced Semiclassical Limit for Quasinormal Modes and Greybody Factors in Higher-Dimensional Near-Ultracold spacetimes",
+      "abstract": "In this work, we investigate the correspondence between quasinormal modes (QNMs) and greybody factors (GBFs) in higher-dimensional Reissner--Nordstöm--de Sitter black holes based on the massless scalar field. Our analysis focuses on the QNMs in the near-ultracold family where the inner, outer, and cosmological horizons are close together. Under the geometric limit condition, the leading-order Wentzel--Kramers--Brillouin term of the QNM is dominant for fixed angular quantum numbers and dimensionality without imposing the eikonal limit. Particularly, the corresponding GBFs also retain the explicit form of both parameters. Furthermore, we demonstrate that the half-transmission frequency of the GBF and its derivative are related to null geodesics, in terms of aspects such as the angular frequency and Lyapunov exponent, with the use of both parameters. We provide their relationships in arbitrary dimensionality. Furthermore, the higher-order corrections to the QNMs are investigated at the Nariai limit and in the near-ultracold geometry with separated horizons.",
+      "authors": [
+        "Bogeun Gwak"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "primary": "gr-qc",
+      "published": "2026-10-20T15:27:03Z",
+      "updated": "2026-10-20T15:27:03Z",
+      "comment": "18 pages",
+      "abs_url": "https://arxiv.org/abs/2610.28367",
+      "pdf_url": "https://arxiv.org/pdf/2610.28367",
+      "title_ja": "幾何学的に高次元のニアUltracoldの宇宙空間のquiasinormalモードおよびGreybody要因のための半分類限界を引き起こしました",
+      "title_translator": "argos",
+      "abstract_ja": "この作業では、超次元のReissner--Nordstöm-de Sitterのブラックホールで、Qusinormalモード(QNM)とGreybodyファクター(GBFs)の対応について調査しています。 当社の分析は、内部、外、およびコズモロジーの地平線が一緒に閉じる近道家族でQNMに焦点を当てています。 幾何学的限界条件下では、QNMのWentzel-Kramers---Brillouin用語は、Eikonal限界を損なうことなく、固定角数と寸法に優れています。 特に、対応するGBFは、両方のパラメータの明示的なフォームも保持します。 さらに、GBFの半伝達周波数とその誘導体は、両方のパラメータの使用に伴い、角度周波数やLyapunov指数関数などの面で、ヌル幾何学に関連していることを実証しています。 私たちは、任意の次元における関係を提供します。 また、QNMへの高値補正は、ナイアライの限界と、分離された地平線を持つ近距離の幾何学で調べられます。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.28359",
+      "version": 1,
+      "title": "Topological ModMax--AdS Black Holes: Extremality, Charge Normalization, and Limits of WGC Diagnostics",
+      "abstract": "We study four-dimensional topological anti-de Sitter black holes sourced by ModMax electrodynamics and its sign-reversed counterpart. Distinguishing the field-strength amplitude from the conserved displacement flux fixes the charge normalization, potential, and first law. We classify the exact extremal roots for spherical, planar, and hyperbolic horizons; in particular, the hyperbolic ModMax branch has no upper-charge discriminant bound and contains a finite-charge zero-mass point. We also derive the unstable spherical null circular orbit and evaluate the local near-horizon AdS$_2$ Breitenlohner--Freedman index for an explicitly specified charged-scalar probe. These are classical diagnostics, not a WGC verdict: the model does not specify a charged-particle spectrum, an ultraviolet completion, or the global perturbation problem. The distance and de Sitter conjectures cannot be quantitatively tested with the fixed-coupling AdS data considered here.",
+      "authors": [
+        "Saeed Noori Gashti",
+        "Behnam Pourhassan",
+        "Saheb Soroushfar"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "primary": "gr-qc",
+      "published": "2026-10-20T15:21:52Z",
+      "updated": "2026-10-20T15:21:52Z",
+      "comment": "27 pages, 5 figures, 3 tables",
+      "abs_url": "https://arxiv.org/abs/2610.28359",
+      "pdf_url": "https://arxiv.org/pdf/2610.28359",
+      "title_ja": "地質ModMax-AdSの黒い穴:WGCの診断のExtremality、充満正規化および限界",
+      "title_translator": "argos",
+      "abstract_ja": "ModMax の電気力学とその標識会話カウンターで供給される 4 次元のトポロジカル アンチ デ シッター ブラック ホールを研究します。 保存された変位の変化からフィールド強度の広さを区別するフラックスは、充電正規化、潜在的な、および最初の法律を修正します。 私たちは、球面、平面、およびハイパーボリックの地平線の正確な経常ルートを分類します。特に、hyperbolic ModMaxブランチには、過充電の分岐がなく、有限充電ゼロマスポイントが含まれています。 また、不安定な球形のnullの円軌道を導き、ローカルのニア水平線広告を評価する$_2$ Breitenlohner-Freedman は、明示的に指定された有料スカラープローブのインデックスです。 これらは、WGC の頂点ではなく、古典的な診断です。モデルは、充電粒子スペクトル、紫外線完了、または全体的な過度の問題を指定しません。 距離とシッターの注射は、ここで考慮した固定カップリングのAdSデータで定量的にテストすることはできません。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.28319",
+      "version": 1,
+      "title": "Causality violation in the holographic approach to N=4 SYM theory at finite 't Hooft coupling",
+      "abstract": "In the AdS/CFT correspondence, correlation functions of the energy-momentum tensor in N=4 supersymmetric Yang-Mills theory at large but finite 't Hooft coupling can be studied using higher-derivative corrections to supergravity. We show that the commonly used holographic prescription for correlation functions which is obtained by truncating the equations of motion at order $(α')^3$ implies that the thermal equilibrium state of N=4 SYM theory in the planar limit is dynamically unstable at arbitrarily large finite 't Hooft coupling. The instability is a reflection of the unphysical causality violation brought about by treating perturbatively-derived equations as if they were non-perturbative, analogous to the instability of AdS black branes in five-dimensional Gauss-Bonnet gravity. While other holographic prescriptions for treating the $O(α'^3)$ corrections to supergravity may alleviate the pathology introduced by the truncation, the validity regime of the results obtained by any prescription at $O(α'^3)$ must be limited to the strict perturbative treatment of the $O(α'^3)$ effects on N=4 SYM observables.",
+      "authors": [
+        "Alex Buchel",
+        "Pavel Kovtun"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-20T14:55:28Z",
+      "updated": "2026-10-20T14:55:28Z",
+      "comment": "34 pages",
+      "abs_url": "https://arxiv.org/abs/2610.28319",
+      "pdf_url": "https://arxiv.org/pdf/2610.28319",
+      "title_ja": "N=4 SYM理論へのホログラフィックアプローチにおける因果性違反は、finite 't Hooft カップリング",
+      "title_translator": "argos",
+      "abstract_ja": "AdS/CFT 対応では、N=4 超対称ヤン・ミラー理論におけるエネルギー・マンションの相関機能が大規模で有限の「ホフレット・カップリング」では、高精細度補正を使用して研究することができます。 一般的に使用される相関関数のホログラム処方は、順番に運動の式を誤って取得していることを示しています $(α')^3$ 平面限界のN=4 SYM理論の熱平衡状態は任意に大きいfinite 't Hooftのカップリングで動的に不安定であることを意味します。 不安定性は、彼らが非永続的だった場合、五次元のガウス・ボンネット重力でAdSの黒の曲面の不安定性に類似したアナログな場合として、永続的に派生した同等性を処理することによって、持ち込まれた非生理的因性の違反の反射です。 一方、他のホログラフィック処方を治療するための $O(α'^3)$ 重力への補正は、調停によって導入された病理学、任意の処方によって得られた結果の妥当性体制を緩和することができる $O(α'^3)$ 厳密なperturbative処置に限られなければなりません $O(α'^3)$ N=4 SYM の観察可能な効果。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.28283",
+      "version": 1,
+      "title": "Automation of amplitude-level QED resummation with ACRAIC",
+      "abstract": "Precision electroweak predictions for future $e^+e^-$ colliders will require levels of precision unmatched in collider physics and the modelling of multiple-photon emissions, and the exponentiation of the associated logarithms needs to be carefully considered. The Yennie-Frautschi-Suura theorem subtracts the infrared singularities to all orders and exponentiates them, leaving infrared-finite remainders which can be calculated order-by-order. Coherent exponentiation performs this subtraction at the amplitude level, preserving the interference between emissions, but has so far been available only for fermion-pair production, with hand-coded amplitudes. We present ACRAIC, an automated, amplitude-level realization of this subtraction for general scattering processes in Sherpa. This method allows us to construct an $\\mathcal{O}(α)$ and $\\mathcal{O}(α^2)$ amplitude level subtraction scheme, in which the infrared-finite remainders are tree-level helicity amplitudes with partition-dependent propagator shifts, computed by the Berends--Giele recursion, and the one-loop electroweak virtual enters through a per-helicity factor from the loop provider. At $\\mathcal{O}(α^2)$ two independent matchings agree on the size of the missing higher orders to $\\sim10^{-3}$, and the estimated perturbative uncertainty shrinks by about an order of magnitude relative to $\\mathcal{O}(α)$.",
+      "authors": [
+        "Alan Price"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "hep-th"
+      ],
+      "primary": "hep-ph",
+      "published": "2026-10-20T14:36:34Z",
+      "updated": "2026-10-20T14:36:34Z",
+      "comment": "",
+      "abs_url": "https://arxiv.org/abs/2610.28283",
+      "pdf_url": "https://arxiv.org/pdf/2610.28283",
+      "title_ja": "ACRAICによる振幅レベルのQED再発の自動化",
+      "title_translator": "argos",
+      "abstract_ja": "未来のための精密電気溶接予測 $e^+e^-$ コリダは、コリダ物理学と複数の光排出量のモデリングにおいて比類のない精度のレベルが必要になります。また、関連するログリサムの指数は慎重に検討する必要があります。 Yennie-Frautschi-Suura theorem は、すべての注文に対して比類のない単数を割込み、それらを満たし、比類のない残り物を残して、注文ごとに計算することができます。 コヒーレントの指数関数は、この振幅レベルでの減算を実行し、排出量間の干渉を抑えていますが、これまではフェミオンペアの生産のみ、ハンドコードされた振幅で利用できます。 Sherpaの一般的なスキャタリングプロセスのためのこの請負の自動化された広さレベルの実現であるACRAICを紹介します。 この方法は、私たちが構築することを可能にします $\\mathcal{O}(α)$ そして、 $\\mathcal{O}(α^2)$ 振幅レベルの減算方式は、赤外線フィニトがツリーレベルのヘリシティ振幅であり、パーティションに依存する伝搬シフトにより計算され、Berends-Gieleの再帰によって計算され、ループプロバイダから1ループのエレクトロ弱い仮想が1つのループプロバイダーから1つのヘリシティ要因を通過します。 お問い合わせ $\\mathcal{O}(α^2)$ 2つの独立した一致は行方不明のより高い順序のサイズに一致します $\\sim10^{-3}$、および予想されるperturbativeのuncertaintyはへのmagnitudeの順序によって縮まります $\\mathcal{O}(α)$お問い合わせ",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.28253",
+      "version": 1,
+      "title": "Proliferation Transitions for Quantum Doubles of Groups",
+      "abstract": "Proliferation transitions are phase transitions between a 2+1d topological order $\\mathcal{T}$ and another $\\mathcal{T}/\\mathcal{A}$, obtained by condensing anyons in an algebra $\\mathcal{A}\\subset \\mathcal{T}$. We consider such transitions in quantum doubles of groups, $\\mathcal{T}=D(G, ω)$, for finite groups $G$ possibly with three-cocycle $ω$, for which condensable algebras are fully classified. Given a condensable algebra $\\mathcal{A}$, we represent $\\mathcal{T}$ in terms of a Symmetry Topological Field Theory (SymTFT), that is tailored to the $\\mathcal{A}$ proliferation transition. The SymTFT bulk is constructed from the Müger center of the subcategory generated by the algebra, i.e. the category of transparent lines, which can be bosons or fermions. Properties of the transition can then be inferred directly from the algebra classification data. For gauged Landau-Ginzburg (LG*) type transitions, we show that they do not only depend on the anyons in $\\mathcal{A}$ through their field content, but the cubic interactions are fixed in terms of the multiplication structure of $\\mathcal{A}$. Applied to twin algebras, which have the same anyon content but different multiplication structures, we show that twins result in distinct proliferation transitions.",
+      "authors": [
+        "Yuhan Gai",
+        "Sakura Schafer-Nameki"
+      ],
+      "categories": [
+        "cond-mat.str-el",
+        "hep-th",
+        "math.QA"
+      ],
+      "primary": "cond-mat.str-el",
+      "published": "2026-10-20T14:12:07Z",
+      "updated": "2026-10-20T14:12:07Z",
+      "comment": "19 pages + appendices",
+      "abs_url": "https://arxiv.org/abs/2610.28253",
+      "pdf_url": "https://arxiv.org/pdf/2610.28253",
+      "title_ja": "集団の量子倍増のための拡散トランジション",
+      "title_translator": "argos",
+      "abstract_ja": "増殖トランジションは、2+1dのトポロジカルオーダー間のフェーズトランジションです $\\mathcal{T}$ その他 $\\mathcal{T}/\\mathcal{A}$、algebraのオルソンを凝縮することによって得られる $\\mathcal{A}\\subset \\mathcal{T}$. 私たちは、グループの量子の倍にそのような移行を検討します, $\\mathcal{T}=D(G, ω)$、finite のグループのための $G$ おそらく3サイクルで $ω$、凝縮可能なアルジブラが十分に分類されるため。 結露可能なアルジブラ $\\mathcal{A}$、私達は表現します $\\mathcal{T}$ シンメトリー・トポロジカル・フィールド理論(SymTFT)の用語で、 $\\mathcal{A}$ 増殖移行。 SymTFT のバルクは、アルゲブラによって生成されたサブカテゴリの Müger センターから構成されます。つまり、ブソンやフェミニオンにすることができます。 移行のプロパティは、 algebra の分類データから直接推論することができます。 Landau-Ginzburg(LG*)型トランジションを測ったために、ランナウ-Ginzburg(LG*)型トランジションだけでなく、 $\\mathcal{A}$ フィールドコンテンツを通じて、立方相互作用は、乗算構造の面で固定されます $\\mathcal{A}$. 対のアルゲブラスに適用される、同じアノン含有量が異なるマルチプリケーション構造を持つ、我々はツインズが異なる増殖トランジションをもたらすことを示しています。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.28198",
+      "version": 1,
+      "title": "Soft Breaking Naturalness in Majorana Fermion Loop induced Scalar and Majoron Amplitudes",
+      "abstract": "Majorana fermion loops contribute a shift-symmetry violating effective potential to the coupled scalar field. When the Majorana fermion is light, a larger number of symmetry violating insertions let the loop contribution to grow increasingly infrared sensitive to the Majorana mass. With explicit calculations, we calculate the symmetry violating amplitudes, show that the scalar potential's natural scales serve as nonzero kinematic matching points which remove the superficial sensitivity to the symmetry-violating Majorana mass, continuously restoring the shift symmetry in agreement with 't Hooft naturalness. In the spontaneous broken phase, the scalar radial vacuum expectation value readily ensures the infrared safety of symmetry violating Majorana fermion loops, and all $n$-point Majoron functions develop a leading linear dependence on the symmetry violating parameter in the soft breaking limit, which matches the expansion of the Coleman-Weinberg determinant.",
+      "authors": [
+        "Mussawir Khan",
+        "Wei Chao",
+        "Yu Gao"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-th"
+      ],
+      "primary": "hep-ph",
+      "published": "2026-10-20T13:39:03Z",
+      "updated": "2026-10-20T13:39:03Z",
+      "comment": "22 pages, 4 figures",
+      "abs_url": "https://arxiv.org/abs/2610.28198",
+      "pdf_url": "https://arxiv.org/pdf/2610.28198",
+      "title_ja": "ソフトブレークの自然性 に メジャーナ ・ ファーミオン ループ 誘発 Scalar と bigon 振幅",
+      "title_translator": "argos",
+      "abstract_ja": "メジャーアナ・フェミオン・ループは、カプド・スカラー・フィールドに効果的なポテンシャルを侵害するシフト・シムタリーに貢献します。 メジャーアナ・フェミオンが光ると、より大きな対称違反のインサートが、大部分にますます不断の感度を増やすためのループ貢献を可能にしました。 明示的な計算により、対称違反の振幅を計算し、スカラーの潜在的スケールが非ゼロ運動的マッチングポイントとして機能し、対称的な感度を対称するマジョルナ質量に除去し、対称性自然性との合意でシフトを継続的に回復させます。 自発的に壊れたフェーズでは、スカラーラジアル真空予測値が容易に、Mariana のフェムループを違反する対称性安全を確保し、すべての $n$-point Majoron 関数は、Coleman-Weinberg のデテルミナントの拡張に一致する、ソフトブレイク限界の対称的な違反パラメータに対する主要な線形依存を開発します。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.28185",
+      "version": 1,
+      "title": "Black Holes are about Quantum Information",
+      "abstract": "We review and analyse quantum information-theoretic approaches to black hole evaporation that purport to bring us closer to a resolution of the black hole information paradox. Our focus is on the Page-time paradox and on the contribution of the Hayden-Preskill model to understanding information release under the assumption of unitary evaporation. In this model, the black hole is taken to be a finite-dimensional quantum system whose dynamics can be represented by a quantum circuit, and its information-processing and communication abilities are studied. We identify the assumptions underlying this modelling and highlight two key features, fast scrambling dynamics and entanglement as a resource, that underpin the information release in the model. We argue that this reasoning exemplifies a broader change in how information is used in black hole physics, in which quantum information theory now provides a useful operational modelling framework. This application avoids earlier philosophical objections insofar as it is not based on epistemic ignorance and does not regard information as a substance. This line of reasoning has become central to the debate and, as such, warrants greater attention from the philosophy of physics community.",
+      "authors": [
+        "Aude Corbeel",
+        "Sebastian De Haro"
+      ],
+      "categories": [
+        "physics.hist-ph",
+        "hep-th",
+        "quant-ph"
+      ],
+      "primary": "physics.hist-ph",
+      "published": "2026-10-20T13:21:24Z",
+      "updated": "2026-10-20T13:21:24Z",
+      "comment": "",
+      "abs_url": "https://arxiv.org/abs/2610.28185",
+      "pdf_url": "https://arxiv.org/pdf/2610.28185",
+      "title_ja": "ブラックホールは量子情報について",
+      "title_translator": "argos",
+      "abstract_ja": "黒穴情報パラドックスの解像度に近づくために、プルポートの黒穴蒸発への量子情報理論的アプローチを見直し、分析します。 ページタイムのパラドックスとヘイデンプレスキルモデルのコントリビュートに焦点を合わせ、一元蒸発の前提で情報リリースを理解しています。 このモデルでは、ダイナミクスが量子回路で表現できる有限次元量子システムであり、情報処理と通信能力を研究しています。 このモデリングを根ざした前提を特定し、2つの主要機能、高速スクランブルダイナミクスとエンタランメントをリソースとして強調し、モデル内の情報リリースを強調します。 この理由は、量子情報理論が有用な運用モデリングフレームワークを提供するブラックホール物理でどのように情報が使用されるかのより広い変化を実装していると主張しています。 このアプリケーションは、初期の哲学的異議を上皮性無視に基づいており、物質として情報を見ないため、遠くに回避します。 推論のこのラインは議論に集中し、など、物理コミュニティの哲学からのより大きな注意を保証します。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.28183",
+      "version": 1,
+      "title": "Finite Spectral Recurrences for Loop Integrals in de Sitter and Anti-de Sitter Space",
+      "abstract": "We introduce a method that does for loop integrals in de Sitter and anti-de Sitter space what integration-by-parts identities do in flat space. A local, coordinate-free propagator algebra common to both geometries yields exact finite-difference equations in spectral labels; with external points they become differential-difference equations, and at the AdS boundary recover known Witten-diagram relations. Acting line by line, they apply in principle to any diagram. We solve them for the two-loop watermelon, isolating its ultraviolet poles, and for one-loop two- and four-point functions.",
+      "authors": [
+        "Bruce A. Bassett",
+        "Sergio Cacciatori",
+        "Ugo Moschella"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-20T13:21:07Z",
+      "updated": "2026-10-20T13:21:07Z",
+      "comment": "1 figure",
+      "abs_url": "https://arxiv.org/abs/2610.28183",
+      "pdf_url": "https://arxiv.org/pdf/2610.28183",
+      "title_ja": "デシッターとアンチデシッタースペースのループインテグレーションのための有限分光再帰",
+      "title_translator": "argos",
+      "abstract_ja": "デ・シッターとアンチ・デ・シッター・スペースのループ・インテグレーション・バイ・パーツ・アイデンティティがフラット・スペースで行う方法を紹介します。 地理的、座標フリーのプロパゲーターアルゲブラは、両方のジオメトリに共通して、スペクトルラベルの正確な有限差分式を生成します。外部ポイントでは、差分差分式になり、AdS境界では既知のWitten-diagramリレーションを回復します。 線で線を振る舞い、任意の図に原則を適用します。 2ループのスイカを解決し、紫外線の棒を隔離し、1ループ2および4ポイント機能のためにそれらを解決します。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.28165",
+      "version": 1,
+      "title": "Surface defects on lens space and transfer matrices",
+      "abstract": "We study surface defects in four-dimensional $\\mathcal{N}=2$ theories of class $\\mathcal{S}$ and $\\mathcal{N}=1$ theories of class $\\mathcal{S}_k$ placed on $L(r,1)\\times S^1$. The lens space index depends on the fugacities $p$ and $q$, and the effect of the defects on it is captured by difference operators acting on the fugacities and holonomies of flavor symmetries. For theories of type $A_1$ we determine in closed form the difference operators for the basic defects, labeled by $p^r$, $q^r$ and $pq$, and show that for odd $r$ there exist additional elementary defects, whose operators shift the holonomy by one half modulo $r$. All the operators commute, and the elementary operators generate the others. For even $r$ the same holds once the holonomy is extended to a twisted sector. We show that the elementary operators are traces of $L$-operators whose entries generate a Sklyanin algebra, with nome $q^r$ and shift $pq$. The lens space enters only through the parameters of the algebra and through its representation, which is realized on a doubled holonomy label. The $p$- and $q$-type algebras form a lens space version of the elliptic modular double. For class $\\mathcal{S}_k$ theories we propose, and test in several ways, that the defect operators are transfer matrices of inhomogeneous spin chains built from these $L$-operators. Throughout, we use the TQFT structure of the lens space index, which follows from S-duality, both to fix and to check the operators.",
+      "authors": [
+        "Kazunobu Maruyoshi",
+        "Toshihiro Ota",
+        "Masahito Yamazaki"
+      ],
+      "categories": [
+        "hep-th",
+        "math-ph",
+        "math.QA",
+        "nlin.SI"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-20T13:08:14Z",
+      "updated": "2026-10-20T13:08:14Z",
+      "comment": "40 pages, 5 figures",
+      "abs_url": "https://arxiv.org/abs/2610.28165",
+      "pdf_url": "https://arxiv.org/pdf/2610.28165",
+      "title_ja": "レンズ空間上の表面欠陥とマトリクスの移動",
+      "title_translator": "argos",
+      "abstract_ja": "4次元の表面欠陥を研究 $\\mathcal{N}=2$ クラスの理論 $\\mathcal{S}$ そして、 $\\mathcal{N}=1$ クラスの理論 $\\mathcal{S}_k$ 配置 $L(r,1)\\times S^1$. レンズのスペース索引はfugacitiesによって決まります $p$ そして、 $q$、そしてそれに欠陥の効果は味の徴候のfugacitiesそしてholonomiesで作用する相違オペレータによって捕獲されます。 タイプの理論のため $A_1$ ラベル付けされた基本的な欠陥の相違オペレータは閉鎖した形態で決定します $p^r$, $q^r$ そして、 $pq$, とオッズのためにそれを示す $r$ オペレータが1つの半分のmodulonomyを移す付加的な小学校の欠陥があります、 $r$. オペレーター全員が通勤し、小学生が相手を生成します。 でも $r$ 同じことが、ホロームがツイストされたセクターに拡張されると保持されます。 小学校のオペレーターが微分であることを示します $L$- エントリーがスクリアンナアルゲブラを生成し、nomeと操作者 $q^r$ ・シフト $pq$。レンズ空間は、アルゲブラのパラメータと、その表現を通してのみ入ります。これは、二重のホローエンラベルで実現されます。 ザ・オブ・ザ・ $p$- と $q$-type algebras は楕円モジュラーダブルのレンズスペースバージョンを形成します。 授業について $\\mathcal{S}_k$ 私たちが提案する理論, いくつかの方法でテスト, 欠陥演算子は、これらのから構築された不均質なスピンチェーンのマトリックスを転送していること $L$-演算子。 S-duality から続くレンズ空間のインデックスの TQFT 構造を使用しており、どちらも固定し、オペレータをチェックします。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.28148",
+      "version": 1,
+      "title": "Field theories and critical excitations at anyon condensation transitions",
+      "abstract": "Anyon condensation transitions remain challenging to characterize especially when the condensing anyons are non-abelian. We develop two complementary approaches for extracting information about the transition from the categorical data of the parent topological order and the condensate. The first adapts a Ginzburg-Landau procedure developed for $1+1$D transitions in the SymTFT setting to $2+1$D anyon condensation transitions. The construction applies when the anyons participating in the condensate have integer quantum dimensions. The second gives a criterion for identifying which point and loop excitations become critical at a continuous transition. The key step is to determine which anyon loops remain condensed throughout. All other loops become critical, while a point excitation becomes critical if it braids trivially with every condensed loop. We illustrate both proposals in several abelian and non-abelian examples.",
+      "authors": [
+        "Luisa Eck",
+        "Xie Chen"
+      ],
+      "categories": [
+        "cond-mat.str-el",
+        "hep-th"
+      ],
+      "primary": "cond-mat.str-el",
+      "published": "2026-10-20T12:54:23Z",
+      "updated": "2026-10-20T12:54:23Z",
+      "comment": "",
+      "abs_url": "https://arxiv.org/abs/2610.28148",
+      "pdf_url": "https://arxiv.org/pdf/2610.28148",
+      "title_ja": "任意の結露遷移で理論と批判的励起をフィールド化",
+      "title_translator": "argos",
+      "abstract_ja": "アノンの結露遷移は、特に結露のアノンアベリア人であるときに特徴付けるのに苦労しています。 親トポロジカル注文の分類データと結露から移行に関する情報を抽出するための2つの補完的なアプローチを開発します。 最初にGnzburg-Landauの手順を適応させます。 $1+1$SymTFT設定のD遷移 $2+1$D の正午の凝縮の転移。 結露に関与するオヨンが整数の寸法を持っているとき、構造は適用されます。 2 つは、ポイントとループの励起が継続的な移行で重要になるかを識別するための基準を与えます。 キーステップは、任意のループが全体に結露されるかを決定することです。 他のすべてのループは重要なものになりますが、ポイントの励起は、すべての結露ループでトリバイドするとクリティカルになります。 いくつかのアベリア語と非アベリア語の例で両方の提案を説明します。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.28125",
+      "version": 1,
+      "title": "Possible Microscopic source of torsion",
+      "abstract": "Axial fermionic interactions connect vacuum condensation with torsionful back- grounds. We consider a quartic spin spin interaction whose mean field reduction yields a quadratic fermionic Hamiltonian. Its diagonalisation defines a particle and antiparticle condensate, while self consistency determines whether the vacuum devel- ops a non zero axial current. Cutoff, fluctuation and energy conditions delimit the validity of the approximation. When torsion couples to spin, this axial expectation value can provide a microscopic source for an axial torsion background. We then consider mixed Dirac fields on such a background. In the explicit neutrino analysis, metric curvature is neglected while torsion modifies the flavour Bogoliubov coeffi- cients, producing spin dependent oscillation frequencies, condensate densities and CP asymmetries.",
+      "authors": [
+        "A. Capolupo",
+        "S. Monda",
+        "G. Pisacane",
+        "A. Quaranta",
+        "R. Serao"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-20T12:34:31Z",
+      "updated": "2026-10-20T12:34:31Z",
+      "comment": "",
+      "abs_url": "https://arxiv.org/abs/2610.28125",
+      "pdf_url": "https://arxiv.org/pdf/2610.28125",
+      "title_ja": "ねじりの顕微鏡源が可能",
+      "title_translator": "argos",
+      "abstract_ja": "軸フェミオニックインタラクションは、真空の結露をトーシオンフルバックグラウンドに接続します。 フィールドの減少が四角形のフェミオニック・ハミルトニアンを収穫するという、四角形のスピン相互作用を考慮する。 その対角化は、粒子と抗粒子の結露を定義します。, 自己の一貫性は、真空デベルが非ゼロ軸電流を出力するかどうかを決定しながら、. 切断、変動およびエネルギー条件は近似の妥当性を認めます。 ねじりのカップルが回転すると、この軸期待値は、軸ねじりの背景の顕微鏡源を提供することができます。 そのような背景に、混合されたDiracフィールドを考慮する。 明示的なニュートリノ分析では、トーションがBogoliubov coeffi- cientsの風味を変更し、スピン依存振動周波数、結露密度およびCPの非対称性を生成している間、メトリック曲が無視されます。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.28065",
+      "version": 1,
+      "title": "Reconstructing the Goldberg-Palatini Action from Noether Identities",
+      "abstract": "We investigate the reconstruction of the first-order gravitational action from the Noether identities associated with diffeomorphism invariance. The independent fields are a symmetric perturbation $φ^{μν}$ of the contravariant metric density and a trace-adjusted connection $G^λ{}_{μν}$, whose transformation laws are prescribed. For a local action polynomial in these fields, with the gravitational coupling as its only dimensionful constant and each additional field carrying one power of it, a dilatation, which is a particular diffeomorphism, shows that in any dimension $d>2$ the action terminates at most at cubic order, its only possible cubic term being a derivative-free $φGG$ vertex. Expanding the kernels of the resulting Lorentz-covariant ansatz in tensor bases gives 31 coefficients for $d\\geq 4$. The Noether identities with general diffeomorphisms, expanded order by order in the fields, yield a linear system that eliminates the $φφ$ kernel and determines the remaining coefficients up to an overall normalization, recovering the Goldberg-Palatini action. Since the connection can be eliminated exactly, this also fixes the complete second-order action, with its infinite set of graviton vertices. The construction requires no choice of energy-momentum tensor, the source of ambiguity in the self-coupling approach. The kernel bases, the identities and the solution are given in appendices, and the symbolic computations are publicly available.",
+      "authors": [
+        "F. T. Brandt",
+        "Augusto C. B. Carvalho"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-20T11:49:51Z",
+      "updated": "2026-10-20T11:49:51Z",
+      "comment": "28 pages, 1 figure",
+      "abs_url": "https://arxiv.org/abs/2610.28065",
+      "pdf_url": "https://arxiv.org/pdf/2610.28065",
+      "title_ja": "Noether Identities から Goldberg-Palatini アクションを再構築",
+      "title_translator": "argos",
+      "abstract_ja": "私たちは、差異主義の変異に関連するノエーテルのアイデンティティから第一次接種行動の再構築を調査します。 独立したフィールドは対称的な知覚です $φ^{μν}$ コントラバリアントメトリック密度とトレース調整された接続の $G^λ{}_{μν}$、その変換法が規定されている。 これらの分野における局所的な行動の多項化のために、その唯一の次元的な定数および各付加的な分野として重力化のカップリングと、特定の差異主義である膨張は、あらゆる次元で示します $d>2$ 行動は、最も立方注文で終了します。, 唯一の可能な立方体用語は、デリバティブフリーである $φGG$ 頂点。 結果のカーネルを拡大する Lorentz-covariant ansatz 十代のベースで 31 の係数のための $d\\geq 4$. 一般的な異形症を持つノエーテルのアイデンティティ、フィールドで注文によって拡大された順序、除去する線形システムを収穫して下さい $φφ$ カーネルは、残りの係数を全体的な正規化まで決定し、Goldberg-Palatini アクションを回復します。 接続を正確に排除することができるので、これはまた、その無限のセットで、完全な秒順アクションを修正します。 建設には、自己カップリングのアプローチの曖昧さの源であるエネルギー量子のテンソルを選ぶ必要はありません。 カーネルベース、アイデンティティ、およびソリューションは付属書で与えられ、象徴的な計算は一般に公開されています。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27991",
+      "version": 1,
+      "title": "Non-minimal unimodular inflation revisited: Swampland diagnostics and CMB constraints",
+      "abstract": "We study non-minimal unimodular inflation in the Einstein frame; the effective potential takes the form $U(\\varphi)=U_0(1+ξ\\varphi^2/\\mpl^2)^{-2}$. We consider the canonical field map and the inflationary observables directly from the Einstein-frame action. The exact potential slow-roll parameters, the leading scalar running, the scalar-amplitude normalization, the e-fold relation, and the end-of-inflation condition are obtained analytically. The model has a nontrivial structural tension: an $ε_V=1$ exit requires $ξ>1/2$, whereas the near-origin slow-roll regime requires $ξ\\ll1$ and gives $n_s\\simeq1-8ξ$. We next test three distinct swampland diagnostics. The further-refined de Sitter conjecture (FRDSSC) introduces the independent conjectural parameters $a$, $b$, and $q$, while the scalar weak gravity conjecture (SWGC) and its strong form (SSWGC) contain no analogous tunable conjecture parameter in the single-field realization adopted here. All three criteria are evaluated using the canonically normalized Einstein-frame scalar. Analytic limits show that the SWGC is violated at the stationary point for every nonzero $ξ$, whereas the SSWGC at that point requires $ξ\\gtrsim0.0643$. In the large-field limit both scalar weak-gravity diagnostics reduce to the same threshold $ξ\\ge0.1$. Numerical scans then show that the observationally relevant ACT/P-ACT region does not satisfy either scalar weak-gravity criterion, while the FRDSSC can be satisfied for $a$ close to unity. Consequently, the minimal model can reproduce acceptable $(n_s,r)$ at isolated field values, but this does not constitute a complete 50-60 e-fold inflationary history or simultaneous satisfaction of all three conjectures.",
+      "authors": [
+        "Saeed Noori Gashti",
+        "Mohammad Reza Alipour",
+        "Mohammad Ali S. Afshar",
+        "Behnam Pourhassan",
+        "İzzet Sakallı",
+        "Phongpichit Channuie"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-20T10:30:38Z",
+      "updated": "2026-10-20T10:30:38Z",
+      "comment": "15 pages, 4 figures, 4 tables",
+      "abs_url": "https://arxiv.org/abs/2610.27991",
+      "pdf_url": "https://arxiv.org/pdf/2610.27991",
+      "title_ja": "非最小限の単体インフレーションが再考:スワンプランド診断とCMB制約",
+      "title_translator": "argos",
+      "abstract_ja": "エインスタインフレームで非小型の単体インフレを研究します。効果的なポテンシャルはフォームを取ります $U(\\varphi)=U_0(1+ξ\\varphi^2/\\mpl^2)^{-2}$. イオンのフィールドマップと、Einstein-frame アクションから直接、インフレアのオブザブルを検討します。 正確な潜在的なスローロールパラメータ、実行する主要なスカラー、スカラー振幅正規化、e フォールドのリレー、およびエンドのインフレ条件を分析的に取得します。 モデルは非trivial構造張力を持っています: $ε_V=1$ 出口は要求します $ξ>1/2$, 一方、ニアオリジンの遅いロール政権は、 $ξ\\ll1$ そして与えます $n_s\\simeq1-8ξ$。私達は次のテスト3つの明白なスワンプランドの診断をします。 さらなる精製されたデシッターコンジェクチャー(FRDSSC)は、独立した結束パラメータを導入 $a$, $b$と $q$、スケーラーの弱い重力conjecture (SWGC)および強い形態(SSWGC)がここに採用される単一分野の実現のアナログのtunableのconjecture変数を含んでいません。 正式に正規化されたEinstein-frameスカラーラーを用いて3つの基準が評価されます。 分析限界は、SWGCがすべてのnonzeroの固定点で違反していることを示しています $ξ$, その点でSSWGCが要求するところ $ξ\\gtrsim0.0643$. 大きい分野の限界のスカラーの弱重力診断は同じしきい値に減ります $ξ\\ge0.1$. 数値的なスキャンは、観察的に関連したACT / P-ACT領域がスカラーの弱重力基準を満たしていないことを示し、FRDSSCはFRDSSCに満足できる $a$ ユニリーに近いです。 従って、最小限のモデルは受諾可能再現できます $(n_s,r)$ 隔離されたフィールド値では、これは完全な50-60 e-foldのインフレア履歴や、3つのコンジェクタスの同時満足度を構成するものではありません。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27934",
+      "version": 1,
+      "title": "Mass Deformations and Sheets in Logahoric Higgs Moduli",
+      "abstract": "We use the framework of the logahoric Hitchin integrable system introduced in our earlier work and the sheets of the Lie algebra in order to describe the tame defects in a six dimensional $\\mathcal{N}=(2,0)$ superconformal theory under mass deformations. We show that varying leaves of fixed dimension in the Hitchin system amounts to varying residue orbits of fixed dimension. Moreover, we verify the period and dimension conditions in mass-like deformations, as proposed by Balasubramanian--Distler, thus realizing the sheets of the Lie algebra on the Poisson moduli space of logahoric Higgs torsors.",
+      "authors": [
+        "Georgios Kydonakis",
+        "Lutian Zhao"
+      ],
+      "categories": [
+        "math.AG",
+        "hep-th"
+      ],
+      "primary": "math.AG",
+      "published": "2026-10-20T09:44:08Z",
+      "updated": "2026-10-20T09:44:08Z",
+      "comment": "",
+      "abs_url": "https://arxiv.org/abs/2610.27934",
+      "pdf_url": "https://arxiv.org/pdf/2610.27934",
+      "title_ja": "ボリュームの変形とローヤリのシート",
+      "title_translator": "argos",
+      "abstract_ja": "6次元のタム欠陥を記述するために、以前の作品とリエ・アルゲブラのシートに導入されたタム性ヒチンの統合システムのフレームワークを使用しています。 $\\mathcal{N}=(2,0)$ 質量変形の超変形理論。 固定寸法の残留軌道を変化させるため、ヒッチン方式の固定寸法の葉が異なります。 また、Balasubramanian---Distlerが提案したように、マスのような変形の期間と寸法条件を検証し、Poisson の磁場上の Lie algebra のシートを logahoric Higgs torsors のポイソン 空間に実現します。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27926",
+      "version": 1,
+      "title": "Monodromy line defects on the fuzzy sphere",
+      "abstract": "Monodromy line defects are of interest in the defect bootstrap program and are dual to electrically charged objects in dual gauge field descriptions. We investigate the Ising monodromy dCFT using a fuzzy sphere regularization, by imposing the twisted boundary condition in the UV. We obtain defect scaling dimensions $\\hat Δ$ and ratios of defect operator expansion (DOE) coefficients using this method. We extend this machinery to the continuous family of $O(2)$ monodromy defects with twist angle $2πν$. In both cases, the lowest neutral defect scalar lies above dimension one, providing evidence that the monodromy defect reaches a stable dCFT without additional fine tuning.",
+      "authors": [
+        "Jiangyuan Qian"
+      ],
+      "categories": [
+        "hep-th",
+        "cond-mat.stat-mech"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-20T09:38:46Z",
+      "updated": "2026-10-20T09:38:46Z",
+      "comment": "28 pages, 14 figures",
+      "abs_url": "https://arxiv.org/abs/2610.27926",
+      "pdf_url": "https://arxiv.org/pdf/2610.27926",
+      "title_ja": "Monodromy ラインは fuzzy の球で欠陥します",
+      "title_translator": "argos",
+      "abstract_ja": "Monodromyライン欠陥は欠陥のbootstrapプログラムに興味があり、二重ゲージの分野の記述で電気的に満たされた目的に二重です。 私たちは、UVでツイスト境界条件をインポーズすることにより、ファジー球正規化を使用して、モノドロマイdCFTを調べます。 欠陥スケーリング寸法を取得 $\\hat Δ$ 欠陥演算子の拡張(DOE)係数をこのメソッドを用いて比率します。 私たちは、この機械を連続家族に拡張します $O(2)$ ねじれの角度のmonodromyの欠陥 $2πν$。 どちらの場合も、最も低いニュートラル欠陥スカラーは、モノドロマイの欠陥が追加の微調整なしで安定したdCFTに達するという証拠を提供します。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27903",
+      "version": 1,
+      "title": "The $m=2$ amplituhedron is a positive geometry",
+      "abstract": "Amplituhedra are semi-algebraic sets of fundamental importance in particle physics. Their discovery initiated the field of Positive Geometry. We settle a central conjecture in this field: we show that the $m=2$ amplituhedron is a positive geometry. Our main new tool is a Hodge-theoretic criterion for being a positive geometry, connecting the work of Brown--Dupont with the original setup of Arkani-Hamed--Bai--Lam.",
+      "authors": [
+        "Joris Koefler",
+        "Dmitrii Pavlov",
+        "Rainer Sinn"
+      ],
+      "categories": [
+        "math.AG",
+        "hep-th"
+      ],
+      "primary": "math.AG",
+      "published": "2026-10-20T09:19:03Z",
+      "updated": "2026-10-20T09:19:03Z",
+      "comment": "32 pages, 3 figures. Comments welcome!",
+      "abs_url": "https://arxiv.org/abs/2610.27903",
+      "pdf_url": "https://arxiv.org/pdf/2610.27903",
+      "title_ja": "ザ・オブ・ザ・ $m=2$ amplituhedronは肯定的な幾何学的です",
+      "title_translator": "argos",
+      "abstract_ja": "Amplituhedraは粒子の物理学の基本的な重要の半次元セットです。 彼らの発見は、ポジティブ幾何学の分野を開始しました. 私たちはこの分野に集中的な注射を解決します。 $m=2$ amplituhedron は肯定的な幾何学です。 私達の主要な新しい用具はArkani-Hamed--Bai-Lamの元の組み立てとブラウンDu Pontの仕事を接続する肯定的な幾何学的規準であるためのHodge理論的規準です。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27886",
+      "version": 1,
+      "title": "Information Geometry of DGLAP Evolution: From Geodesic Tests to Emergent Small-Circle Geometry",
+      "abstract": "We investigate the geometric structure of leading-order (LO) nonsinglet DGLAP evolution on the Fisher--Rao manifold of normalized valence distributions, asking whether the QCD-selected trajectory is geodesic and how its departure from geodesic motion is organized. Through the isometric embedding $Φ=2\\sqrt{p}$, the evolution is represented as a curve on a Hilbert sphere of radius two, with its velocity and acceleration determined directly by the DGLAP operator. For a GRV98-based total-valence trajectory over $2\\leq Q^2\\leq 2000~{\\rm GeV}^2$, we find a nonzero but weakly scale-dependent geodesic curvature. An arc-length-weighted principal-component analysis shows that two affine directions capture more than $99.999\\%$ of the trajectory variance. The corresponding affine plane intersects the Fisher sphere in a small circle, whose predicted geodesic curvature closely agrees with that reconstructed from the DGLAP-generated acceleration. An $x$-resolved analysis further reveals that Fisher motion is governed by relative PDF reshaping rather than probability weight alone, with different momentum-fraction regions contributing to motion along the trajectory and its transverse bending. The Mellin representation provides a complementary perspective on the effective dimensional reduction through the collective evolution of the spectral hierarchy. These results establish a quantitative information-geometric characterization of the reference LO DGLAP trajectory and reveal an organized, near-small-circle structure over the finite evolution interval.",
+      "authors": [
+        "Wei Kou",
+        "Xurong Chen"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-th"
+      ],
+      "primary": "hep-ph",
+      "published": "2026-10-20T09:09:56Z",
+      "updated": "2026-10-20T09:09:56Z",
+      "comment": "16 pages, 6 figures",
+      "abs_url": "https://arxiv.org/abs/2610.27886",
+      "pdf_url": "https://arxiv.org/pdf/2610.27886",
+      "title_ja": "DGLAPの進化の情報幾何学: 地質学テストから緊急の小円幾何学",
+      "title_translator": "argos",
+      "abstract_ja": "QCD-selected trajectory が地質的であり、地質的な動きからの出発が組織されているか尋ねる、Fish-Rao マニホールド上の主要な順序(LO)のnonsinglet DGLAPの幾何学的構造を調査します。 対称的な埋め込みを通して $Φ=2\\sqrt{p}$、進化は、DGLAPオペレータによって直接決定される速度および加速と半径2のハイベルト球のカーブとして表されます。 GRV98ベースの総発散軌道用 $2\\leq Q^2\\leq 2000~{\\rm GeV}^2$, 我々は、非ゼロを見つけるが、弱くスケール依存の地質学的湾曲. アーク長さの重みのあるプリンシパル・コンポンデント分析では、2つのアフィネの方向がより多くをキャプチャしていることを示しています $99.999\\%$ 軌跡の分散。 対応するアフィネ平面は、漁業球を小さな円で交差させ、地質学的湾曲を予測し、DGLAP生成加速から再構築することに同意します。 ログイン $x$-resolved解析では、Fisherモーションは、確率的な体重だけではなく、相対的なPDFリシャピングによって管理され、異なる運動領域が軌跡と横断的な曲げに沿って動きに貢献していることを明らかにしています。 メルリン表現は、スペクトル階層の集合的な進化による効果的な寸法削減に関する補完的な視点を提供します。 これらの結果は、参照LO DGLAPの軌跡の定量的な情報幾何学的特性化を確立し、finiteの進化間隔上の組織的、近小円構造を明らかにします。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27853",
+      "version": 1,
+      "title": "Free-field realizations of $\\mathcal{N} = 1$ supersymmetric $\\mathcal{W}$-algebras associated with Lie superalgebras $B (n - 1 , n)$ and $B (n , n)$",
+      "abstract": "We extend the recursive construction of free-field realizations proposed by Ide, Ito, and Miyazaki to the $\\mathcal{N} = 1$ supersymmetric $\\mathcal{W}$-algebras $\\mathcal{SW} B (n - 1 , n)$ and $\\mathcal{SW} B (n , n)$, associated with the Lie superalgebras $B (n - 1 , n)$ and $B (n , n)$, respectively. We obtain explicit free-field realizations of $\\mathcal{SW} B (0 , 1)$, $\\mathcal{SW} B (1 , 1)$, $\\mathcal{SW} B (1 , 2)$, and $\\mathcal{SW} B (2 , 2)$. In particular, the realizations of $\\mathcal{SW} B (1 , 2)$ and $\\mathcal{SW} B (2 , 2)$ are new. Using these realizations, we compute central charges, conformal weights, and eigenvalues of the generating currents on free-field highest-weight states, and construct the local integrals of motion $I_1$, $I_3$, and $I_5$.",
+      "authors": [
+        "Naozumi Tanabe"
+      ],
+      "categories": [
+        "hep-th",
+        "math-ph",
+        "math.QA"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-20T08:35:21Z",
+      "updated": "2026-10-20T08:35:21Z",
+      "comment": "",
+      "abs_url": "https://arxiv.org/abs/2610.27853",
+      "pdf_url": "https://arxiv.org/pdf/2610.27853",
+      "title_ja": "自由フィールド実現 $\\mathcal{N} = 1$ スーパーシリアメトリック $\\mathcal{W}$- Lie の superalgebras に関連付けられている algebras $B (n - 1 , n)$ そして、 $B (n , n)$",
+      "title_translator": "argos",
+      "abstract_ja": "伊東・伊東・宮崎が提案するフリーフィールド実現の再帰的構造を継承 $\\mathcal{N} = 1$ スーパーシリアメトリック $\\mathcal{W}$-アルゲブラス $\\mathcal{SW} B (n - 1 , n)$ そして、 $\\mathcal{SW} B (n , n)$、Lieのsuperalgebrasに関連付けられて $B (n - 1 , n)$ そして、 $B (n , n)$それぞれ。 私たちは、明示的な自由フィールドの実現を取得します $\\mathcal{SW} B (0 , 1)$, $\\mathcal{SW} B (1 , 1)$, $\\mathcal{SW} B (1 , 2)$と $\\mathcal{SW} B (2 , 2)$. 特に、実現 $\\mathcal{SW} B (1 , 2)$ そして、 $\\mathcal{SW} B (2 , 2)$ 新着情報 これらの実現を利用することで、フリーフィールドの最高級状態の発生電流のセントラルチャージ、コンフォーマルウエイト、EIGENvaluesを計算し、モーションのローカルインテグレータを構築します。 $I_1$, $I_3$と $I_5$お問い合わせ",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27824",
+      "version": 1,
+      "title": "Thermodynamic Supercritical Scaling Law for the charged Gauss-Bonnet AdS Black Hole",
+      "abstract": "The phase structure of the charged Gauss-Bonnet AdS black holes varies with the spacetime dimension. Within an appropriate parameter range, only the six-dimensional case admits two physical critical points and it is an ideal model for investigating supercritical thermodynamics in black hole systems with multiple critical points. In this study, we investigate the supercritical thermodynamic properties of this model in the extended phase space and construct the supercritical phase diagrams associated with the two critical points. The thermodynamic supercritical scaling analysis for the supercritical crossover lines in the vicinity of both critical points is completed, demonstrating universality. The corresponding coefficients for the external field scaling and the order parameter scaling are obtained, and their physical significance is discussed.",
+      "authors": [
+        "Jia-Yi Xia",
+        "Zhen-Ming Xu"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-20T08:15:06Z",
+      "updated": "2026-10-20T08:15:06Z",
+      "comment": "v1: 9 pages, 3 figures;",
+      "abs_url": "https://arxiv.org/abs/2610.27824",
+      "pdf_url": "https://arxiv.org/pdf/2610.27824",
+      "title_ja": "サーモダイナミクス・ボンネット・アド・ブラックホールの超臨場感溢れるスケーリング法",
+      "title_translator": "argos",
+      "abstract_ja": "充電されたGauss-Bonnet AdSの黒い穴の段階構造は、空間時間次元と異なります。 適切なパラメータ範囲内では、6次元のケースのみが2つの重要なポイントを認め、複数の重要なポイントを持つブラックホールシステムで超臨界熱力学を調査するための理想的なモデルです。 この研究では、このモデルの超臨界熱力学的特性を拡張段階空間で調査し、2つの重要なポイントに関連した超臨界相図を構築します。 両重要なポイント付近の超臨界横断線の超臨界超臨界超臨界スケール解析が完了し、普遍性を実証する。 外部フィールドスケーリングと注文パラメータスケーリングの対応する係数が取得され、その物理的意義が議論されます。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27750",
+      "version": 1,
+      "title": "5D Runge-Lenz Vector from Symplectic Reduction of 8D Harmonic Oscillator",
+      "abstract": "We derive the Runge-Lenz vector of the five-dimensional Kepler problem from the eight-dimensional harmonic oscillator through symplectic reduction. By rewriting the moment maps of the harmonic oscillator in terms of five-dimensional gamma matrices and the $\\mathfrak{su}(2)$ generators associated with the symplectic reduction, we identify the moment map expected to yield the Runge-Lenz vector. We then perform the reduction with respect to the SU(2) symmetry, derive the five-dimensional Kepler Hamiltonian, and show explicitly that the identified moment map reduces to the Runge-Lenz vector.",
+      "authors": [
+        "Hitoshi Ikemori",
+        "Shinsaku Kitakado",
+        "Yoshimitsu Matsui",
+        "Toshiyuki Okubo",
+        "Toshiro Sato"
+      ],
+      "categories": [
+        "physics.class-ph",
+        "hep-th",
+        "math-ph"
+      ],
+      "primary": "physics.class-ph",
+      "published": "2026-10-20T07:13:04Z",
+      "updated": "2026-10-20T07:13:04Z",
+      "comment": "",
+      "abs_url": "https://arxiv.org/abs/2610.27750",
+      "pdf_url": "https://arxiv.org/pdf/2610.27750",
+      "title_ja": "8Dハーモニック発振器による5Dランゲレンツベクトル",
+      "title_translator": "argos",
+      "abstract_ja": "対称性減衰により、8次元の高調波発振器からの5次元Kepler問題のRunge-Lenzベクトルを導きます。 五次元ガンマの行列の面で調和的な発振器の瞬間マップを再作成することにより、 $\\mathfrak{su}(2)$ 対称減速に伴う発電機は、Runge-Lenz ベクトルを収穫する予定のマップを特定します。 その後、SU(2)の対称性に関して削減を行い、5次元のKepler Hamiltonianを導き、特定した瞬間マップがRunge-Lenzベクトルに減少することを明示的に示します。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27667",
+      "version": 1,
+      "title": "Learning the open string spectrum with neural networks",
+      "abstract": "The tree-level open superstring has an integer mass-squared spectrum on linear Regge trajectories. To what extent is this fixed by consistency conditions: locality, analyticity, crossing, unitarity together with the requirement that $2\\to2$ scattering minimize the entanglement it generates? Using the local two-channel crossing symmetric dispersion relation with one-parameter ambiguity ($λ$-CSDR) we set up a bootstrap treating both the mass-squared spectrum and the partial-wave coefficients as unknowns which lets the machine learning algorithm to learn the mass-squared spectrum and partial-wave coefficients simultaneously, going beyond earlier work in which the spectrum was fixed. Using the local three-channel crossing symmetric dispersion relation with one-parameter ambiguity we obtain, within the class of amplitudes with soft Regge behavior and infinite higher-spin tower, a bound on the leading Wilson coefficients that we compare with existing bounds and trace to spin-0 dominance. We locate the Virasoro-Shapiro amplitude in the allowed region of the Wilson coefficients space. For amplitudes with two-channel crossing symmetry we find that a Non-dual amplitude exhibits a Polchinski-Strassler type transition from Regge to power-law behavior.",
+      "authors": [
+        "Debapriyo Chowdhury"
+      ],
+      "categories": [
+        "hep-th",
+        "math-ph"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-20T05:31:03Z",
+      "updated": "2026-10-20T05:31:03Z",
+      "comment": "44 pages, 13 figures, 1 Wolfram notebook attached with a custom made neural network",
+      "abs_url": "https://arxiv.org/abs/2610.27667",
+      "pdf_url": "https://arxiv.org/pdf/2610.27667",
+      "title_ja": "ニューラルネットワークで開かれた文字列スペクトルを学ぶ",
+      "title_translator": "argos",
+      "abstract_ja": "ツリーレベルのオープンスーパーストリングは、線形Reggeの軌跡上の整数のマススクエアスペクトルを持っています。 一貫性のある条件によってこの固定される範囲に: 局性、分析性、交差、単一性、要件と組み合わせて $2\\to2$ スキャタリングは生成するエンタグメントを最小限に抑えますか? 対称分散を交差するローカル2チャンネルを使用して、ワンパラメータアンビグアティ()$λ$-CSDR)は、量産型スペクトラムと部分波係数の両方を扱うブートストラップを設定し、機械学習アルゴリズムが質量角スペクトルと部分波係数を同時に学習し、スペクトルが固定された以前の作業を超えて行くようにしました。 私たちが得る1つのパラメータアンビグアティと対称分散関係を交差するローカル3チャンネルを使用して、ソフトレッジ行動と無限の高スピンタワーと振幅のクラス内で、我々は既存の境界とスピン0ドミナンスと比較する主要なウィルソン係数の境界。 ウィルソン係数スペースの許可された領域にVerasoro-Shapiroの振幅を見つけます。 対称を横断する2チャンネルの振幅については、非二重の振幅は、Reggeからパワーロー動作へのPolchinski-Strasslerタイプ移行を展示していることがわかります。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27596",
+      "version": 1,
+      "title": "Stabilizer Rényi moments beyond entanglement",
+      "abstract": "Stabilizer Rényi moments depend on a choice of operator basis and need not be determined by entanglement spectra. In this paper, we study their spatial decay in critical quantum chains described by two-dimensional conformal field theories. We derive an exact entanglement baseline for reductions of pure stabilizer states and a symmetry selection rule for the charged contribution at fixed support. An exact Ising example shows that an on-site rotation changes the full decay exponent while preserving every subsystem entanglement spectrum. For growing Ising intervals at index two, we obtain an exact Pfaffian representation and compare the charged amplitude with a candidate conformal boundary calculation. The data support this prediction, but its identification with the lattice limit still requires endpoint matching and control of the order of limits.",
+      "authors": [
+        "Vishnu Jejjala",
+        "Joydeep Naskar"
+      ],
+      "categories": [
+        "quant-ph",
+        "cond-mat.str-el",
+        "hep-th"
+      ],
+      "primary": "quant-ph",
+      "published": "2026-10-20T04:02:24Z",
+      "updated": "2026-10-20T04:02:24Z",
+      "comment": "24 pages, 4 figures + appendices + codes",
+      "abs_url": "https://arxiv.org/abs/2610.27596",
+      "pdf_url": "https://arxiv.org/pdf/2610.27596",
+      "title_ja": "Stabilizer Rényi 瞬間を超えて entanglement",
+      "title_translator": "argos",
+      "abstract_ja": "Stabilizer Rényiの瞬間は、オペレータベースの選択に依存し、エンタングルメントスペクトラによって決定する必要はありません。 この論文では、2次元コンフィギュレーションフィールド理論で説明した重要な量子チェーンで空間の崩壊を研究しています。 純安定装置の状態の減少と、固定サポートでのチャージコントリビューションの対称選択ルールの正確なエンタングルメントベースラインを導き出します。 正確なアイシングの例では、オンサイトの回転がすべてのサブシステムエンアングルメントスペクトラムを維持しながら、完全なデケイ指数を変更していることを示しています。 インデックス2の発行間隔を増加させるため、Pfaffian の正確な表現を取得し、候補のコンフィギュレーション境界計算で請求された振幅を比較します。 この予測をサポートしているデータですが、格子限界との識別は、エンドポイントマッチングと制限の順序の制御を必要とします。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27514",
+      "version": 1,
+      "title": "Stability Analysis of Axion Dark Energy Model",
+      "abstract": "We investigate the stability of an axion dark energy model characterized by a periodic scalar-field potential motivated by pseudo Nambu Goldstone bosons. While such models are well suited to drive late-time cosmic acceleration and can exhibit rich dynamical features, including oscillatory behavior of the dark-energy equation-of-state parameter, their viability crucially depends on the existence of stable cosmological solutions. By reformulating the background evolution equations as an autonomous dynamical system, we identify the fixed points corresponding to radiation-dominated, matter-dominated, and dark energy dominated epochs. Using both analytical and numerical techniques, we analyze the stability properties of these fixed points within the observationally allowed region of parameter space. Our results show that the radiation- and matter-dominated phases emerge naturally as saddle points, ensuring a standard cosmological evolution, while the late-time dark energy dominated solution acts as a stable attractor. This guarantees the robustness of cosmic acceleration against variations in initial conditions. Overall, our study establishes the axion dark energy model as a dynamically consistent and observationally viable candidate for explaining the late-time accelerated expansion of the Universe.",
+      "authors": [
+        "Ankan Mukherjee",
+        "Nandan Roy"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "primary": "gr-qc",
+      "published": "2026-10-20T02:28:52Z",
+      "updated": "2026-10-20T02:28:52Z",
+      "comment": "15 pages, 3 figures. Accepted for Publication in General Relativity and Gravitation",
+      "abs_url": "https://arxiv.org/abs/2610.27514",
+      "pdf_url": "https://arxiv.org/pdf/2610.27514",
+      "title_ja": "アクシオンダークエネルギーモデルの安定性分析",
+      "title_translator": "argos",
+      "abstract_ja": "疑似ナムブ・ゴールドストーン・ボソンがモチベーションする周期的なスカラー・フィールドのポテンシャルを特徴とする軸線暗エネルギーモデルの安定性を調査しています。 このようなモデルは、遅延時間の宇宙加速を駆動するために適していますが、濃エネルギー式変速パラメータの振動挙動を含む豊富な動的特徴を展示することができますが、その生存率は、安定したコズモロジーソリューションの存在に依存します。 自己の動的なシステムとして背景の進化式を改良することにより、放射線分岐、問題分岐、濃いエネルギー分岐するエポックに対応する固定点を識別します。 分析技術と数値技術を用いて、パラメータ空間の観察可能領域内の固定ポイントの安定性特性を解析します。 私たちの結果は、放射線と物質を支配しているフェーズがサドルポイントとして自然に出現し、標準のコズモロジーの進化を保証しますが、深刻なダークエネルギーは安定したコレクターとして機能します。 これは、初期条件の変動に対する宇宙加速の堅牢性を保証します。 全体的に、私たちの研究は、宇宙の潜在的加速拡張を説明するための動的に一貫した観察可能な候補として、軸暗いエネルギーモデルを確立します。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27511",
+      "version": 1,
+      "title": "Holographic Reconstruction from Broken Conformal Gauge Symmetry",
+      "abstract": "We investigate bulk--boundary structures in $\\AdS_4/\\CFT_3$ from the viewpoint of gravity as a broken phase of conformal gauge symmetry. A crucial distinction is made between the Euler and Pontryagin characteristic classes. The gauge-theoretic gravitational action contains an Euler sector, whose total-derivative representation gives a boundary form depending on both intrinsic and extrinsic geometry. This structure is different from the Pontryagin descent to the three-dimensional gravitational Chern--Simons functional, whose metric variation gives the Cotton tensor and underlies the mixed boundary conditions studied by de Haro. We perform a Fefferman--Graham expansion of the Euler boundary form in asymptotically $\\AdS_4$ spacetime. The normalizable coefficient $g_{(3)ij}$ does not contribute linearly to the finite Euler boundary term: its contribution from the cubic extrinsic- curvature sector vanishes by $\\mathrm{Tr}\\,g_{(3)}=0$, while curvature-- extrinsic-curvature terms containing $g_{(3)}$ vanish at the conformal boundary. A direct Codazzi analysis additionally shows that the Cotton tensor appears in the asymptotic mixed curvature but its contribution through the tangential-connection boundary variation vanishes for standard Dirichlet data. This indicates two distinct types of bulk--boundary structure: a global/topological Euler relation and a local Pontryagin--Cotton relation. We distinguish this kinematic Cotton appearance from a finite Cotton boundary response and discuss the implications for holographic reconstruction.",
+      "authors": [
+        "Takeshi Fukuyama"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-20T02:26:33Z",
+      "updated": "2026-10-20T02:26:33Z",
+      "comment": "18 pages, no figure",
+      "abs_url": "https://arxiv.org/abs/2610.27511",
+      "pdf_url": "https://arxiv.org/pdf/2610.27511",
+      "title_ja": "壊れたコンフォーマルゲージのシンメトリーからのレーザー光線写真の復元",
+      "title_translator": "argos",
+      "abstract_ja": "バルク境界構造を調査 $\\AdS_4/\\CFT_3$ 重力観点から、コンフィギュレーションゲージ対称の断面として。 ユーラーとポンティリャニンの特徴的なクラスの間に重要な差別化が行われます。 ゲージ・テオティック・グラビテーション・アクションには、ユーラー・セクタ(Euler)が含まれており、その総決定的な表現は、本質的な幾何学的な幾何学的な幾何学的な幾何学的形状に応じて境界形態を与えます。 この構造は、ポンティリャニンの降下から3次元の重力チェルンシモンの機能と異なり、そのメトリックの変動は綿の振幅を与え、De Haroによって研究された混合境界条件下にある。 ユーラーの境界形態のフェファーマン・グラハムの拡大を非対称的に行います $\\AdS_4$ スペースタイム。 正規化係数 $g_{(3)ij}$ 有限ユーラーの境界用語に線形的に貢献しません: 立方性外因性のセクターの虚栄心からの貢献 $\\mathrm{Tr}\\,g_{(3)}=0$, curvature--- extrinsic-curvature 用語を含む間 $g_{(3)}$ コンフィギュレーション境界で消えます。 Codazziの直接分析では、コットンテンソルがアスマルクトの混合曲線に現れていますが、標準的なDirichletデータに対するタンジェンシャル接続境界変動による貢献が示されています。 これは、多量境界構造の2つの異なるタイプを示します。:グローバル/トポロジカルなユーラーの関係と、ポンティリャジン-コトンの関係。 私たちは、有限コットン境界応答からこのキネマティックコットン外観を区別し、ホログラフィック再建のための合併症を議論します。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27420",
+      "version": 1,
+      "title": "Pfaffian solutions to the Ernst equation",
+      "abstract": "We show that the Yamazaki-Hori solution to the Ernst equation can be represented in the Pfaffian form. We also discuss the consequences of this result for Nakamura's conjecture on the relation between the Ernst equation and the 2D Toda model.",
+      "authors": [
+        "Arsen Melikyan",
+        "Aleksandr Pinzul"
+      ],
+      "categories": [
+        "hep-th",
+        "math-ph",
+        "nlin.SI"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-20T00:16:22Z",
+      "updated": "2026-10-20T00:16:22Z",
+      "comment": "18 pages",
+      "abs_url": "https://arxiv.org/abs/2610.27420",
+      "pdf_url": "https://arxiv.org/pdf/2610.27420",
+      "title_ja": "エルンスト式へのPfaffianソリューション",
+      "title_translator": "argos",
+      "abstract_ja": "エルンスト式にヤマザキ堀溶液をPfaffianフォームで表現できることを示します。 また、この結果の結果については、中村のErnstの式と2D Todaモデルの関係について議論します。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27396",
+      "version": 1,
+      "title": "The $b\\bar{b}c\\bar{c}$ Fully Heavy Tetraquark at the LHC and the FCC: Multimodal Fragmentation and Observability",
+      "abstract": "We investigate the production of the all-heavy mixed-flavor $b\\bar b c\\bar c$ tetraquark through a multimodal fragmentation setup combining direct-multiquark and scalar-diquark mechanisms. Standard Dokshitzer-Gribov-Lipatov-Altarelli-Parisi (DGLAP) evolution is applied while preserving threshold consistency through the Heavy-Flavor NonRelativistic evolution (HF-NRevo) scheme. The resulting fragmentation functions (FFs) are then embedded into hybrid high-energy and collinear factorization at next-to-leading order for semi-inclusive tetraquark-plus-jet production. We compare the two mechanisms through rapidity-separation distributions at the 14 TeV High-Luminosity LHC (HL-LHC) and at the 100 TeV Future Circular Collider (FCC), finding a clear phenomenological preference for the direct-multiquark channel over the scalar-diquark mode. Integrated cross sections and expected event yields provide favorable production-level prospects for future searches at the HL-LHC, with substantially enhanced statistics at FCC energies. These results establish a quantitative connection between microscopic formation mechanisms and the prospective observability of the $b\\bar b c\\bar c$ tetraquark at present and future hadron colliders.",
+      "authors": [
+        "João V. Bulhões",
+        "Francesco G. Celiberto",
+        "Victor P. Gonçalves"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-ex",
+        "hep-th",
+        "nucl-ex",
+        "nucl-th"
+      ],
+      "primary": "hep-ph",
+      "published": "2026-10-19T23:43:03Z",
+      "updated": "2026-10-19T23:43:03Z",
+      "comment": "49 pages, 8 figures, LHAPDF release of the TQ4Qhf1.0 fragmentation-function set with uncertainties at https://github.com/FGCeliberto/Collinear_FFs",
+      "abs_url": "https://arxiv.org/abs/2610.27396",
+      "pdf_url": "https://arxiv.org/pdf/2610.27396",
+      "title_ja": "ザ・オブ・ザ・ $b\\bar{b}c\\bar{c}$ LHCおよびFCCの十分に重いTetraquark:多モジュールの片付けおよび観察性",
+      "title_translator": "argos",
+      "abstract_ja": "全重混合フラブラーの生産を調査 $b\\bar b c\\bar c$ 直接マルチクォークとスカラーのメカニズムを組み合わせたマルチモーダルフラグメンテーション設定を介してテトラク。 スタンダードドクシトザー-Gribov-Lipatov-Altarelli-Parisi(DGLAP)の進化は、重フラー非Relativistic進化(HF-NRevo)方式によるしきい一貫性を維持しながら適用されます。 結果のフラグメンテーション関数(FF)は、半包括的なtetraquark-plus-jet生産のための次のトップオーダーでハイブリッドの高エネルギーとコリナーファクチャライゼーションに組み込まれています。 私たちは、14 TeV High-Luminosity LHC(HL-LHC)と100 TeV Future Circular Collider(FCC)の14 TeV High-Luminosity LHC(HL-LHC)の迅速な分離分布で2つのメカニズムを比較し、スカラーダイクモード上の直接マルチクォークチャンネルの明確な現象学的優先順位を見つけます。 統合された断面および予想されるでき事の収穫はFCCのエネルギーで実質的に高められた統計が付いているHL-LHCの将来の調査のための好ましい生産レベルの見通しを提供します。 これらの結果は、顕微鏡の形成メカニズムと将来の観察性の間の定量的な接続を確立します。 $b\\bar b c\\bar c$ テトラクラークは、現在と未来のハロンコリダースで。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27319",
+      "version": 1,
+      "title": "Classical and Stochastic Trans-Planckian Censorship",
+      "abstract": "The trans-Planckian censorship conjecture (TCC) limits inflation to a deadline of $N_{\\rm TCC}=\\ln(M_{\\rm Pl}/H_{\\rm end})$ e-folds. We formulate it in stochastic inflation as a bound at confidence $1-δ$ on the probability that a history outlasts the deadline, with three readings: one worldline, the region grown from one Hubble patch, and the reheated volume. Each reading becomes a closed-form condition, rigorous for a linear roll in leading-order stochastic inflation (for the region, in a branching model) and sharp at leading order in $N_{\\rm TCC}$: a linear roll whose classical history lasts $N_{\\rm cl}$ e-folds respects the TCC if $1-N_{\\rm cl}/N_{\\rm TCC}\\geq\\{2\\mathcal{P}_ζ[w+\\ln(1/δ)/N_{\\rm TCC}]\\}^{1/2}$, with $w=0$ for a worldline and $w=3$ for a region. On a linear slope without vacuum decay, the worldline and region readings are never weaker than the classical TCC, and on the CMB-normalized attractor all readings agree closely with it, so the bounds on the scale of inflation stand. A classical phase that ends in a flat quantum well, which the overdamped classical TCC excludes, is allowed with a margin of a few e-folds per worldline. Near the onset of eternal inflation, the readings differ. On a linear slope, a region must leave the fraction $\\sqrt{6\\mathcal{P}_ζ}$ of the deadline unused at leading order: eternal inflation is excluded for every classical history that uses a finite fraction of the deadline, as is a band of non-eternal slopes, and the slope bound becomes $|V'|>V^{3/2}/[\\sqrt2\\,π(1-N_{\\rm cl}/N_{\\rm TCC})]$. Per worldline, every slope is allowed, given a margin of a few standard deviations. A false vacuum must decay at about the eternal threshold $Γ=9H^4/(4π)$ or faster for a region or the volume, but only faster than $3H^4\\ln(1/δ)/(4πN_{\\rm TCC})$ per worldline. Whether the TCC forbids eternal inflation depends on the reading.",
+      "authors": [
+        "Omer Guleryuz"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-19T21:39:09Z",
+      "updated": "2026-10-19T21:39:09Z",
+      "comment": "35 Pages, 2 Figures",
+      "abs_url": "https://arxiv.org/abs/2610.27319",
+      "pdf_url": "https://arxiv.org/pdf/2610.27319",
+      "title_ja": "古典的かつ確率的トランスプランクアン・センザーシップ",
+      "title_translator": "argos",
+      "abstract_ja": "トランスプランクアン検閲注射(TCC)は期限にインフレを制限します $N_{\\rm TCC}=\\ln(M_{\\rm Pl}/H_{\\rm end})$ e-folds。 私たちは、自信の限界としてそれをstochasticインフレで形作ります $1-δ$ 歴史が期限を過ぎ去る確率で、世界一の読書と1つのハッブルパッチから成長した地域、再加熱されたボリューム。 各読書は、定形条件になります, 主要な順序のstochasticインフレ(地域のために, 分岐モデルで)のリニアロールのための厳格かつシャープな順番で $N_{\\rm TCC}$:古典的な歴史が続くリニアロール $N_{\\rm cl}$ e-folds は TCC を尊重します。 $1-N_{\\rm cl}/N_{\\rm TCC}\\geq\\{2\\mathcal{P}_ζ[w+\\ln(1/δ)/N_{\\rm TCC}]\\}^{1/2}$と、 $w=0$ 世界に向けて $w=3$ 地域のため。 真空減衰なしのリニアゲレンデでは、世界線と地域の読書は、古典的なTCCよりも弱くなり、CMB正規化の引き込み機では、すべての読書はそれと密接に一致しているので、インフレスタンドのスケールに限界が一致します。 平坦な量子井戸に終わる古典的なフェーズは、過ダム化された古典的なTCCが除外する、世界線ごとの少数の電子の余白と許可されます。 永遠のインフレの発音付近では、読書は異なります。 線形斜面では、領域は分岐を残す必要があります $\\sqrt{6\\mathcal{P}_ζ}$ 主要な順序で使用されていない期限の: 永遠のインフレは、期限の有限分法を使用するすべての古典的な歴史のために除外され、非永遠の斜面のバンドであり、斜面の境界は、 $|V'|>V^{3/2}/[\\sqrt2\\,π(1-N_{\\rm cl}/N_{\\rm TCC})]$. ワールドラインによって、すべての斜面は、いくつかの標準的な偏差の余白を与えられます。 永遠のしきい値について偽の真空は腐敗しなければなりません $Γ=9H^4/(4π)$ 地域やボリュームの高速化、より高速化 $3H^4\\ln(1/δ)/(4πN_{\\rm TCC})$ ワールドライン TCCが永遠のインフレを禁じるかどうかは、読書に依存します。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27308",
+      "version": 1,
+      "title": "Double diffraction production for dipole-dipole scattering at high energies",
+      "abstract": "This paper is a first attempt to describe double diffractive production in dipole-dipole scattering within high energy QCD. Our approach is based on summing large BFKL Pomeron loops, which generate two clusters of hadrons separated by a rapidity gap. Unlike in the BK framework, our approach allows both clusters to carry large masses. We derive the cross section for the production of two such clusters and show that it exhibits geometric scaling. Testing this scaling behaviour against data from high-energy colliders such as the LHC will be a crucial step in establishing whether large Pomeron loops play a major role in high energy QCD dynamics, and in particular in the unitarization of the scattering amplitude.",
+      "authors": [
+        "Carlos Contreras",
+        "Jose Garrido",
+        "Eugene Levin"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-th"
+      ],
+      "primary": "hep-ph",
+      "published": "2026-10-19T21:29:00Z",
+      "updated": "2026-10-19T21:29:00Z",
+      "comment": "23pp. 18 figures in pdf files",
+      "abs_url": "https://arxiv.org/abs/2610.27308",
+      "pdf_url": "https://arxiv.org/pdf/2610.27308",
+      "title_ja": "高エネルギーでのダイポールダイポール散布のための二重回折生産",
+      "title_translator": "argos",
+      "abstract_ja": "この紙は、高エネルギーQCD内のダイポールダイポール散布における二重回折生産を記述する最初の試みです。 当社のアプローチは、大幅なBFKL Pomeronループを要約し、ハロンの2つのクラスターを高速ギャップで分離します。 BKフレームワークとは異なり、当社のアプローチにより、クラスターが大きな質量を運ぶことができます。 これら2つのクラスターの生産の断面を導き、幾何学的なスケーリングを示す。 LHCなどの高エネルギーコリダからのデータに対するこのスケーリング動作をテストすることは、大きなポメロンループが高エネルギーQCDダイナミクスで大きな役割を果たしているか、特に散布の増幅の統合において重要なステップとなります。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27246",
+      "version": 1,
+      "title": "Realization of de Sitter spacetime in AdS/CFT",
+      "abstract": "We construct horizonless, everywhere-regular solitons containing a de~Sitter core inside an asymptotically anti--de~Sitter spacetime, using an ordinary action of Einstein gravity, a Maxwell field, and a charged scalar. The object is a gravitating gauged $Q$-ball whose false-vacuum interior acts as a positive effective cosmological constant, sourcing an inner de~Sitter region joined through a thin wall to a charged, asymptotically AdS exterior. Two general requirements are emphasized: the scalar must lie in a near-false-vacuum (slow-roll--like) regime, and the exterior is driven to the extremal Reissner--Nordström--AdS locus in the thin-wall limit, in which the wall approaches the common would-be horizon. Since the solution is static and spherically symmetric, it may correspond to a semiclassical charge-$Q$ state of the dual CFT, realizing de~Sitter space approximately within a holographic theory. We also discuss free fluctuations whose de~Sitter--core modes appear as parametrically low-lying excitations above the state, bulk reconstruction, and the near-extremal regime, where finite-${\\mathcal N}$ effects are expected to cut off the formal classical throat and replace its independent free-field modes by an interacting near-throat sector.",
+      "authors": [
+        "Yasutaka Koga",
+        "Keiju Murata",
+        "Seiji Terashima"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-19T20:16:43Z",
+      "updated": "2026-10-19T20:16:43Z",
+      "comment": "43 pages",
+      "abs_url": "https://arxiv.org/abs/2610.27246",
+      "pdf_url": "https://arxiv.org/pdf/2610.27246",
+      "title_ja": "AdS/CFT におけるデシッターのスペーサタイムの実現",
+      "title_translator": "argos",
+      "abstract_ja": "私たちは、非対称的なアンチデ-デ-内のデ-シッターコアを含む、どこにでも、地平ソリドンを構築します。 エインシュタイン重力、マクスウェルフィールド、およびチャージスカラーの通常のアクションを使用して、シッターのスペースタイム。 オブジェクトは、重なりゲージされる $Q$- 偽の真空内部が肯定的な効果的なコズモロジー定的な定定数として機能するボールは、内部のde~Sitter領域を調達し、薄い壁を介して充電された、非対称広告外部に結合しました。 2つの一般的な要件が強調されています:スカラーは、クローズ偽の真空(スローロールのような)領域に横たわっていて、外面は残酷なReissner--Nordström-AdSのローカスに駆動され、壁は一般的な意志に近づいています。 ソリューションは静的かつ球面的に対称的であるため、半級的な充電に対応する場合があります。$Q$ デュアルCFTの状態、非シッター空間をホログラム理論内で実現します。 また、de~Sitter-coreモードが状態、バルク再構築、およびfinite-の近経政上の並列的に低周分励起として表示される無料の変動についても議論しています。${\\mathcal N}$ 効果は、正式な古典的な喉を切って、その独立したフリーフィールドモードを交換することが期待されます。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27225",
+      "version": 1,
+      "title": "Local obstructions to trapped-region escape in modified gravity",
+      "abstract": "Energy conditions in modified gravity are commonly imposed on an ''effective'' stress tensor that mixes physical matter with additional gravitational degrees of freedom, obscuring which sector actually controls null focusing, horizon multiplicity, and the disappearance of trapped regions. We develop a geometry-first alternative in spherical symmetry. For a normalized pair of future-directed radial null vectors, twolongitudinal Ricci projections and one independent transverse Einstein projection obey exact area-weighted transport laws. These imply a trapping-persistence theorem: after a nondegenerate future-outer marginal sphere, a regular ingoing generator cannot exit the trapped region while the ingoing longitudinal and transverse convergence channels remain nonnegative. In metric $f(R)$ gravity, with $F\\equiv df/dR>0$, we then construct an entropy-resolved hierarchy based on the local Wald-density variable $Fr^2$. In the longitudinal entropy-focusing law, the scalaron second derivative cancels exactly, leaving a nonpositive scalar-gradient square together with the physical matter projection; in the independent transverse entropy-transport law, all scalaron derivative terms cancel. Entropy trapping is consequently governed by the physical matter condition $T_{nn}\\geq 0$ and an algebraic mixed threshold rather than by a fictitious effective fluid. The resulting hierarchy cleanly separates matter positivity, geometric focusing, marginal-surface recovery, and gravitational-entropy evolution, and identifies the precise local reversals required for regular inner horizons, throats, and trapped-to-antitrapped transitions.",
+      "authors": [
+        "Francisco S. N. Lobo"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "primary": "gr-qc",
+      "published": "2026-10-19T19:54:38Z",
+      "updated": "2026-10-19T19:54:38Z",
+      "comment": "5 pages, 1 figure; accepted for publication in Physical Review Letters",
+      "abs_url": "https://arxiv.org/abs/2610.27225",
+      "pdf_url": "https://arxiv.org/pdf/2610.27225",
+      "title_ja": "変化する重力でトラップされた調整のエスケープへのローカル障害",
+      "title_translator": "argos",
+      "abstract_ja": "変更された重力におけるエネルギー条件は、一般的に「効果的」ストレステンソルに課されます。これは、追加の重力度と物理的な物質を混合し、どのセクターが実際にNULLの焦点、地平線の多重化、およびトラップされた領域の消失を制御することを妨げます。 球面対称で幾何学初の代替品を開発。 将来の指向の放射状ヌルベクターの正規化ペアのために、2longitudinal Ricciの予測と1つの独立した横断Einsteinの投射法は、正確な面積重量の輸送法に従います。 これらは、トラップパージストレンス理論を意味します。未生成の将来のアウトパーマージン球の後、定期的なインゴイニングジェネレータは、侵入縦方向と横のコンバージェンスチャネルが非負のままである間、トラップされた領域を終了することはできません。 メトリックで $f(R)$ 重力、と $F\\equiv df/dR>0$それから私達はローカルWald密度変数に基づいてentropy分解された階層を組み立てます $Fr^2$. 縦方向のentropy-focusing法では、スカルロン第2の派生物は正確に取り消し、物理的問題の投射とともに非陽性のスカラーグラデーションスクエアを残します。独立した横断のentropy-transport法では、すべてのスケーロンの派生物的条件はキャンセルします。 Entropy のトラップは物理的条件によってかなり管理されます $T_{nn}\\geq 0$ そして偽りの効果的な流体ではなく、アルジブリックの混合しきい値。 その結果、階層は、問題の陽性、幾何学的焦点、余白の表面の回復、および重力的不利な進化を完全に分離し、定期的な内部の水平線、喉、およびトラップされた移行に必要な正確なローカル反転を識別します。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27118",
+      "version": 1,
+      "title": "Model and parameter-path dependence of charged Dirac quasi-bound spectra in Born--Infeld and Euler--Heisenberg-type geometries",
+      "abstract": "We study quasi-bound states of a charged massive Dirac field in the exact electrically charged Einstein--Born--Infeld (BI) geometry and in a leading-order Euler--Heisenberg-type (EH) approximation. The two descriptions agree in the weak-field limit. We compare families in which either the mass measured at infinity or the outer-horizon radius is held fixed, and examine several field charges and levels. We integrate the radial equations outward from the horizon and inward from large radius, then match the solutions. The resulting frequencies show that the effect of the nonlinear terms depends on both the electrodynamic theory and the chosen comparison. For the fundamental like-charge mode, the small change in its real frequency has opposite signs in the two theories when the mass is fixed, whereas it is upward in both when the horizon radius is fixed. The fundamental mode decays more slowly as the nonlinear term grows along either family. The narrowest level, however, decays more rapidly when the mass is fixed and more slowly when the horizon radius is fixed. The spectra of the two theories approach one another as the nonlinear term is reduced. We also follow several higher levels; their decay widths and their response depend on the state and on the family used for comparison. The nonlinear coefficient is used as an effective parameter and is not matched to the microscopic coupling in quantum electrodynamics (QED).",
+      "authors": [
+        "Bekir Can Lütfüoğlu"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "primary": "gr-qc",
+      "published": "2026-10-19T18:16:02Z",
+      "updated": "2026-10-19T18:16:02Z",
+      "comment": "11 pages",
+      "abs_url": "https://arxiv.org/abs/2610.27118",
+      "pdf_url": "https://arxiv.org/pdf/2610.27118",
+      "title_ja": "ボルン・インフェルドとユーラー=ハイゼンベルク型ジオメトリのディラク・クシオン・スペクトラのモデルとパラメータパス依存",
+      "title_translator": "argos",
+      "abstract_ja": "Einstein--Born-Infeld(BI)の正式な電気的に満たされた巨大なDiracフィールドの量子上流状態を調査し、大手順にEuler-Heisenberg-type(EH)近似しています。 2つの記述は弱点限界で一致します。 無限大または外平線で測定した質量が固定されている家族を比較し、複数のフィールド充電とレベルを調べます。 大半の半径から外側の放射状方程式を統合し、溶液に合わせます。 結果の周波数は、非線形条件の効果は、電気力学理論と選択した比較の両方に依存していることを示しています。 基本的な同等充電モードの場合、その実際の周波数の小さな変化は、質量が固定されるときの2つの理論の反対の兆候を持っています。一方、水平線が固定されたときの両方に上向きです。 基本的なモードは、非線形の用語がいずれかの家族に沿って成長すると、よりゆっくりと減衰します。 しかし、最も狭いレベルは、水平線の半径が固定されると、質量が固定され、よりゆっくりと減少すると、より急速に低下します。 2つの理論のスペクトルは、非線形の用語が減少すると互いにアプローチします。 我々はまた、いくつかの高レベルに従います。 彼らの腐敗幅とその応答は、状態と比較のために使用される家族によって異なります。 非線形係数は有効な変数として使用され量子の電気力学(QED)の顕微鏡のカップリングに一致しません。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27102",
+      "version": 1,
+      "title": "Broken isospectrality in inverted black hole potentials and the emergence of Efimov scaling",
+      "abstract": "Are the inverted Regge-Wheeler and Zerilli potentials arising in Mashhoon's bound-state approach to black-hole quasinormal modes isospectral? Extending previous numerical and analytical studies of the inverted Regge-Wheeler potential, we present the first direct computation of the bound-state spectrum of the inverted Zerilli potential. Although Chandrasekhar proved that the original potentials have identical quasinormal-mode spectra, we show that their inverted counterparts have distinct bound-state spectra. We also demonstrate that potential inversion destroys their first-order Darboux relation, used by Glampedakis et al. to provide a simpler proof of isospectrality. A continuous interpolation between the potentials reveals substantially larger energy shifts in the interior than at the endpoints, indicating cancellations that suppress the endpoint spectral splitting. Explaining this behavior requires second-order perturbative contributions, even towards the eikonal limit. Despite these differences, both spectra exhibit asymptotic geometric scaling characteristic of Efimov physics, first discovered in three-boson systems. This scaling also applies to other inverted potentials with the same leading tail, including the scalar-field case studied here. Beyond their theoretical implications, our results raise questions for recently developed methods that compute quasinormal modes with high precision from numerical bound states.",
+      "authors": [
+        "Umer Shahzad",
+        "Sebastian H. Völkel"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "primary": "gr-qc",
+      "published": "2026-10-19T18:01:21Z",
+      "updated": "2026-10-19T18:01:21Z",
+      "comment": "11 pages, 10 figures and 1 table",
+      "abs_url": "https://arxiv.org/abs/2610.27102",
+      "pdf_url": "https://arxiv.org/pdf/2610.27102",
+      "title_ja": "黒い穴の潜在性およびEfimovのスケーリングの出現の壊れたisospectrality",
+      "title_translator": "argos",
+      "abstract_ja": "Mashhoon の境界線ステート アプローチで黒穴の隔常現象モードの isospectral に生じる、逆に Regge-Wheeler と Zerilli の潜在能力は? 変換されたRegge-Wheelerポテンシャルの以前の数値と分析的研究を拡張し、我々は、反転されたZerilliポテンシャルの境界線の直接計算を提示します。 Chandrasekharは、元のポテンシャルが同一のquasinormal-modeスペクトラを持っていることを証明しましたが、我々は、その逆のカウンターパートは、異なる境界線状態スペクトラを持っていることを示しています。 また、潜在的な反転は、Granmpedakis et alによって使用される第一次Darbouxの関係を破壊する可能性があることを実証しています。 単離の証拠を提供します。 潜在的な間の継続的な補間は、エンドポイントの分裂を抑制するキャンセルを示す、エンドポイントよりも内部で大幅に大きなエネルギーシフトを明らかにします。 この動作を説明するには、Eikonal の限界に向かっても、第2の境界的貢献が必要です。 これらの違いにもかかわらず、両方のスペクトルは、Efimov 物理の非対称的な幾何学的スケーリング特性を展示し、3 気圧システムで最初に発見しました。 このスケーリングは、スカラーフィールドのケーススタディを含む、同じリードテールと他の反転の可能性にも適用されます。 理論的インプリケーションを超えて、私たちの結果は、数値的境界状態から高精度で量的なモードを計算する最近開発された方法の質問を上げます。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27098",
+      "version": 1,
+      "title": "A group theoretic calculation of multi-invariants of some stabilizer states",
+      "abstract": "We study multi-invariants---a multi-partite generalization of Renyi entropies---of simple stabilizer states, for an arbitrary replica symmetry group. We develop a group theoretic technique for evaluating such invariants, which operates on the replica group and involves counting intersections among its cosets. Our techniques streamline the calculations of multi-invariants for graph states with two GHZ-like nodes and for certain generalizations thereof. The methodology developed here is most suitable when the quantum state is simple but flexibility over the replica group is desired.",
+      "authors": [
+        "Bartlomiej Czech",
+        "Yichen Feng",
+        "Jonathan Harper",
+        "Xin-Xiang Ju"
+      ],
+      "categories": [
+        "hep-th",
+        "quant-ph"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-19T18:00:40Z",
+      "updated": "2026-10-19T18:00:40Z",
+      "comment": "28 pages, 11 figures",
+      "abs_url": "https://arxiv.org/abs/2610.27098",
+      "pdf_url": "https://arxiv.org/pdf/2610.27098",
+      "title_ja": "いくつかの安定装置の状態の多インバリアントのグループ理論計算",
+      "title_translator": "argos",
+      "abstract_ja": "複数のインバリアント---Renyiエントロピーのマルチパートナイトジェネレーション---簡単なスタビライザーの状態、任意のレプリカ対称グループ。 レプリカグループで動作する、そのコセット間での交差をカウントすることを含む、そのようなインバリアントを評価するためのグループ理論技術を開発しています。 当社の技術は、2つのGHZ-likeノードと特定の一般化のために、グラフの状態のマルチインバリアントの計算を合理化します。 ここで開発された方法論は、量子状態が単純ですが、レプリカグループ上の柔軟性が望まれるときに最も適しています。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27097",
+      "version": 1,
+      "title": "Mapping AdS$_4$ quantum gravity via the Bethe Ansatz formula",
+      "abstract": "The topologically twisted index of 3d ADHM theory can be written as a sum over solutions to the Bethe Ansatz Equations (BAEs) of the XXZ-type model constructed from quantum toroidal $\\mathfrak{g}\\mathfrak{l}_1$. Via a novel numerical algorithm, we solve for all $p(N)$ physical solutions at $N\\leq 21$, where $p(N)$ denotes the number of integer partitions of $N$. Surveying these solutions, we find that in addition to the known \"1-cut\" solution dual to dyonic black holes, where the gauge holonomies are distributed along a single curve in the complex plane, there are \"dressed\" 1-cut solutions dual to combined configurations of the black hole and M2-branes, $m$-cut solutions dual to $\\mathbb{Z}_m$ orbifolds of the black hole, a discrete family of solutions interpolating between the 1-cut and 3-cut solutions, together with other exotic solutions, at each value of $N$. The free energy of the interpolating solutions cannot be matched with the on-shell action of any known bulk solution. The $1,2,3$-cut solutions and interpolating solutions all have a well-defined large $N$ limit, and their leading order distribution of gauge holonomies can be computed analytically. Whenever possible, we fit the contributions of the solutions to the index to all orders in the $1/N$ expansion with high-precision numerics, and extract the leading non-perturbative correction. With exceptions, these are matched with the results of equivariant localization in the bulk, and the action of wrapped M2-branes respectively.",
+      "authors": [
+        "Cheng Peng",
+        "Xuao Zhang",
+        "Ziruo Zhang"
+      ],
+      "categories": [
+        "hep-th",
+        "math-ph"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-19T18:00:39Z",
+      "updated": "2026-10-19T18:00:39Z",
+      "comment": "",
+      "abs_url": "https://arxiv.org/abs/2610.27097",
+      "pdf_url": "https://arxiv.org/pdf/2610.27097",
+      "title_ja": "マッピング広告$_4$ Bethe Ansatzの方式による量子の重力",
+      "title_translator": "argos",
+      "abstract_ja": "3d ADHM理論のトポロジカルなねじれインデックスは、量子甲状腺から構築されたXXXZ型モデルのBethe Ansatz Equations(BAEs)に対するソリューションの合計として記述することができます $\\mathfrak{g}\\mathfrak{l}_1$. 新しい数値アルゴリズムによって、私達はすべてのために解決します $p(N)$ 物理的なソリューション $N\\leq 21$, どこ $p(N)$ 整数の分割数を記述 $N$. これらのソリューションを調査する, 我々は、既知の「1カット」ソリューションのデュアルに加えて、ダイオニックブラックホールに, ゲージホロノミは、複雑な平面の単一の曲線に沿って分布する場所, 黒い穴とM2-branesの構成を組み合わせるために「ドレッシング」1カットソリューションのデュアルがあります, $m$-カットソリューション デュアル へ $\\mathbb{Z}_m$ 黒い穴の折り目、1カットと3カットのソリューション間で補間するソリューションの離散的な家族、他のエキゾチックなソリューションと共に、 $N$. 補間ソリューションの無料エネルギーは、既知のバルクソリューションのオンシェルアクションと一致することはできません。 ザ・オブ・ザ・ $1,2,3$-cut ソリューションと補間ソリューションは、すべて明確に定義された大きな $N$ 限界、そしてゲージのholonomiesの一流の順序の配分は分析的に計算することができます。 可能な限り、ソリューションのコントリビューションをすべての注文にインデックスに合わせます。 $1/N$ 高精度な数値で拡大し、主要な非破壊補正を抽出します。 例外として, これらは、バルクの平衡なローカリゼーションの結果と一致しています, そして、それぞれM2-branesを包んだアクション.",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27093",
+      "version": 1,
+      "title": "AdS$_2$ from Type IIA on weak G$_2$ manifolds",
+      "abstract": "We present and study supersymmetric warped ${\\rm AdS}_2 \\times {\\rm M}_7 \\times I$ solutions of Type IIA supergravity, where M$_7$ is a weak G$_2$ holonomy manifold. Locally, the solutions are characterized by a cubic polynomial. We distinguish two branches, Branch 1 and Branch 2, and analyze their global properties, taking flux quantization into account. At the endpoints of the interval $I$ they exhibit either OF1-plane or O8/D8 type of singularities with Branch 1 allowing also for a Spin(7) cone. In the case of zero Romans mass, Branch 1 uplifts to eleven dimensions to ${\\rm AdS}_4 \\times {\\rm M}_7$ whereas Branch 2 uplifts to warped ${\\rm AdS}_3 \\times {\\rm M}_7 \\times I$ with OM2-plane type of singularities.",
+      "authors": [
+        "Niall T. Macpherson",
+        "Achilleas Passias"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-19T18:00:18Z",
+      "updated": "2026-10-19T18:00:18Z",
+      "comment": "1 figure",
+      "abs_url": "https://arxiv.org/abs/2610.27093",
+      "pdf_url": "https://arxiv.org/pdf/2610.27093",
+      "title_ja": "広告$_2$ 弱いGでタイプIIAから$_2$ マニホールド",
+      "title_translator": "argos",
+      "abstract_ja": "私たちは、超精力的な警告を提示し、研究します ${\\rm AdS}_2 \\times {\\rm M}_7 \\times I$ タイプIIAの重力、Mの解決$_7$ 弱い G$_2$ 趣味マニホールド。 局所的に、溶液は立方多項式によって特徴付けられます。 2つのブランチ、ブランチ1、ブランチ2を区別し、グローバルプロパティを分析し、フラックスの定量化を考慮に入れます。 間隔の終点 $I$ OF1プレーンまたはO8/D8型をブランチ1で展示し、Spin(7)コーンにも対応しています。 ゼロのローマの固まりの場合には、枝1は11次元への上昇をへ延ばします ${\\rm AdS}_4 \\times {\\rm M}_7$ 一方、ブランチ2は警告する上昇 ${\\rm AdS}_3 \\times {\\rm M}_7 \\times I$ OM2プレーン型単数で。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27084",
+      "version": 1,
+      "title": "IR extremality and UV softness in string bootstrap",
+      "abstract": "Whether string amplitudes can be characterized by extremality within the space of consistent S-matrices is an intriguing question. We address this question within the framework of positivity bootstrap. We compute positivity bounds by minimizing the $F^4$ Wilson coefficient while fixing subleading coefficients, and show that the Veneziano amplitude lies close to the boundary of the allowed region. However, this numerical proximity does not imply exact extremality, as demonstrated by explicit counterexamples. When additional KLT-motivated UV softness is imposed, the Veneziano amplitude is found to uniquely minimize the $F^4$ coefficient for $4\\leq D\\leq10$, connecting the extremality of the Veneziano amplitude to its stringy UV behavior and offering a new perspective on what makes string theory special.",
+      "authors": [
+        "Shi-Lin Wan",
+        "Ji-Yang Wang",
+        "Shuang-Yong Zhou"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-19T18:00:04Z",
+      "updated": "2026-10-19T18:00:04Z",
+      "comment": "29 pages, 6 figures",
+      "abs_url": "https://arxiv.org/abs/2610.27084",
+      "pdf_url": "https://arxiv.org/pdf/2610.27084",
+      "title_ja": "文字列のブートストラップにおけるIRの現実とUVの柔らかさ",
+      "title_translator": "argos",
+      "abstract_ja": "文字列の広さは、一貫したS-matricesの空間内での現実性によって特徴付けることができるかどうかは、興味深い質問です。 陽性ブートストラップの枠組みの中でこの質問に対処します。 最小化することで、分岐率を算出 $F^4$ サブリーディング係数を固定しながらウィルソン係数は、ベネツィアーノの振幅は、許可された領域の境界に近いことを示しています。 しかしながら、この数値的な近接は、明示的な反対の例によって示すように、厳密には現実性を損なわない。 付加的なKLT-motivated紫外線柔らかさが置かれるとき、ベネツィアーノの広さは一意に最小になります $F^4$ のための係数 $4\\leq D\\leq10$、ベネツィアーノの振幅の極端性を強烈な紫外線行動に接続し、弦理論を特別なものにするための新しい視点を提供します。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27080",
+      "version": 1,
+      "title": "Rényi multi-entropy of graph states and the $n -> 1$ limit",
+      "abstract": "Rényi multi-entropy extends the Rényi entropy to pure states of more than two parties. It is defined by a replica contraction at integer replica number $n$, and the multi-entropy is its $n\\to1$ limit. In holography this limit is conjectured to compute the area of a minimal soap-film web in the bulk. Understanding multi-entropy for general states, however, is harder. Unlike the bipartite case, the replica contraction is not a moment of a density matrix, and the continuation to $n=1$ has to be found by other means. We study this problem for qubit graph states. We show that at every odd $n$ the contraction equals $2^{-k/2}$, where $k$ is a sum of ranks of matrices over a finite field, one row and one column per qubit. We define a class of graphs that we call collision-controlled, for which the rank sum is a polynomial in $n$. This class includes graphs without even cycles and all complete bipartite graphs. The natural polynomial $n \\to 1$ continuation is a finite sum over partitions of the parties. While the Rényi multi-entropy is non-increasing under single-qubit Pauli measurements at every odd integer $n>1$, the continuation to $n=1$ is not. A $Z$ measurement on one qubit of an odd ring with $2r + 1 \\geq 7$ qubits raises it from $(r+1)\\log 2$ to $(2r-1) \\log 2$. Thus the continuation is not an entanglement monotone.",
+      "authors": [
+        "Sriram Akella",
+        "Abhijit Gadde"
+      ],
+      "categories": [
+        "quant-ph",
+        "hep-th"
+      ],
+      "primary": "quant-ph",
+      "published": "2026-10-19T18:00:04Z",
+      "updated": "2026-10-19T18:00:04Z",
+      "comment": "11 pages, 5 figures. Comments are welcome!",
+      "abs_url": "https://arxiv.org/abs/2610.27080",
+      "pdf_url": "https://arxiv.org/pdf/2610.27080",
+      "title_ja": "グラフの状態とグラフの複数のエントロピー $n -> 1$ ログイン",
+      "title_translator": "argos",
+      "abstract_ja": "Rényiのマルチエントロピーは、Rényiのエントロピーを2人以上のパーティーの純粋な状態に拡張します。 整数のレプリカ契約によって定義されます $n$とマルチエントロピーは $n\\to1$ 限界。 ホログラフィーでは、この限界はバルクの最低の石けんフィルムの網の区域を計算するために注入されます。 一般的な状態のマルチエントロピーを理解するが、難しい。 バイパルトナイトケースとは異なり、レプリカの収縮は密度のマトリックスの瞬間ではなく、続く $n=1$ 他の手段で見つけなければならない。 この問題は、qubit のグラフの状態を調べます。 私たちは、すべてのオッズでそれを示す $n$ 収縮は等します $2^{-k/2}$, どこ $k$ 有限フィールド、 1 列と 1 個の列を 1 列に上る行の列の合計です。 私たちが衝突制御を呼ぶグラフのクラスを定義します。つまり、ランクの合計は多項式です。 $n$. このクラスは、サイクルなしでグラフとすべての完全なバイパナイトグラフを含みます。 天然ポリノミアル $n \\to 1$ 継続は、パーティーのパーティション上の有限な合計です。 Rényiマルチエントロピーは、すべてのオッズ整数で単一ビットPauli測定下で非インクルージングです $n>1$、続行への $n=1$ です。 ツイート $Z$ オッズリングのワンビットでの測定 $2r + 1 \\geq 7$ qubits は、 $(r+1)\\log 2$ お問い合わせ $(2r-1) \\log 2$. したがって、継続は、角化モノトーンではありません。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27077",
+      "version": 1,
+      "title": "Flux Vacua, Asymptotic Periods, and Relatively Anosov Representations",
+      "abstract": "We develop a topological method to detect classical flux vacua of M-theory on Calabi-Yau fourfolds with a single complex structure modulus using only asymptotic period data and monodromy information. To this end, we express the index of the F-term of the flux superpotential as a winding number along the boundary of the universal cover of the complex structure moduli space. The index evaluates to a sum over zeros and poles of a suitably normalized boundary F-term, where local contributions can be computed algebraically on a dense set of boundary points. Assuming a conjectured bound on the remaining contributions, sufficiently many sign changes of the boundary F-term guarantee a flux vacuum in the interior. We illustrate the method on the mirror Fermat sextic with explicit examples and a systematic flux scan. A main technical ingredient in our construction is a continuity result for projective period maps: we prove that the non-holomorphic (3,1)-period map extends continuously to the boundary of the covering space if the monodromy representation is relatively Anosov. In general, this property does not hold for holomorphic (4,0)-periods.",
+      "authors": [
+        "Paul Balavoine",
+        "Severin Lüst"
+      ],
+      "categories": [
+        "hep-th",
+        "math.AG",
+        "math.GT"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-19T18:00:03Z",
+      "updated": "2026-10-19T18:00:03Z",
+      "comment": "66 pages, 5 figures",
+      "abs_url": "https://arxiv.org/abs/2610.27077",
+      "pdf_url": "https://arxiv.org/pdf/2610.27077",
+      "title_ja": "変化Vacua、麻薬の期間、および相対的にAnosovの表現",
+      "title_translator": "argos",
+      "abstract_ja": "カルビ・ヤウ・フォーフォールズのM理論の古典的なフラックス・バウを1つの複雑な構造係数で発見し、非対称的な期間データとモノドロマイ情報のみで検出するためのトポロジー方法を開発しています。 この目的のために、我々は、複雑な構造のmoduli空間の普遍的なカバーの境界に沿って風番号としてフラックススーパーポテンシャルのF用語のインデックスを表現します。 インデックスは、適切な正規化境界F-termのゼロと極上の合計に評価され、ローカルのコントリビューションは、境界点の密なセットで高度に計算することができます。 残りのコントリビューションに縛られた結束を仮定すると、境界F用語の十分な多くの兆候が内部のフラックス真空を保証します。 明示的な例と系統的なフラックススキャンでミラーフェルマトの性的方法を示します。 私達の構造の主要な技術的な成分は、プロジェクト期間のマップの継続結果です。私たちは、モノドロマイの表現が比較的Anosovであるならば、我々は非ホロモルフィック(3,1) - ペリオドマップは、カバースペースの境界に継続的に拡張することを証明しています。 一般的に、このプロパティはホロモルフィック(4,0)-periodsのために保持しません。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27074",
+      "version": 1,
+      "title": "Classical solitons in anti-self-dual Yang-Mills theory",
+      "abstract": "We study classical soliton solutions in split-signature anti-self-dual Yang-Mills theory. Using Zakharov's dressing method, we construct rational lump solitons, which are localised near two-dimensional surfaces, and wall solitons, which have codimension one. We further describe multi-phase solutions which have multiple walls meeting at trivalent junctions and form four-dimensional foam-like structures. Two-pole solutions describe soliton interactions and we find non-trivial colour-dressed phase shifts for wall interactions. We consider the four-dimensional analogue of Ward's lump scattering for the restricted kinematics of coincident poles and show that there are non-trivial interactions in the collinear limit. Finally, we show that the determinant of the soliton matrix provides a $τ$-function which acts as a potential for gauge-invariant scalar quantities such as the Yang-Mills Lagrangian density.",
+      "authors": [
+        "Tristan McLoughlin"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-19T18:00:03Z",
+      "updated": "2026-10-19T18:00:03Z",
+      "comment": "32 pages, 7 figures",
+      "abs_url": "https://arxiv.org/abs/2610.27074",
+      "pdf_url": "https://arxiv.org/pdf/2610.27074",
+      "title_ja": "反自己二重ヤン・ミラー理論の古典的なソリトン",
+      "title_translator": "argos",
+      "abstract_ja": "分割署名の反自己二重ヤン・ミルズ理論の古典的なソリトンの解決を研究します。 Zakharovのドレッシング方法を使用して、私達は2次元表面の近くで局在する合理性麻のソリトンを組み立て、そして共同寸法を有する壁のソリトン。 三価接合部で複数の壁面会議をし、4次元の泡様構造を形成する多相ソリューションをさらに説明します。 2極のソリューションは、ソリトンの相互作用を記述し、壁相互作用のための非トリバイアル色の相シフトを見つけます。 私たちは、コインカウンスの限界の制限されたキネマティクスのために、区のランプの散布の4次元アナログを検討し、襟の限界に非トリバイアルな相互作用があることを示しています。 最後に、ソリトン行列の決定者は、 $τ$-ヤン・ミルズ・ラグランジアン密度などのゲージ・インヴァリアント・スカラーの潜在的能力として機能する機能。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27073",
+      "version": 1,
+      "title": "Gravitational Path Integral and String Theory",
+      "abstract": "Gravitational path integral has had many applications in recent years. Using the example of supersymmetric index, which provides one of the most controlled tests of gravitational path integral, we argue that even in this controlled case, naive gravitational path integral cannot produce consistent results beyond low orders. However one can go further using stringy inputs, e.g. the choice of UV cut-off and the choice of correct path integration variable, without having to do full fledged string calculation. We also discuss to what extent we are led to string scale UV cut-off even if we begin with a supergravity theory without an a priori bias towards string theory. This is a review of mostly published results, but we clarify several details.",
+      "authors": [
+        "Ashoke Sen"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-19T18:00:03Z",
+      "updated": "2026-10-19T18:00:03Z",
+      "comment": "LaTeX, 41 pages, review",
+      "abs_url": "https://arxiv.org/abs/2610.27073",
+      "pdf_url": "https://arxiv.org/pdf/2610.27073",
+      "title_ja": "グラビテーションパスインテグラと弦理論",
+      "title_translator": "argos",
+      "abstract_ja": "グラビテーション・パス・インテグラタルは、近年多くのアプリケーションを保有しています。 重力経路インテグレーションの最も制御されたテストの1つを提供する超精細インデックスの例を使用して、この制御されたケースであっても、海軍の重力経路インテグレーションは低い注文よりも一貫した結果を生み出すことができません。 ただし、UVカットオフの選択肢や正しいパスの統合変数の選択など、文字列の計算を十分に行わなくても、ストリー入力を使用してさらに行くことができます。 また、ストリング理論に対して優先的に偏差のない超重力理論で始まる場合でも、UVカットオフを文字列に導いた範囲についても議論します。 これは主に公表された結果のレビューですが、いくつか詳しく説明しています。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27072",
+      "version": 1,
+      "title": "Deconfinement on $\\mathbb{Z}_{F}$ and Axion Domain Walls",
+      "abstract": "We investigate the nontrivial dynamics on $\\mathbb{Z}_{F}$ domain walls and compute their tension in quantum chromodynamics (QCD) compactified on a circle with $N$ colors and $F < N$ massless fundamental flavors. In the process, we obtain insights on the $η'$ meson's potential in a regime where it is heavy and comparable in mass to other QCD resonances, as in Nature. We employ a center-stabilized compactification of QCD on a small circle of size $L$ with color-flavor twisted boundary conditions for the quarks. We demonstrate that probe particles in color representations of $N$-ality $N/\\mathrm{gcd}(N,F)$ are deconfined on the $\\mathbb{Z}_{F}$ domain walls whenever $N$ and $F$ are not coprime. This is reminiscent of deconfinement on axion domain walls in pure Yang--Mills. Finally, in the double scaling limit $N\\rightarrow \\infty$ keeping $NL$ and $F$ fixed, the infrared spectrum spans an emergent dimension. We establish that the $\\mathbb{Z}_{F}$ domain walls are dual to electrostatic charge distributions in this emergent dimension. This duality allows us to compute their tension analytically and find a different tension scaling at large-$N$ between $\\mathbb{Z}_{F}$ domain walls in QCD and axion domain walls in pure Yang--Mills, in center-stabilized compactifications.",
+      "authors": [
+        "Paolo Bilisco",
+        "Raffaele Tito D'Agnolo",
+        "Arthur Platschorre",
+        "Pablo Sesma"
+      ],
+      "categories": [
+        "hep-th"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-19T18:00:02Z",
+      "updated": "2026-10-19T18:00:02Z",
+      "comment": "53 Pages, 14 Figures",
+      "abs_url": "https://arxiv.org/abs/2610.27072",
+      "pdf_url": "https://arxiv.org/pdf/2610.27072",
+      "title_ja": "解約について $\\mathbb{Z}_{F}$ そして軸線のドメイン壁",
+      "title_translator": "argos",
+      "abstract_ja": "非トバイアルダイナミクスを調査 $\\mathbb{Z}_{F}$ 領域の壁と円で圧縮された量子の染色体(QCD)の緊張を計算 $N$ 色と色 $F < N$ 無数の根本的な風味。 プロセスでは、インサイトを取得しています。 $η'$ 自然のように、他のQCD共鳴に質量で重なり、匹敵する政権の潜在能力。 小さな円でQCDの中心安定化した小型化を実現 $L$ クォークのための色フラブラーによってねじれる境界条件を使って。 プローブ粒子をカラー表現のカラー表現で発揮します。 $N$-現実 $N/\\mathrm{gcd}(N,F)$ は解禁されます $\\mathbb{Z}_{F}$ いつでもドメインウォール $N$ そして、 $F$ コプライムではありません。 純Yang---Millsの軸線のドメインウォールの解禁を彷彿とさせる。 最後に、ダブルスケーリング限界 $N\\rightarrow \\infty$ こだわり $NL$ そして、 $F$ 固定された、赤外線スペクトルは緊急な次元に間隔をあけます。 設立以来、 $\\mathbb{Z}_{F}$ ドメインウォールは、この緊急寸法の静電充電分布にデュアルです。 この二重性は、分析的に緊張を計算し、大幅で異なる張力スケーリングを見つけることを可能にします$N$ 間の距離 $\\mathbb{Z}_{F}$ 中心安定化のコンパクト化の純粋なヤン・ミルのQCDおよび軸線のドメイン壁。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27063",
+      "version": 1,
+      "title": "Bilocal flows and universality with field-dependent regulators",
+      "abstract": "Many functional renormalization group flows employ a regulator that depends on the fields, as in proper-time and spectrally adjusted flows and in background-independent formulations of gauge theories and quantum gravity. Such a regulator generates additional terms in the flow, and their omission may spoil universality. We introduce bilocal flows, in which the effective action depends on the field and on the cutoff kernel as independent variables. The construction identifies the additional terms, and an exact sum rule shows that the first nontrivial coefficient of the anomalous dimension coincides with that of a fixed-regulator flow for every admissible regulator profile, so that universality is restored. For massless $λφ^4$ theory with a proper-time regulator, the reduced flow gives a profile-dependent anomalous dimension, while the completed flow gives the universal two-loop coefficient $C_η=1/6$ for every profile.",
+      "authors": [
+        "Alfio M. Bonanno",
+        "Renata Ferrero"
+      ],
+      "categories": [
+        "hep-th",
+        "cond-mat.stat-mech",
+        "gr-qc"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-19T18:00:01Z",
+      "updated": "2026-10-19T18:00:01Z",
+      "comment": "",
+      "abs_url": "https://arxiv.org/abs/2610.27063",
+      "pdf_url": "https://arxiv.org/pdf/2610.27063",
+      "title_ja": "フィールドに依存する規制当局とのバイローカルフローと汎用性",
+      "title_translator": "argos",
+      "abstract_ja": "多くの機能再正規化グループは、フィールドに依存する規制当局を採用しています。 適切な時間とスペクトル調整フローと、ゲージ理論と量子重力のバックグラウンド独立型処方。 このような規制当局は、フローに追加の条件を生成し、その省略は普遍性を損なう可能性があります。 フィールドとカットオフカーネルに独立した変数として有効なアクションが依存する bilocal フローを紹介します。 構造は、追加の条件を識別し、正確な総則は、異常な次元の最初の非トリバイアル係数が、すべての従順な規制当局プロファイルの固定調整フローのそれと一致していることを示しています。 マスレスのため $λφ^4$ 適切な時間レギュレータを持つ理論、減らされた流れはプロフィール依存性の異常な次元を与え、完了した流れは普遍的な2ループ係数を与えます $C_η=1/6$ すべてのプロフィールのために。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27062",
+      "version": 1,
+      "title": "Boundary One-Point Functions in the Open XXZ Spin Chain with Generic Integrable Boundaries",
+      "abstract": "We consider the problem of computing observables beyond the spectrum in the open XXZ spin chain with the most generic integrable boundary conditions. For such boundaries, the residual u(1) symmetry is broken and the familiar Baxter TQ equation describing the spectrum becomes inhomogeneous, placing the model outside the realm of existing approaches to correlation functions and form factors. We show that the Functional Separation of Variables method, so far developed mainly for rational, (quasi-)periodic spin chains, is largely insensitive to these modifications, and works equally well for diagonal and generic boundaries. Using this method, we compute exact determinant expressions for a prototypical example of form factors in open-boundary systems, namely the longitudinal and transverse boundary-spin one-point functions in arbitrary Hamiltonian eigenstates at finite system size. No constraint relating the two boundary configurations and no reference state are required. We verify the resulting formulae against direct finite-volume diagonalisation.",
+      "authors": [
+        "Till Bargheer",
+        "Tengis Batmunkh",
+        "Paul Ryan"
+      ],
+      "categories": [
+        "math-ph",
+        "hep-th",
+        "nlin.SI"
+      ],
+      "primary": "math-ph",
+      "published": "2026-10-19T18:00:01Z",
+      "updated": "2026-10-19T18:00:01Z",
+      "comment": "",
+      "abs_url": "https://arxiv.org/abs/2610.27062",
+      "pdf_url": "https://arxiv.org/pdf/2610.27062",
+      "title_ja": "一般的な統合境界を持つオープンXXZスピンチェーンの境界ワンポイント関数",
+      "title_translator": "argos",
+      "abstract_ja": "オープンソースのXXZスピンチェーンのスペクトルを超えて、最も汎用性の高い境界条件を持つコンピューティングの難しさを考慮する。 そのような境界のために、残留u(1)対称が壊れており、スペクトラムを記述する馴染みのあるBaxter TQの式は不均質になり、相関関数やフォームファクターに対する既存のアプローチの領域外にモデルを配置します。 変数メソッドの関数的分離は、合理的、(quasi-)periodicスピンチェーンを中心に開発されたため、これらの変更に大きな影響を与え、対角的および一般的な境界線に等しく機能します。 この方法では、オープン境界システムにおけるフォームファクターの試作例の厳密な決定式を計算します。つまり、finiteシステムサイズの任意のHamiltonian eigenstatesにおける縦方向と横の境界線スピンのワンポイント関数です。 2つの境界構成と参照状態に関する制約は必要ありません。 直接の有限容積の対角化に対する結果の式を確認します。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27059",
+      "version": 1,
+      "title": "A Natural Dark Matter-Dark Energy Interaction from Axion-Monopole Dynamics",
+      "abstract": "We propose a natural framework for interacting dark matter and dark energy based on axion-monopole dynamics in a dark gauge sector. Dark matter is composed of dark 't Hooft-Polyakov monopoles, while dark energy is an ultralight axion whose coupling to the dark gauge field induces an axion-dependent dyon mass through the Witten effect. This generates a direct dark matter-dark energy interaction. We show that generic models with a significant dark matter-dark energy coupling suffer from a naturalness problem: the Coleman-Weinberg potential induced by the interaction is typically much larger than the dark energy scale. In our model, the corrections arise from a monodromy tower of dyon states, allowing them to be exponentially suppressed. In the minimal setup, the interaction strength is predicted to be $\\sim 0.1\\%$, below the sensitivity of current observations. We discuss scenarios in which cosmological population of higher-charge dyons can enhance the interaction to the percent level, producing an apparent phantom dark energy equation of state. We further show that the parameter space of the axion-monopole model preferred by fitting the Dark Energy Spectroscopic Instrument (DESI) results can also naturally explain the cosmic birefringence with a small anomaly coefficient.",
+      "authors": [
+        "Hengameh Bagherian",
+        "Matthew Reece",
+        "Lian-Tao Wang",
+        "Huangyu Xiao"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "hep-th"
+      ],
+      "primary": "hep-ph",
+      "published": "2026-10-19T18:00:00Z",
+      "updated": "2026-10-19T18:00:00Z",
+      "comment": "44 pages, 5 figures",
+      "abs_url": "https://arxiv.org/abs/2610.27059",
+      "pdf_url": "https://arxiv.org/pdf/2610.27059",
+      "title_ja": "アクシオン・モノポール・ダイナミクスによる自然ダーク・マターダーク・エナジー・インタラクション",
+      "title_translator": "argos",
+      "abstract_ja": "ダークゲージ分野における軸線ダイナミクスに基づいたダークなエネルギーとダークなエネルギーの相互作用のための自然なフレームワークを提案します。 ダークな問題は暗い「ホフ・ポリアコフ・モノポール」で構成されており、ダーク・エネルギーは、ダーク・ゲージ・フィールドに結合する超軽量の軸線で、ウィッテン効果を通した軸線独立性ダイオン・マスを貫きます。 これは直接ダークなエネルギー相互作用を生成します。 私たちは、重要なダークなエネルギーカップリングを持つ一般的なモデルが自然問題に苦しんでいることを示しています。 コレクマン・ウェインベルクの相互作用によって誘発される可能性は、通常、暗いエネルギースケールよりもはるかに大きいです。 弊社のモデルでは、ダイオン州のモノドロマイタワーから発生する補正をすることで、それらを指数関数的に抑制することができます。 最小限のセットアップでは、インタラクション強度が予測される $\\sim 0.1\\%$、現在の観察の感受性の下の。 より高い充電ダイオンのコズモロジーの人口がパーセントレベルへの相互作用を高めることができるシナリオを議論し、州の明らかなファントムダークエネルギーの式を作り出します。 また、ダークエネルギー分光器(DESI)の計測器(Dark Energy Spectroscopic Instrument(DESI)の取り付けに好まれる軸線モノポールモデルのパラメータ空間が、小径の係数で宇宙の複屈折を自然に説明することもできます。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27058",
+      "version": 1,
+      "title": "Scale-separated AdS vacua on Riemann-Flat Manifolds",
+      "abstract": "Supergravity compactifications supported by fluxes and Casimir energy offer a simple strategy to concoct explicit, controlled and isolated vacua with parametric scale separation and soft supersymmetry breaking. Exploiting the special properties of both the Casimir and flux potentials with respect to Laplacian operators in moduli space, we prove that the simplest such class of solutions, given by toroidal compactifications of eleven-dimensional supergravity threaded by any fluxes, always exhibit perturbative instabilities in the form of tachyonic modes below the BF bound. This no-go theorem applies to any toroidal supergravity compactification supported by $p$-form fluxes. We also study compactifications on more general Riemann-flat manifolds (RFM's). Concretely, we find a tachyon-free AdS$_4$ vacuum by compactifying M-Theory on a $T^7/\\mathbb{Z}_2^3$. This constitutes the first ever example of a fully top-down, perturbatively stable, scale-separated AdS without localized sources.",
+      "authors": [
+        "Miquel Aparici",
+        "Ivano Basile",
+        "Bruno Valeixo Bento",
+        "Miguel Montero"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-19T18:00:00Z",
+      "updated": "2026-10-19T18:00:00Z",
+      "comment": "40 pages, 1 figure",
+      "abs_url": "https://arxiv.org/abs/2610.27058",
+      "pdf_url": "https://arxiv.org/pdf/2610.27058",
+      "title_ja": "Riemann-Flat Manifoldsのスケール分離されたAdS vacua",
+      "title_translator": "argos",
+      "abstract_ja": "フラックスとカシミールエネルギーによって支えられた超重力コンパクト化は、パラメトリックスケールの分離とソフトなスーパーエッセンブリー破壊を伴う明示、制御および分離されたカバを連結するための簡単な戦略を提供します。 カシミールとフラックスのポテンシャルをモチーフに、モデュリ空間のラプリアオペレータに関連したカシミールとフラックスのポテンシャルの両方の特別な特性を強調し、BFの下のタキソモードの形で常に破壊的な不安定性を発揮します。 このnogo理論は、サポートされている任意のトロイダル重力圧縮に適用されます $p$-フォームフラックス。 また、より一般的なRiemann-flatマニホールド(RFM)のコンパクト化も検討しています。 具体的に、私達はtachyonなしの広告を見つけます$_4$ M理論をコンパクト化することで真空 $T^7/\\mathbb{Z}_2^3$. これは、ローカライズされたソースなしで完全にトップダウン、永久的に安定した、スケール分離されたAdSの最初の例を構成します。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27054",
+      "version": 1,
+      "title": "Nambu-Goldstone Bosons and Quantum Fisher Information",
+      "abstract": "The quantum Fisher matrix and geometric tensor are powerful tools for quantifying the nature of quantum systems. Unfortunately, the formalism needed to compute these quantities is opaque and has limited the development of physical intuition for their behavior, even in the ground state. For quantum systems with continuous symmetries, we know the ground state can be understood in a model-independent and intuitive way from the correlation functions of conserved currents and charges. In this paper, we demonstrate an equivalence between the quantum Fisher matrix associated with the ground states of systems with continuous symmetries and the Nambu-Goldstone. bosons produced by broken generators. We will show that the information metric defined by the Fisher matrix is the same as the Zamolodchikov metric that defines the coset space of the system. Next we show that the Uhlmann curvature associated with multi-parameter estimation is the same as the charge density matrix that defines the difference between type-A and type-B Nambu-Goldstone bosons. We demonstrate these connections in several examples and discuss the generalization to finite temperature.",
+      "authors": [
+        "Eugene Chen",
+        "Daniel Green"
+      ],
+      "categories": [
+        "hep-th",
+        "cond-mat.other",
+        "hep-ph",
+        "quant-ph"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-19T18:00:00Z",
+      "updated": "2026-10-19T18:00:00Z",
+      "comment": "",
+      "abs_url": "https://arxiv.org/abs/2610.27054",
+      "pdf_url": "https://arxiv.org/pdf/2610.27054",
+      "title_ja": "ナムブ・ゴールドストーン・ボソンと量子漁業情報",
+      "title_translator": "argos",
+      "abstract_ja": "量子フィッシャーマトリクスと幾何学的テンソルは量子システムの性質を定量化するための強力なツールです。 残念ながら、これらの量を計算するために必要な正式主義は不透明であり、地面の状態であっても、行動の物理的直観の開発を制限しています。 連続した対称性を持つ量子系では、分岐した電流と充電の相関関数のモデル独立性および直観的な方法で、地面の状態が理解できることを知っています。 本紙では、連続した対称と南部金石のシステムに関連した量子フィッシャー行列間の平等性を実証しています。 壊れた発電機によって作り出されるブソン。 フィッシャーマトリクスが定義する情報メトリックは、システムのコセットスペースを定義するZamolodchikovメトリックと同じです。 次に、マルチパラメータ推定に関連したUlmannの湾曲は、型-Aと型-BのNambu-Goldstoneのボソンの違いを定義する充電密度のマトリックスと同じであることを示しています。 いくつかの例でこれらの接続を実証し、一般化を有限温度に議論します。",
+      "abstract_translator": "argos"
+    },
     {
       "id": "2610.26859",
       "version": 1,
@@ -42,6 +1276,31 @@
       "title_ja": "境界感度の高い量子の注文は、非意味な格子",
       "title_translator": "argos",
       "abstract_ja": "量子システムは、非量子の格子で、境界線は、システムの広範な分数を構成し、Euclideanのカウンターパートなしで一括注文の新しい形態をホストすることを示しています。 境界保持のiDMRGと正確な対称固定の二重性を組み合わせ、調査 $p<5$ coordination-3無限のケイリーツリー上の状態クロックモデル。 注文されたフェーズと障害のあるフェーズの間には、従来の自発的な対称的な破壊ではなく、仲裁的に弱い境界フィールドによって誘発されたバルクオーダーで緊急の中間フェーズがあります。 これは、ランダウの自発的な対称的な対称的な破壊パラダイムを防衛する明確な量子命令メカニズムとして境界に敏感な順序を確立します。 中間相は、比類のない境界が特定の順序のバルク状態を選択するか、バルク境界対応を実現します。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27048",
+      "version": 1,
+      "title": "Nonlinear Response of Schwarzschild Black Holes at Arbitrary Perturbative Order",
+      "abstract": "We establish recursive integration-by-parts identities that symbolically reduce the inhomogeneous solutions of the Regge-Wheeler-Zerilli equation to a small set of master integrals, yielding the nonlinear response kernels of Schwarzschild black holes at arbitrary perturbative order. We further derive a closed ODE system that enables rapid, accurate, and stable numerical evaluation of these master integrals. To demonstrate our result, we compute quadratic, cubic, and quartic quasinormal-mode coupling coefficients as special cases of the response kernels.",
+      "authors": [
+        "Jiaqi Chen",
+        "Yu-Cun Xie"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-ph",
+        "hep-th"
+      ],
+      "primary": "gr-qc",
+      "published": "2026-10-19T17:59:33Z",
+      "updated": "2026-10-19T17:59:33Z",
+      "comment": "7 pages, 2 figures",
+      "abs_url": "https://arxiv.org/abs/2610.27048",
+      "pdf_url": "https://arxiv.org/pdf/2610.27048",
+      "title_ja": "仲裁的な秩序のシュワルツシルドブラックホールの非線形応答",
+      "title_translator": "argos",
+      "abstract_ja": "Regge-Wheeler-Zerilli の不均質なソリューションを、マスターインテグレータの小さなセットに再帰的統合することで、Schwarzschildブラックホールの非線形応答カーネルをアービトラリーパートゥルーブオーダーで実現しました。 これらのマスターインテグレータの迅速かつ正確で安定した数値評価を可能にするクローズドODEシステムを開発しています。 その結果を実証するために、応答カーネルの特別な例として、量子、立方、および量子的量子モード結合係数を計算します。",
       "abstract_translator": "argos"
     },
     {
@@ -367,6 +1626,29 @@
       "abstract_translator": "argos"
     },
     {
+      "id": "2610.27020",
+      "version": 1,
+      "title": "Gravitational baryogenesis in asymptotically safe gravity",
+      "abstract": "Gravitational baryogenesis in asymptotically safe gravity is considered. Two baryogenesis interactions are explored and their effects on the baryon-to-entropy ratio are discussed during the radiation era. The model's parameters are constrained with the current observational data, indicating these constructions may provide viable explanations for the observed baryon asymmetry.",
+      "authors": [
+        "Rong-Jia Yang"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-th"
+      ],
+      "primary": "gr-qc",
+      "published": "2026-10-19T13:56:50Z",
+      "updated": "2026-10-19T13:56:50Z",
+      "comment": "7 pages, 2 table",
+      "abs_url": "https://arxiv.org/abs/2610.27020",
+      "pdf_url": "https://arxiv.org/pdf/2610.27020",
+      "title_ja": "攻撃的安全重力における重力性バニジェネシス",
+      "title_translator": "argos",
+      "abstract_ja": "侵略的安全重力における重力的バニジェネシスは考慮されます。 放射線時代には、病原体相互作用が探索され、バニオンからの影響が議論されています。 モデルのパラメータは、現在の観測データに制約され、これらの構造は、観察されたバーヨンの非対称性のための実行可能な説明を提供する可能性があります。",
+      "abstract_translator": "argos"
+    },
+    {
       "id": "2610.26373",
       "version": 1,
       "title": "The NLL/NLO$^+$ QCD spectrum from Higgs-plus-charm correlations at the LHC",
@@ -537,6 +1819,31 @@
       "title_ja": "大規模な Lorentz--Violating Gravitons の Quantum の騒音: 非常に特別な線形重力の干渉計の署名",
       "title_translator": "argos",
       "abstract_ja": "この作業では、非常に特殊なリニアグラビティフレームワークの下で分析します。, これは、2つの偏光とゲージ固有の巨大グラビトンを紹介します。, 古典的なグラビション検出器でのグラビトンの可能性のある署名. Vernonのアプローチに続いて、他の作品と、グラビトン・マス・スクエアドの注文を余儀なくされた条件に一貫性のある懲戒条件を発見しました。 スクイーズされた状態が考慮されるときモデルはまた特徴の特徴を示します。 このような場合、スクイージングフェーズの兆候を区別する貢献が提示されます。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.27007",
+      "version": 1,
+      "title": "An Algebraic Formulation of Thermality in Nested Rindler Wedges",
+      "abstract": "Padmanabhan and Kolekar had demonstrated the phenomenon of recursive thermality in two dimensional free field theories where the Rindler vacuum appears thermal to an observer accelerated with respect to the Rindler observer. We study the same construction at an algebraic level for conformal field theories. At each step, a parent wedge is conformally mapped to a reference Minkowski spacetime, where a new right Rindler wedge and its left sibling are selected. We illustrate that under the Bisognano--Wichmann property, thermality holds at every generation: the state associated with a parent wedge becomes a KMS state when restricted to its right child. Further, using the modular structure of the wedge and its causal sibling, we identify the sibling algebra with the modular commutant and derive the corresponding recursive modular flow explicitly.",
+      "authors": [
+        "Waheed A. Dar",
+        "Prince A. Ganai",
+        "Nirmalya Kajuri"
+      ],
+      "categories": [
+        "hep-th",
+        "gr-qc"
+      ],
+      "primary": "hep-th",
+      "published": "2026-10-19T10:09:12Z",
+      "updated": "2026-10-19T10:09:12Z",
+      "comment": "",
+      "abs_url": "https://arxiv.org/abs/2610.27007",
+      "pdf_url": "https://arxiv.org/pdf/2610.27007",
+      "title_ja": "ネスド・リンダラー・ウェッジの熱のアルゲブラティック処方",
+      "title_translator": "argos",
+      "abstract_ja": "Padmanabhan と Kolekar は、Rindler の真空が、Rindler のスペーサに対して加速されたオブザーバーに熱が表示される 2 つの次元フリーフィールド理論で再帰熱の現象を実証しました。 私たちは、コンフォーマルフィールド理論の高度学レベルで同じ構造を研究します。 それぞれのステップで、親のくさびは、新しい右側のRindlerのくさびと左の兄弟が選ばれる、参照Minkowskiのスペースタイムに正式にマッピングされます。 Bisognano--Wichmann プロパティーの下に、熱性はあらゆる世代で保持されます。親のくさびに関連する状態は、適切な子に制限されると KMS 状態になります。 更に、くさびのモジュラー構造とその管状シブルを使用して、モジュール式コンミュータントで兄弟のアルゲブラを識別し、対応する再帰的なモジュラーフローを明示的に導き出します。",
       "abstract_translator": "argos"
     },
     {
@@ -908,6 +2215,31 @@
       "abstract_translator": "argos"
     },
     {
+      "id": "2610.26958",
+      "version": 1,
+      "title": "Linear Structure, Convergence and Resurgence of Hydrodynamic Transseries",
+      "abstract": "We construct an exact formulation for the solution of Bjorken expanding relativistic viscous hydrodynamics with a constant relaxation time and derive its late time transseries structure. The two fundamental modes of the linear auxiliary equation separate the hydrodynamic contribution from the exponentially suppressed transient mode. We show that this single transient mode generates the entire hierarchy of nonperturbative sectors through nonlinear mode mixing, while its decay explains the loss of initial condition dependence and the emergence of late time hydrodynamic attractor behavior. The hydrodynamic gradient expansion is factorially divergent for generic values of the transport parameter but converges at the discrete values $a=N^2$, where the auxiliary asymptotic expansions terminate. We further determine the exact Stokes constant of the auxiliary linear equation and establish its relation to the logarithmic Borel singularity coefficient. The vanishing of the Stokes constant at these exceptional values establishes a direct connection between auxiliary series termination, hydrodynamic convergence, and Stokes decoupling between the hydrodynamic and the nonhydrodynamic transient sector.",
+      "authors": [
+        "Qi Zhou",
+        "Enke Wang",
+        "Hui Zhang"
+      ],
+      "categories": [
+        "nucl-th",
+        "hep-th"
+      ],
+      "primary": "nucl-th",
+      "published": "2026-10-18T11:58:57Z",
+      "updated": "2026-10-18T11:58:57Z",
+      "comment": "16 pages, 1 figure",
+      "abs_url": "https://arxiv.org/abs/2610.26958",
+      "pdf_url": "https://arxiv.org/pdf/2610.26958",
+      "title_ja": "流体力学のトランスシリーズの線形構造、ConvergenceおよびResurgence",
+      "title_translator": "argos",
+      "abstract_ja": "常にリラクゼーションタイムでリラクティブな粘性流体力学を拡充し、後期のトランスシリーズ構造を導き出すための正確な配合を行っています。 線形補助式の2つの基本的なモードは指数関数的に抑制された一時的なモードからの流体力学の貢献を分けます。 この単一トランジェントモードは、非線形モード混合による非perturbativeセクターの階層全体を生成し、その決定は初期状態の依存の喪失と、遅い時間の流体力学的誘致者の動作の出現を説明します。 流体力学的勾配の拡張は、輸送パラメータの一般的な値に対して非常に分散していますが、離散値で収束します $a=N^2$補助アシンプトティック拡張が終了したところ。 更に、補助線形式の厳密な固定定数を決定し、logarithmic Borelの単数係数に関連して確立します。 これらの例外的な値で固定された固定子の消火は、補助シリーズの終了、流体力学的収斂、および流体力学的および非流体力学的過渡セクター間の分離を直接接続する確立します。",
+      "abstract_translator": "argos"
+    },
+    {
       "id": "2610.24978",
       "version": 1,
       "title": "Complex spinodals and supercritical crossovers in Kerr-Newman-AdS$_4$ black holes",
@@ -1122,6 +2454,33 @@
       "title_ja": "大規模構造としての重力:CFTと高スピンギャップの家族",
       "title_translator": "argos",
       "abstract_ja": "大きくてはっきり普遍的な行動を観察します。 $N$ コンフォーマルフィールド理論(CFT) $d\\geq 2$ 次元: 単一トレース、より高いスピンのギャップはパラメトリックの境界を従います $Δ_{\\rm gap} \\lesssim (δc)^{1/d}$, どこ $δc$ 成功理論間の中央チャージ増分です。 この境界の起源は、理論空間のコンフィギュレーションポイント間で補間する曲の一般化された概念を使用して、強固に説明されています。 この写真のより精密なフレームワークを見ると、さまざまな機能とAdS / CFTのパズルをたどるCFTの家族の中央概念につながります。 家族の働き方の定義を開発し、家族からインスピレーションを得て $L$- 数値理論における機能、およびギャップ境界の家族レベルのバージョンを策定します。 AdSの家族のための解釈されたレーザー光線写真$_{d+1}$ vacuaは、適用可能であれば、Planckianのスケールの分離を規定し、余分次元のサイズそして数を制約し、ひも/M理論の簡単なスケーリングパターンを記述します。 それはまた、すべての既知の大きな理由のアカウント $N$ ベクトルモデルは、境界ギャップを持っています。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.26908",
+      "version": 1,
+      "title": "Floquet Instability of Photon-Axion Conversion",
+      "abstract": "The discovery of axions would provide evidence for physics beyond the Standard Model. In this work, we investigate axion-photon conversion in the presence of a background magnetic field with simultaneous spatial and temporal periodicity. By performing a Lorentz transformation, the coupled axion-photon system is mapped onto a time-periodic linear system that can be analyzed using Floquet theorem. We find unstable modes associated with resonant crossing between Floquet replicas. The resulting complex Floquet exponents lead to exponentially growing modes, which we identify as a Floquet instability. Then, we determine the parameter regions in which this instability appears in a perturbative analysis. We further show that the Floquet instability enhances the axion-field amplitude generated from an initial photon field. Our results demonstrate that spatiotemporally periodic magnetic backgrounds provide a distinct mechanism for modifying axion-photon conversion through Floquet instability.",
+      "authors": [
+        "Yuuki Sugiyama",
+        "Kazushige Ueda"
+      ],
+      "categories": [
+        "hep-ph",
+        "astro-ph.CO",
+        "cond-mat.other",
+        "gr-qc",
+        "hep-th"
+      ],
+      "primary": "hep-ph",
+      "published": "2026-10-17T03:38:29Z",
+      "updated": "2026-10-17T03:38:29Z",
+      "comment": "11 pages, 4 figures",
+      "abs_url": "https://arxiv.org/abs/2610.26908",
+      "pdf_url": "https://arxiv.org/pdf/2610.26908",
+      "title_ja": "Photon-Axion変換のFloquet Instability",
+      "title_translator": "argos",
+      "abstract_ja": "軸の発見は、標準モデルを超えて物理の証拠を提供します。 この作品では、背景磁場の存在下での軸光度変換を同時空間と時間周期で調べています。 Lorentz の変換を実行すると、結合された axion-photon システムは、Floquet theorem を使用して解析できる時間周期的な線形システムにマッピングされます。 フロッケのレプリカ間で共鳴交差に関連付けられている不安定なモードを見つけます。 その結果、複雑なFloquetの指数関数は、Floquetの不安定性として識別する指数関数的に成長するモードにつながります。 次に、この不安定性が知覚分析に表示されるパラメータ領域を決定します。 さらに、Floquetの不安定性は、初期のフォトンフィールドから生成された軸線画度を高めます。 その結果、スパチオテンポラリー周期的な磁気背景は、Floquetの不安定性を介して軸線変換を変更するための異なるメカニズムを提供することを実証しています。",
       "abstract_translator": "argos"
     },
     {
@@ -2313,8 +3672,8 @@
     },
     {
       "id": "2610.22332",
-      "version": 1,
-      "title": "Non-Coulomb $Q$-Cohomology and Quantum Lifting",
+      "version": 2,
+      "title": "Non-Coulomb $Q$-cohomology and quantum lifting",
       "abstract": "We study quantum lifting of classical BPS cohomology classes in four-dimensional $\\mathcal N=4$ super-Yang-Mills theory. Certain powers of the gaugino bilinear $\\mathcal S=\\text{Tr}(λ_+λ_-)$ in orthogonal theories provide non-Coulomb monotones: multi-graviton classes that vanish upon Cartan restriction. For $SO(7)$, we identify $\\mathcal S^4$ as a superconformal descendant of a known lifted monotone class, explaining the latter's non-Coulomb character, and explicitly construct a fortuitous lifting partner for $\\mathcal S^4$. This construction provides a strategy for finding analogous partners for higher powers at higher ranks. Our main result establishes restrictions on the quantum lifting of classical BPS cohomologies for general gauge groups. We show that the one-loop correction $Q_1$ to the supercharge annihilates every monotone class in classical cohomology, while every non-zero $Q_1$ image is of non-Coulomb type. Thus every non-zero one-loop pairing has a fortuitous source and a non-Coulomb target, so that Coulomb monotones survive at this order at finite rank. In the BMN sector, our results imply that non-Coulomb monotones survive at one loop order as well. A crucial step in the argument shows that every non-Coulomb class, fortuitous or monotone, is annihilated in classical cohomology by a sufficiently high power of a scalar discriminant, which we interpret as a partial no-hair property.",
       "authors": [
         "Tanay Kibe",
@@ -2326,14 +3685,14 @@
       ],
       "primary": "hep-th",
       "published": "2026-10-15T17:53:27Z",
-      "updated": "2026-10-15T17:53:27Z",
-      "comment": "35 pages + appendices",
+      "updated": "2026-10-20T07:49:16Z",
+      "comment": "36 pages + appendices. v2: added refs + clarifications",
       "abs_url": "https://arxiv.org/abs/2610.22332",
       "pdf_url": "https://arxiv.org/pdf/2610.22332",
-      "title_ja": "ノンコロンボ $Q$-Cohomologyおよび量子の持ち上がること",
-      "title_translator": "argos",
       "abstract_ja": "クラシカルなBPSコホモロジークラスを4次元でリフティングする量子を研究 $\\mathcal N=4$ スーパーヤン・ミルズ理論。 gaugino bilinearの特定の力 $\\mathcal S=\\text{Tr}(λ_+λ_-)$ 直角理論では、ノンコロンボモノトーン:カルタンの制限で消えるマルチグレビトンクラス。 のために $SO(7)$、私達は識別します $\\mathcal S^4$ 既知のリフティングされたモノトーンクラスのスーパーコンフォーマルな子孫として、後者の非コロンボ文字を説明し、明示的に直感的なリフティングパートナーを構築します。 $\\mathcal S^4$. この構造は、より高いランクで高出力のためのアナログパートナーを見つけることのための戦略を提供します。 当社の主な結果は、一般的なゲージグループのための古典的なBPSコホモロジーの量子リフトの制限を確立します。 1ループ補正が1ループ補正であることを示します。 $Q_1$ 古典的なコホモロジーのすべてのモノトーンのクラスを、すべての非ゼロのスーパーチャージのannihilatesに $Q_1$ 画像は非Coulombタイプです。 したがって、すべての非ゼロのワンループペアリングには、偽造ソースと非コロンボターゲットがあり、コロンボモノトーンがこの注文でこの注文で生き残るように。 BMN部門では、ノンコロンボのモノトーンが1つのループ注文で生き残ることを意味しています。 引数の重要なステップは、すべての非コロンボのクラス、直感的またはモノトーンが、スケーラの差別化の十分な高電力で古典的なコホモロジーで焼却されていることを示しています。",
-      "abstract_translator": "argos"
+      "abstract_translator": "argos",
+      "title_ja": "ノンコロンボ $Q$-コホモロジーと量子リフト",
+      "title_translator": "argos"
     },
     {
       "id": "2610.22326",
@@ -2427,6 +3786,29 @@
       "title_ja": "Isospin-symmetricの格子QCDのmuonの異常な磁気瞬間への地震真空偏光の貢献",
       "title_translator": "argos",
       "abstract_ja": "当社は、イソスピン対称QCDのムオンの異常磁気瞬間に、主要な順列式方位相偏光(HVP)の格子QCD計算を提示します。 エクステンダード・マス・コラボレーション(ETMC)が生成するゲージ構成を採用 $N_f = 2 + 1 + 1$ ウィルソン・クローバー・ツイスト・マスの味は4つの格子間隔で、クォーク・マスのパラメータはFLAGレビュー2024およびミュオンの2025版で与えられたイソスピン対称QCDの定義に一致する。 $g-2$ 理論イニシアティブホワイトペーパー(WP25)。 シミュレーションパラメータを再調整した後、イソスピン対称QCDの2つの定義を正確に一致させ、格子間隔のデータに基づく連続限界への余分を遂行した後 $a \\simeq 0.049, 0.057, 0.068$ そして、 $0.079$～fm、空間格子サイズまで $L \\simeq 7.7$～fm 取得 $a_μ^{\\rm HVP, FLAG}(\\rm{iso}) = (720.0 \\pm 6.9) \\times 10^{-10}$ そして、 $a_μ^{\\rm HVP, WP25}(\\rm{iso}) = (714.8 \\pm 7.4) \\times 10^{-10}$。 相対的な不確実性がある私達の結果、 $1 \\%$、他の格子グループによって対応する決定とよく一致して下さい。 私達の決定を加えた後 $a_μ^{\\rm HVP, WP25}(\\rm{iso})$ WP25で提供されている主要なisospin破壊補正、すなわち $a_μ^{\\rm HVP, WP25}({\\rm IB}) = 0.1(3.4)\\times 10^{-10}$、私達は価値をフルHVPのために得ます $a_μ^{\\rm HVP}= (714.9 \\pm 8.1)\\times 10^{-10}$. この結果は、Fermilab Muonによる最新の結果と完全に一致しているミュオン異常磁気瞬間のための標準的なモデル予測に変換します $g-2$ 遅延QCDとデータドリブン(pre-CMD3)分散判定の緊張を実験し強化します。",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.26893",
+      "version": 1,
+      "title": "Aspects of Anomalies: Fermion Family Constraints, Gravitational Form Factors and Scattering Amplitudes",
+      "abstract": "Quantum anomalies play two complementary roles in quantum field theory: as consistency conditions that constrain the field content of a theory, and as dynamical effects encoded in the analytic structure of correlation functions. This thesis explores both. In the first part, we study the 331 model, in which gauge anomalies cancel across families rather than within each one. Combined with QCD asymptotic freedom, this fixes the number of fermion generations to three. We analyze the model's symmetry breaking, scalar and flavor sectors, and its TeV-scale Landau pole. We then study the collider phenomenology of its exotic quarks, showing that the pair production of heavy quarks decaying into doubly-charged vector bileptons gives a clean same-sign dimuon plus b-jets signature, observable at a 100 TeV collider but not at the LHC. Finally, we introduce the left-right symmetric 33311 extension, which preserves the family-number constraint and avoids proton decay. In the second part, we use conformal field theory in momentum space to study the chiral, gravitational and conformal anomalies. We construct a complete off-shell parametrization of the non-Abelian TJJ correlator in perturbative QCD, identifying the dilaton-like anomaly pole. For the AVV, ATT and TJJ vertices, we prove mass-independent anomaly sum rules for the spectral density, showing that the anomaly pole is not an asymptotic particle state. We apply the TJJ insertion to the pion gravitational form factors at large momentum transfer with Sudakov resummation: the anomaly feeds mainly into the D-term and the trace form factor, improving agreement with lattice QCD. Lastly, sewing two anomaly vertices through graviton exchange, we show that the trace anomaly activates a gauge-invariant scalar gravitational channel, giving a double-copy-like structure in photon and graviton scattering.",
+      "authors": [
+        "Dario Melle"
+      ],
+      "categories": [
+        "hep-ph",
+        "hep-th"
+      ],
+      "primary": "hep-ph",
+      "published": "2026-10-15T16:08:35Z",
+      "updated": "2026-10-15T16:08:35Z",
+      "comment": "",
+      "abs_url": "https://arxiv.org/abs/2610.26893",
+      "pdf_url": "https://arxiv.org/pdf/2610.26893",
+      "title_ja": "異常の側面: 胎児家族の制約, 招待状フォームファクターと散布の広さ",
+      "title_translator": "argos",
+      "abstract_ja": "Quantumの異常は量子分野の理論の2つの補足の役割を担います:理論の分野の内容を禁じる一貫した条件として、相関関数の分析的な構造で符号化される動的効果として。 この論文は両方を探索します。 第一部では、各自ではなく、家族間で異常をキャンセルする331モデルを研究しています。 QCDの非対称自由と組み合わせることで、フェム生成回数を3つに固定します。 模型の対称性ブレーク、スケーラ、フレーバー部門、およびそのTeVスケールランドローポールを分析します。 その後、そのエキゾチックな樽のコリダーのフェノメンロジーを研究します。, 重い樽のペア生産が二重充電されたベクトルビルプトンにデカイイングすることを示す, きれいな同じサインのディミュンプラスb-jetsシグネチャを与えます, で観察 100 TeVコリダー しかし、LHC. 最後に、家族番号の制約を保存し、プロトンの崩壊を回避する、左右対称33311拡張子を紹介します。 第二部では、暫定フィールド理論をモーメントスペースで使用し、キラル、グラビテーション、コンフォーマル異常を研究しています。 我々は、非Abelian TJJの相関の完全オフシェルパラメタライゼーションを構築します。 AVV、ATT、TJJの頂点は、スペクトル密度の大量独立性異常な合計規則を証明し、異常な棒が非対称粒子状態であることを示す。 当社は、Sudakov再発による大量移動におけるピオン・グラビテーション・フォーム・ファクターへのTJJJのインサートを適用します。異常なフィードは、主にD-termとトレース・フォーム・ファクターに供給し、ラティスQCDとの合意を改善します。 最後に、グラビトン交換で2つの異常頂点を縫うと、トレースの異常は、スカラーのスカラーチャネルをアクティブにし、フォトンとグラビトンの散乱の二重コピーのような構造を与えます。",
       "abstract_translator": "argos"
     },
     {
@@ -2526,6 +3908,34 @@
       "title_ja": "非鉄石の赤色シフト効果による水素抑制率の修正",
       "title_translator": "argos",
       "abstract_ja": "近年の観測データの蓄積は、さまざまなコラボレーションによって行われたコズモロジーパラメータの測定と異なる方法を使用して、著しく異なる値をもたらす独特の状況につながりました。 この問題に対する解決策は、これらの値を得るために使用されるモデルを変更することによって見つけることができます。 この作業では、Lyman-alphaフォトンが共鳴ラインをエスケープするレートに補正を導入できる仕組みを見直し、逆境計算への標準的なアプローチを見直しました。 中性水素原子を移動させるLyman-alphaラインフォトンの相互作用は、そのような補正のソースになることができることがわかります。 変更されたモデルの CMB データの解析は、非バブル赤色シフト効果の存在を支持し、少し高い値を好む $H_0$ 値が小さくなる $Ω_m$ そして、 $S_8$ 標準と比較して $Λ$CDMモデル、スカラースペクトラムインデックスの小型値 $n_s$. .",
+      "abstract_translator": "argos"
+    },
+    {
+      "id": "2610.26892",
+      "version": 1,
+      "title": "Minimal-length kinematics of coherent light and a proposed two-color vacuum chronoscopy",
+      "abstract": "The unification of quantum theory and general relativity suggests the existence of a minimal measurable length, leading to a generalized uncertainty principle (GUP) and an energy-dependent vacuum group velocity. Testing these effects with macroscopic objects typically encounters the ``soccer-ball problem,'' where applying Planck-scale deformations to the total momentum predicts observationally ruled-out velocity deviations. We adopt the QFT-natural prescription in which the GUP modifies single-mode commutators, and verify by explicit calculation that the macroscopic group velocity of a multimode coherent pulse reduces to the single-photon GUP velocity evaluated at the central wavelength, multiplied by the classical Gaussian-beam factor, with no dependence on the total pulse energy. The energy--momentum relation $E=pc$ itself is unmodified; the deformation enters through the velocity--momentum relation and is equivalent to a modified dispersion relation in the wave vector, with a quadratic coefficient that depends on which of the two variables is used. The soccer-ball problem $\\,$---$\\,$ which arises only when the GUP is applied to the center-of-mass momentum of a composite system $\\,$---$\\,$ is therefore absent for coherent light, and macroscopic petawatt pulses probe the same parameter space as single high-energy photons. Building on this framework, we propose a two-color vacuum chronoscopy experiment using a short-pulse petawatt laser and its high-harmonic generation. By systematically varying the macroscopic beam waist, our setup separates Planck-scale kinematic shifts from classical diffraction delays, establishing a controlled, source-independent terrestrial methodology whose sensitivity we assess against current astrophysical bounds and against the dominant waist-independent systematics that limit it, residual-gas dispersion and the harmonic birth-time offset.",
+      "authors": [
+        "Zhi-Wei Wang",
+        "Saurya Das",
+        "Samuel L. Braunstein"
+      ],
+      "categories": [
+        "gr-qc",
+        "hep-ex",
+        "hep-ph",
+        "hep-th",
+        "quant-ph"
+      ],
+      "primary": "gr-qc",
+      "published": "2026-10-15T14:17:31Z",
+      "updated": "2026-10-15T14:17:31Z",
+      "comment": "18 pages, 5 figures, accepted by Physical Review D",
+      "abs_url": "https://arxiv.org/abs/2610.26892",
+      "pdf_url": "https://arxiv.org/pdf/2610.26892",
+      "title_ja": "コヒーレントライトと提案された2色真空クロノグラフの最小長さの運動",
+      "title_translator": "argos",
+      "abstract_ja": "量子理論と一般的な相対性の統一は、最小限の測定可能な長さの存在を示唆し、一般化された不確実性原則(GUP)とエネルギーに依存する真空グループ速度につながる。 マクロスコープオブジェクトでこれらの効果をテストすることは、一般的に「サッカーボールの問題」に遭遇し、Planckスケールの変形を合計の運動量に適用すると、観察的に除外速度の偏差が予測されます。 GUPが単モードコミュータを調節し、マルチモードコヒーレントパルスのマクロスコピックグループ速度が中央波長で評価される単光GUP速度に減少するという明示的な計算によって確認するQFT-natural処方を採用し、古典的なガウシアンビーム因子によって多岐に渡り、トータルパルスエネルギーに依存しません。 エネルギー・マンション関係 $E=pc$ それ自体は変更されていない;変形は速度----momentumの関係を通って入り、波のベクトルの変更された分散関係と、2つの変数が使用されるかに依存する四角形の係数と等しいです。 サッカーボールの問題 $\\,$お問い合わせ$\\,$ GUPがコンポジットシステムの中央部の勢いに適用される場合にのみ発生する $\\,$お問い合わせ$\\,$ 従って凝集したライトのためのabsentであり、マクロスコピックのpetawattの脈拍は単一の高エネルギー光子と同じ変数スペースを調査します。 この枠組みの上には、短パルスペタワットレーザーと高調波発生を用いた2色真空分光実験を提案しています。 系統的にマクロスコピック・ビーム・ウエストを変えることによって、当社のセットアップは、古典的な回折遅延の遅延からPlanckスケール・キネマティック・シフトを分離し、制御されたソース独立したテロ・方法論を確立し、その感度が現在のアストロフィジカル・境界に対して評価し、それを制限するドミナント・ウエスト独立系組織に対して、残留ガス分散および調和的な出生時間オフセット。",
       "abstract_translator": "argos"
     },
     {
@@ -3574,7 +4984,7 @@
     },
     {
       "id": "2610.20493",
-      "version": 1,
+      "version": 2,
       "title": "Giant Wilson loops from Fredholm determinants",
       "abstract": "We study large-k symmetric and antisymmetric Wilson loops in N=4 super-Yang-Mills theory. We represent their generating functions as Fredholm determinants built from the Hermite kernel weighted by a symbol function that encodes the representation. Using the integrable structure of the kernel, we systematically apply the Tracy-Widom approach to derive a closed system of integro-differential equations. The equations are then solved order by order in 1/N by a WKB ansatz, while keeping the symbol function general. We find a closed-form expression for the leading and subleading order contributions to the generating functions. Finally, specializing to the two representations, we perform the large-k saddle-point analysis and find the subleading contribution to the Wilson loop. Our results confirm the previously observed discrepancies with the dual D-brane description of giant Wilson loops.",
       "authors": [
@@ -3587,8 +4997,8 @@
       ],
       "primary": "hep-th",
       "published": "2026-10-14T17:03:28Z",
-      "updated": "2026-10-14T17:03:28Z",
-      "comment": "32 pages",
+      "updated": "2026-10-20T16:13:49Z",
+      "comment": "32 pages; v2: references added",
       "abs_url": "https://arxiv.org/abs/2610.20493",
       "pdf_url": "https://arxiv.org/pdf/2610.20493",
       "title_ja": "ジャイアント・ウィルソンがフレッドホルム・デテルミナントからループ",
@@ -4081,202 +5491,6 @@
       "title_ja": "3ラインの総合相対性",
       "title_translator": "argos",
       "abstract_ja": "複雑な一般的な相対性は、各空間タイムポイントに割り当てられた3つのアフィネ線の面で直接形成することができることを示します。 ラインはPlückerのbivectorsによって表され、関連する2つのフォームに適用されるUrbortkeの構造は、コンフォーマルな空間時間メトリックを再構築します。 chiral Plebański アクションから始めて、シンプルさの制約は 3 つの 2 つのフォームを NULL の内部ベース シンプルなブイクターとそれによって 3 つのプロジェクト ラインに変えます。 ツイート $3+1$ その後、コンフィグ変数が行の重み付き三重であり、コンファゲート変数がラインの勢いである最初の順序の正論をもたらす。 結果の制約システムは3つの内部のガウス制約、3つのベクトル制約、および1つのハミルトニア制約で構成されます。 ラインフォーミュレーションの注目すべき特徴は、ラインのモーメンムを変化させることによって得られる式が、部分による空間統合後の点心的特徴であるということです。 その結果、Regendre のマップが変換不可能なところにある勢いは明示的に排除され、動的設定変数のみが 3 行の重みのある 3 行の 2 番目の順アクションを与えることができます。 線の湾曲は、選択されたキラルセクターのコズモロジカルトレースとワイルマトリクスに自然に分離します。 レジェンドマップは、スペースタイムメトリックが非生成状態のままである、比類のないnull-evolutionローカスで単数になります。 ランクは9から6まで下がり、3つのアルジブラスの互換性条件を与えます。 フィニト・インヴァリアント・パーシャル・レジェンド・トランスフォーメーションと、このローカスによるスムーズなコントレイント・セカンド・セカンド・セカンド・セカンド・セカンド・セカンド・セカンド・セカンド・セカンド・セカンド・セカンド・セカンド・セカンド・セカンド・セカンド・セカンド・セカンド・セカンド・セカンド・セカンド・セカンド・セカンド・セカンド この分析は、進化方向がnullになり、近方幾何学と関連する重力現象の研究で有用であろうレジムのための定期的なフレームワークを提供します。",
-      "abstract_translator": "argos"
-    },
-    {
-      "id": "2610.19634",
-      "version": 1,
-      "title": "Catalan polynomials for the Wishart-Laguerre $β$-ensemble",
-      "abstract": "By means of $W$-representation, we investigate the Wishart-Laguerre $β$-ensemble and present a compact expression for Catalan polynomials. For a special Nekrasov partition function associated with the Wishart-Laguerre $β$-ensemble, we show that it can be expressed as a exponential form of the special Catalan polynomials. Furthermore, we make a rule to calculate the Catalan polynomials by means of Feynman diagrams and present another expression for Catalan polynomials. We also establish the connection between certain Catalan polynomials and knot theory.",
-      "authors": [
-        "Bei Kang",
-        "Lu-Yao Wang",
-        "Ke Wu",
-        "Wei-Zhong Zhao"
-      ],
-      "categories": [
-        "hep-th",
-        "math-ph"
-      ],
-      "primary": "hep-th",
-      "published": "2026-10-14T06:04:03Z",
-      "updated": "2026-10-14T06:04:03Z",
-      "comment": "15 pages, accepted for publication in Physics Letters B",
-      "abs_url": "https://arxiv.org/abs/2610.19634",
-      "pdf_url": "https://arxiv.org/pdf/2610.19634",
-      "title_ja": "Wishart-Laguerre のためのカタランの多項式 $β$-アンサンブル",
-      "title_translator": "argos",
-      "abstract_ja": "手段によって $W$-代表、ウィッシュアート・ラガーレを調査 $β$-ensemble は Catalan の polynomials のための密集した表現をおよび示します。 Wishart-Laguerre に関連付けられている特別な Nekrasov の仕切り機能のため $β$-ensemble は特別なカタロニアの多項式として表現することができることを示します。 さらに、フェニマン図の方法でカタロニアの多項式を計算し、カタロニアの多項式を提示するルールをつくります。 また、特定のカタロニアの多項式とノット理論の関係を確立します。",
-      "abstract_translator": "argos"
-    },
-    {
-      "id": "2610.19629",
-      "version": 1,
-      "title": "Tidal deformability of white dwarfs in Eddington-inspired Born-Infeld gravity",
-      "abstract": "We compute the static quadrupole Love number $k_2$ and the dimensionless tidal deformability $Λ$ of cold white dwarfs in Eddington-inspired Born-Infeld (EiBI) gravity. Matter couples to the physical metric while perturbation equations are solved in an auxiliary metric, so the physical tidal field near the surface depends on derivatives of the equation of state. This dependence is regular for a surface polytropic index $1<Γ_{\\rm env}<3/2$, but not for the $Γ= 5/3$ Chandrasekhar equation of state. The mechanism, an algebraic map between the metric that carries perturbations and the metric that matter feels, is common to Palatini-type theories, so the same type of surface condition should apply to tidal calculations in this wider class. We use thermodynamically consistent envelopes that exactly reach zero enthalpy. At five masses from \\(0.6\\) to \\(1.3\\,\\Msun\\) and five sampled Born-Infeld couplings \\(κ\\), with $|κ|\\le5\\times10^6\\,\\mathrm{m^2}$, the EiBI-GR differences are approximately linear in $κ$. The largest absolute fractional shifts are \\(3.89\\times 10^{-5}\\) in the stellar radius $R$, \\(4.09\\times 10^{-5}\\) in $k_2$, and \\(2.36\\times 10^{-4}\\) in $Λ$. Across nine envelope models, half the spread of each quantity relative to the baseline envelope is at most \\(0.0186\\) in $R$ and \\(0.0857\\) in \\(k_2\\), but only \\(3.02\\times 10^{-5}\\) in \\(Λ\\) as the changes in \\(k_2\\) and \\(R^5\\) largely cancel. A high-precision calculation shows that the envelope dependence of the EiBI-GR difference in \\(Λ\\) is small. Half the spread of this difference ranges from \\(1.067\\times 10^{-12}\\) to \\(6.208\\times 10^{-11}\\) over the 20 nonzero mass-coupling points.",
-      "authors": [
-        "Santanu Pradhan",
-        "Tapobrata Sarkar"
-      ],
-      "categories": [
-        "gr-qc",
-        "hep-th"
-      ],
-      "primary": "gr-qc",
-      "published": "2026-10-14T05:57:16Z",
-      "updated": "2026-10-14T05:57:16Z",
-      "comment": "17 Pages, 5 figures",
-      "abs_url": "https://arxiv.org/abs/2610.19629",
-      "pdf_url": "https://arxiv.org/pdf/2610.19629",
-      "title_ja": "Eddington-inspired Born-Infeldの重力で白い泥炭のtidal変形性",
-      "title_translator": "argos",
-      "abstract_ja": "静的なquadrupole愛番号を計算します $k_2$ そして次元のないtidal変形性 $Λ$ Eddington-inspired Born-Infeld(EiBI)の重力で冷たい白い矮星の。 パートゥルーブレーション式が補助メトリックで解決される間、物理的メトリックへのマッターカップルは、表面に近い物理的断層フィールドは、状態の式の派生物に依存します。 この依存は、表面ポリトロピック指数の規則です $1<Γ_{\\rm env}<3/2$, ではなく、 $Γ= 5/3$ 状態のチャンドラセクハー式。 メカニズムは、知覚を運ぶメトリクスと、物質が感じたメトリクスの間のアルゲブラティックマップは、パラティーニタイプの理論に共通しているので、同じタイプの表面状態は、このより広いクラスのタイダル計算に適用されるべきです。 サーモダイナミカルで一貫したエンベロープを使用して、ゼロエンタルピーに正確に到達します。 5つの質量から \\(0.6\\) お問い合わせ \\(1.3\\,\\Msun\\) と5つのサンプラード・インフェルトカップリング \\(κ\\)と、 $|κ|\\le5\\times10^6\\,\\mathrm{m^2}$、EiBI-GRの相違はでおよそ線形です $κ$. 最も大きい絶対僅かのシフトはあります \\(3.89\\times 10^{-5}\\) 星の半径 $R$, \\(4.09\\times 10^{-5}\\) お問い合わせ $k_2$と \\(2.36\\times 10^{-4}\\) お問い合わせ $Λ$. 9つの封筒モデルを渡して、ベースライン封筒に相対的な各量の半分の広がりは最もあります \\(0.0186\\) お問い合わせ $R$ そして、 \\(0.0857\\) お問い合わせ \\(k_2\\)、しかしだけ \\(3.02\\times 10^{-5}\\) お問い合わせ \\(Λ\\) 変更として \\(k_2\\) そして、 \\(R^5\\) キャンセルは大幅です。 高精度な計算は、EiBI-GRの差異の封筒依存性を示す \\(Λ\\) 小さいです。 この違いの広がりの半分は、 \\(1.067\\times 10^{-12}\\) お問い合わせ \\(6.208\\times 10^{-11}\\) 20のnonzeroの固まりカップリング ポイントに。",
-      "abstract_translator": "argos"
-    },
-    {
-      "id": "2610.19616",
-      "version": 1,
-      "title": "A quantum probabilistic approach to the emergence of an inflationary Starobinsky Universe",
-      "abstract": "We propose that the necessary conditions for the existence of inflation could be explained by a quantum probabilistic approach. We interpret physical states $ψ$ obtained via the path integral formulation as probability density amplitudes for the Universe to be measured at a particular geometric configuration. First, we examine the problem of ordering ambiguities in the Wheeler-DeWitt (WDW) equation. We develop a formalism to handle ambiguities in the canonical quantization of a $1d$ minisuperspace by defining ambiguity functions within the WDW equation. We define a Hilbert space inner product for calculating physical observables, and using an argument from the hermiticity of the Hamiltonian, we obtain an expression for its measure $μ$ in addition to constraints on the ambiguity functions. By defining a new quantum state $Ψ=\\sqrtμ ψ$ and using the path integral formalism, we are able to resolve ambiguities and prove the theory is universal. We then generalize for any $M$-dimensional minisuperspace system, for which we can prove universality in the semi-classical approximation for a large class of models. We also show that this universality extends to all orders of quantum theory if the target space manifold of the theory is flat. We calculate probability amplitudes for various cosmological scenarios involving Starobinsky inflation. We summarize the Hartle-Hawking no-boundary proposal for GR and we comment on the distinct possibilities of defining a contour of integration: the sign choice of Hartle-Hawking vs that of Linde-Vilenkin. We make an analogous calculation for $R^{2}$ gravity and find that for the Linde- Vilenkin choice it is statistically more likely for the Universe to emerge in its inflationary stage. Finally, we calculate transition amplitudes when the kinetic energy of the inflaton field $φ$ takes non-zero values.",
-      "authors": [
-        "Eftychios Kaimakkamis"
-      ],
-      "categories": [
-        "gr-qc",
-        "hep-th"
-      ],
-      "primary": "gr-qc",
-      "published": "2026-10-14T05:37:20Z",
-      "updated": "2026-10-14T05:37:20Z",
-      "comment": "PhD thesis defended on 20 January 2026; 4+166 pages",
-      "abs_url": "https://arxiv.org/abs/2610.19616",
-      "pdf_url": "https://arxiv.org/pdf/2610.19616",
-      "title_ja": "スターオブシンスキー宇宙の出現への量子の確率的アプローチ",
-      "title_translator": "argos",
-      "abstract_ja": "量子の確率的アプローチにより、インフレの存在に必要な条件が説明できると提案します。 物理的な状態を解釈します。 $ψ$ 特定の幾何学的な構成で測定されるべき宇宙のための確率密度の広さとしてパスの統合の公式によって得られる。 まず、Wheel-DeWitt (WDW) の式で曖昧さを注文する問題を確認します。 規範的な量子化の曖昧さを解決するフォーミュラを開発 $1d$ WDW の式内での曖昧性機能を定義することで、minisuperspace を実行します。 物理オブザーブを計算し、ハミルトニアンのヘミティティから引数を使用して、Hilbert 空間内部製品を定義し、その測定のための式を取得します。 $μ$ 周囲関数の制約に加えて。 新しい量子状態を定義することで $Ψ=\\sqrtμ ψ$ そして、パスインテグナルフォーマルズムを使用して、私たちは曖昧さを解決し、理論が普遍的であることを証明することができます。 私たちは、すべてのために一般化します $M$大規模なモデルの準クラスの近似における汎用性を証明できる寸法のミニスーパースペースシステム。 また、この普遍性は、理論の対象空間マニホールドが平らである場合、量子理論のすべての注文に拡張されることを示しています。 Starobinskyインフレを伴うさまざまなコズモロジーシナリオの確率を計算します。 私たちは、GRのHartle-Hawking no-boundaryの提案を要約し、我々は、統合の輪郭を定義する明確な可能性についてコメント:Hartle-Hawkingのサインの選択とリンデ・ビレンキンのその. アナログ計算を行います。 $R^{2}$ 重力とリンデ・ビレンキンの選択のために、それはそのインフレアステージで出現するために宇宙のために統計的に可能性が高いことがわかります。 最後に、インフラトンフィールドの運動エネルギーが発生したときにトランジション振幅を計算します。 $φ$ ゼロでない値を取る。",
-      "abstract_translator": "argos"
-    },
-    {
-      "id": "2610.19575",
-      "version": 1,
-      "title": "Radion/Dilaton portal freeze-in dark matter in extra-dimensional theories",
-      "abstract": "We perform a comprehensive analysis of a radion/dilaton portal freeze-in dark matter in models of stabilized warped extra-dimensions. We show that the relic abundance of a generic dark matter particle (scalars, vectors, or fermions) is obtained via the conformal coupling of the radial mode in a consistent model stabilized warped extra- dimensions; our calculations show that in scenarios where the reheating temperature is much smaller than the radion mass, keV-TeV scale dark matter particles can saturate the relic density. We perform a comprehensive analysis of a radion/dilaton portal freeze-in dark matter in models of stabilized warped extra-dimensions. We show that the relic abundance of a generic dark matter particle (scalars, vectors, or fermions) is obtained via the conformal coupling of the radial mode in a consistent model stabilized warped extra- dimensions; our calculations show that in scenarios where the reheating temperature is much smaller than the radion mass, keV-TeV scale dark matter particles can saturate the relic density. Furthermore, we show that the model is subject to Lyman-alpha constraints in the keV-GeV range, providing a unique, model-independent probe of this sector. Our calculations extend previous attempts to calculate the freeze-in relic abundance in extra-dimensional portals by providing a consistent theoretical calculation of matrix elements, clearly laying out the underlying motivation and assumptions and providing a comprehensive account of the cosmological constraints on the model.",
-      "authors": [
-        "Amrita Mukherjee",
-        "George Sanamyan",
-        "Dipan Sengupta"
-      ],
-      "categories": [
-        "hep-ph",
-        "astro-ph.HE",
-        "hep-th"
-      ],
-      "primary": "hep-ph",
-      "published": "2026-10-14T04:42:21Z",
-      "updated": "2026-10-14T04:42:21Z",
-      "comment": "24 pages, 8 figures No LZ explanation",
-      "abs_url": "https://arxiv.org/abs/2610.19575",
-      "pdf_url": "https://arxiv.org/pdf/2610.19575",
-      "title_ja": "ラジオ/ダイラトンポータル フリーズ・イン・ダーク・ディテール",
-      "title_translator": "argos",
-      "abstract_ja": "安定的な警告された余分次元のモデルにおいて、放射/ジラトンのポータル凍結暗闇の包括的な分析を行います。 私たちは、一貫したモデルの並列モードのコンフィギュレーションカップリングを介して、一般的な暗小粒子(スケーラ、ベクトル、またはフェム)の弾性収差が得られることを示しています。当社の計算は、放射状の質量よりもはるかに小さい温度が、keV-TeV スケールの濃い粒子は、再濃度を飽和させることができるシナリオで示しています。 安定的な警告された余分次元のモデルにおいて、放射/ジラトンのポータル凍結暗闇の包括的な分析を行います。 私たちは、一貫したモデルの並列モードのコンフィギュレーションカップリングを介して、一般的な暗小粒子(スケーラ、ベクトル、またはフェム)の弾性収差が得られることを示しています。当社の計算は、放射状の質量よりもはるかに小さい温度が、keV-TeV スケールの濃い粒子は、再濃度を飽和させることができるシナリオで示しています。 さらに、このモデルは、keV-GeV 範囲の Lyman-alpha 制約の対象であり、この分野における独自のモデル独立型プローブを提供することを示しています。 当社の計算は、行列要素の一貫した理論的計算を提供し、根本的なモチベーションと仮定を明確にレイアウトし、モデルのコズモロジー制約の包括的なアカウントを提供することにより、余分次元のポータルでフリーズインの複製を計算する前の試みを拡張します。",
-      "abstract_translator": "argos"
-    },
-    {
-      "id": "2610.19522",
-      "version": 1,
-      "title": "Nambu's Dynamics, Strings and Gravitized Quantum Theory",
-      "abstract": "In this article we present a new view on string theory that is rooted in quantum foundations extended to the domain of quantum gravity in the form of gravitized quantum theory, in which the canonical probability measure captured by the Born rule of quantum theory, turns out to be dynamical and contextual. We claim that this gravitization of quantum theory is the essence of string theory. String theory, according to this view, originates in foundations of quantum theory and Nambu's dynamics, which features in the non-perturbative definition of string theory in terms of a T-duality covariant and non-commutative formulation, called the metastring. Nambu's dynamics and the associated cubic and hypercubic objects also appear as the natural language for exploring the new observables and phenomena implied by a dynamical Born rule, including triple and higher order quantum interference, that can be investigated in experiments involving massive quantum probes, and that are also needed for direct empirical tests of the Born rule, a cornerstone of quantum theory.",
-      "authors": [
-        "Tristan Hübsch",
-        "Djordje Minic"
-      ],
-      "categories": [
-        "hep-th",
-        "gr-qc"
-      ],
-      "primary": "hep-th",
-      "published": "2026-10-14T03:41:06Z",
-      "updated": "2026-10-14T03:41:06Z",
-      "comment": "31 pages, one figure (diagram)",
-      "abs_url": "https://arxiv.org/abs/2610.19522",
-      "pdf_url": "https://arxiv.org/pdf/2610.19522",
-      "title_ja": "ナムブのダイナミクス、弦、重力量理論",
-      "title_translator": "argos",
-      "abstract_ja": "この記事では、量子の基礎に根ざした弦理論に関する新しいビューを提示し、重力化量子理論の形で量子重力の領域に拡張され、量子理論の生殖能力測定が量子理論によって捕獲された正弦理論では、動的かつ文脈的であることが判明しました。 量子理論のこの重大化は、弦理論の本質であると主張しています。 弦理論は、このビューによると、量子理論とナムブのダイナミクスの基礎を起源とする。これは、T-duality covariantと非計算処方の面で弦理論の非perturbative定義で特徴である。 ナムブのダイナミクスと関連する立方体および多方体オブジェクトは、新しい観察可能なものや現象を探索するための自然な言語として現れます。三重以上の順序量子干渉を含むダイナミックなボルンルールによって暗示される、それは巨大な量子プローブを含む実験で調査することができ、そしてそれはまた量子理論の直接的なempiricalテストのために必要です。",
-      "abstract_translator": "argos"
-    },
-    {
-      "id": "2610.19485",
-      "version": 1,
-      "title": "Gauge-invariant nonperturbative Wilson action in quantum electrodynamics II",
-      "abstract": "The gradient flow exact renormalization group (GFERG) is a formulation of the exact renormalization group for gauge theories that provides a renormalization group flow preserving the gauge Ward--Takahashi identity exactly. In this paper, we nonperturbatively solve the GFERG flow equation for the simplest nontrivial gauge-invariant Wilson action, introduced in a previous paper, for $D$-dimensional quantum electrodynamics with~$N_f$ flavors (for all~$D$, flavors are counted in units of four-component spinors). For $D=3$ and~$D=2$, a nontrivial infrared fixed point exists even for~$N_f=1$, and the structure of the critical exponents at the fixed point is qualitatively the same as that in the large-$N_f$ limit. We also obtain the gauge-field propagator in the continuum limit; for~$D=2$, it reproduces the dynamical mass of the Schwinger model within a few percent. To the best of our knowledge, apart from the large-$N_f$ approximation, this is the first example in which the Wilson renormalization group in a gauge theory is solved nonperturbatively while manifestly preserving gauge symmetry.",
-      "authors": [
-        "Sorato Nagao",
-        "Hiroshi Suzuki"
-      ],
-      "categories": [
-        "hep-th",
-        "hep-lat"
-      ],
-      "primary": "hep-th",
-      "published": "2026-10-14T03:00:51Z",
-      "updated": "2026-10-14T03:00:51Z",
-      "comment": "28 pages, 8 figures",
-      "abs_url": "https://arxiv.org/abs/2610.19485",
-      "pdf_url": "https://arxiv.org/pdf/2610.19485",
-      "title_ja": "量子電気力学IIのゲージinvariant非perturbative Wilson行為",
-      "title_translator": "argos",
-      "abstract_ja": "グラデーション・フローの完全再正規化グループ(GFERG)は、ゲージ・ウォード・高橋アイデンティティを正確に保存するための再正規化グループ・フローを提供するゲージ理論の正確な正規化グループの公式です。 この紙では、我々は非永続的に最も単純な非有利なゲージ・インヴァリアント・ウィルソンの行動のためのGFERGの流れの式を解決し、以前の紙で導入しました、 $D$-次元量子電気力学と~$N_f$ 風味(すべてのために)$D$、味は4成分の紡錘の単位でカウントされます)。 のために $D=3$ お問い合わせ$D=2$、非trivial の赤外線固定ポイントはのためにも存在します~$N_f=1$、および固定点の重要な指数の構成は、大部分のそれと同じ質的にあります$N_f$ 限界。 また、連続限界のゲージフィールド伝搬器も入手できます。$D=2$シェーダーモデルのダイナミックな質量を数パーセントで再現します。 知識を最大限に活かすために、大小とは別に$N_f$ 近似は、Wilson の正規化グループがゲージの対称を明示的に保存しながら、非永続的に解決する最初の例です。",
-      "abstract_translator": "argos"
-    },
-    {
-      "id": "2610.19440",
-      "version": 1,
-      "title": "Magnetically Charged Black Holes from Grand Unified Theory",
-      "abstract": "Grand Unified models of particle physics inevitably give rise to magnetic monopoles. Often the model will also contain a weakly broken discrete symmetry that leads to the formation of biased domain walls that survive for a limited period in cosmology. For a range of the discrete symmetry breaking parameter, domain walls can collapse to form magnetically charged extremal black holes lighter than $\\simeq 1\\, {\\rm kg}$ but these are not expected to survive until the present epoch due to Hawking evaporation and Schwinger pair production of monopoles. If the parameter is smaller still, the black holes may be astrophysical, with mass greater than $10^{15}\\, {\\rm g}$ and with sub-extremal magnetic charge: $Q \\simeq 10^8$ (for our canonical choice of parameters). The cosmological energy density in residual magnetic monopoles depends on the discrete symmetry breaking parameter and for sufficiently small values of the parameter, the magnetic monopole density can satisfy all observational constraints.",
-      "authors": [
-        "Tanmay Vachaspati",
-        "Anja Wachowitz"
-      ],
-      "categories": [
-        "hep-ph",
-        "astro-ph.CO",
-        "hep-th"
-      ],
-      "primary": "hep-ph",
-      "published": "2026-10-14T02:32:00Z",
-      "updated": "2026-10-14T02:32:00Z",
-      "comment": "9 pages, 2 figures",
-      "abs_url": "https://arxiv.org/abs/2610.19440",
-      "pdf_url": "https://arxiv.org/pdf/2610.19440",
-      "title_ja": "グランドユニファイド理論から磁気的に充電されたブラックホール",
-      "title_translator": "argos",
-      "abstract_ja": "パーティクル物理のグランドユニファイドモデルは必然的に磁気モノポールに上昇を与えます。 多くの場合、モデルには、偏見のあるドメインウォールの形成につながる弱く壊れた離散的な対称性も含まれています。 分離された対称的な破損の変数の範囲のために、ドメイン壁は磁気的に満たされた極端の黒い穴より軽いより形にするために崩壊できます $\\simeq 1\\, {\\rm kg}$ しかし、これらは、モノポールのホーキング蒸発とシュウダーペア生産による現在のエポックまで生き残ることは期待されていません。 パラメータがまだ小さい場合は、黒の穴はアストロフィジカルで、質量よりも大きい $10^{15}\\, {\\rm g}$ サブエクストリーム磁気チャージ付き: $Q \\simeq 10^8$ (当社のパラメータの選択) 残留磁気モノポールのコズモロジーエネルギー密度は、離散的な対称破壊パラメータに依存し、パラメータの十分な小さな値のために、磁気モノポール密度は、すべての観察制約を満たすことができます。",
-      "abstract_translator": "argos"
-    },
-    {
-      "id": "2610.19418",
-      "version": 1,
-      "title": "Linear stability matrix and Lyapunov exponents for stationary spacetime",
-      "abstract": "Lyapunov exponents characterize the average rate at which nearby trajectories in phase space converge or diverge and therefore provide a useful criterion for dynamical stability. In this work, we develop a general framework for analyzing Lyapunov exponents in stationary spacetimes and extend previous studies beyond circular orbits. For a generic stationary spacetime described by $g_{μν}(r,θ)$, we show that the phase space relevant to linear perturbations is spanned by $(r,p_r,θ,p_θ)$ and the corresponding linear stability matrix has rank four. When the spacetime admits a rank-2 Killing tensor, the linear stability matrix can be reduced to a block-diagonal form, allowing the Lyapunov exponents to be obtained analytically. By imposing the appropriate constraint conditions, the formalism further yields the linear stability matrices and Lyapunov exponents for circular and spherical orbits. The validity of the method is illustrated by several representative examples, including the (inverted) harmonic oscillator, planar Kepler motion, and particle motion in Schwarzschild and Kerr spacetimes. These results provide a unified framework for investigating the stability properties of particle orbits in both classical and relativistic dynamical systems.",
-      "authors": [
-        "Xu Ye",
-        "Shao-Wen Wei"
-      ],
-      "categories": [
-        "hep-th",
-        "gr-qc"
-      ],
-      "primary": "hep-th",
-      "published": "2026-10-14T02:09:06Z",
-      "updated": "2026-10-14T02:09:06Z",
-      "comment": "41 pages, 18 figures",
-      "abs_url": "https://arxiv.org/abs/2610.19418",
-      "pdf_url": "https://arxiv.org/pdf/2610.19418",
-      "title_ja": "線形安定性のマトリックスおよびLyapunovは静止した間隔のためのexponents",
-      "title_translator": "argos",
-      "abstract_ja": "Lyapunovは、フェーズスペースのコンバージまたはダイバージの近くの軌跡が、したがって、動的安定性のための有用な基準を提供します。 この作品では、文空間におけるLyapunov指数を分析し、円周軌道を超えて以前の研究を拡張するための一般的なフレームワークを開発しています。 一般的な静止空間時間について $g_{μν}(r,θ)$、私達は線形 perturbations に関連した相空間が spanned であることを示します $(r,p_r,θ,p_θ)$ そして対応する線形安定性のマトリックスにランク4があります。 スペースタイムがランク2キルティングテンソルを認めるとき、線形安定性のマトリックスはブロック対角形に減らすことができます。Lyapunov指数関数は分析的に得ることができます。 適切な制約条件を具現化することにより、ホルムリズムは、円周および球面軌道のための線形安定性マトリックスおよびLyapunov指数をさらに引き継ぎます。 メソッドの妥当性は、(変換)調和的な発振器、平面のケプラーの動き、およびシュワルツシルドとケラーの空間における粒子の動きを含むいくつかの代表例によって示されます。 これらの結果は、古典的および再ラチスティック動的システムにおける粒子軌道の安定性特性を調査するための統一されたフレームワークを提供します。",
       "abstract_translator": "argos"
     }
   ]
