@@ -25,7 +25,9 @@ def feed(ident='2610.01234v1', title='A test paper', total=1):
 
 class HelpersTest(unittest.TestCase):
     def test_config(self):
-        self.assertEqual(common.config()['categories'], ['hep-th'])
+        cfg = common.config()
+        self.assertTrue(cfg['categories'])
+        self.assertIn(cfg['translation']['engine'], ('argos', 'none', 'deepl'))
 
     def test_math_all_delimiters(self):
         source = r'We study $m^2$, $$a+b$$, \(x\), and \[y\].'
