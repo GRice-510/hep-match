@@ -1,0 +1,11 @@
+{
+  "categories": ["hep-th"],
+  "days": 7,
+  "max_results": 1000,
+  "translation": {
+    "engine": "argos",
+    "fields": ["title", "abstract"],
+    "seconds": 420,
+    "max_characters": 120000
+  }
+}

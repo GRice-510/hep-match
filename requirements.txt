@@ -1,0 +1,1 @@
+# Fetching, DeepL and unit tests use only Python 3.11's standard library.
