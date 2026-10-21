@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {paper,normalizePapers,matches,mergeBackup,markdown,bibtex,safeTranslate} from '../site/core.mjs';
+const raw={id:'2610.01234',version:1,title:'A test of $m^2$',abstract:'Extra dimensions',authors:['A. Author'],primary:'hep-th',categories:['hep-th','hep-ph'],published:'2026-10-20T00:00:00Z'};
+test('paper normalization rejects unsafe ID and overrides supplied links',()=>{assert.equal(paper({...raw,id:'../script'}),null);assert.equal(paper({...raw,pdf_url:'javascript:alert(1)'}).pdf_url,'https://arxiv.org/pdf/2610.01234');});
+test('deduplicate crosslists and keep most recent version',()=>{const rows=normalizePapers([raw,{...raw,version:2}]);assert.equal(rows.length,1);assert.equal(rows[0].version,2);});
+test('query matches category, title, abstract and authors',()=>{const p=paper(raw);assert.equal(matches(p,'hep-ph','author dimensions'),true);assert.equal(matches(p,'gr-qc',''),false);assert.equal(matches(p,'','missing'),false);});
+test('backup is a merge, not an overwrite',()=>{const backup={schema_version:1,read:[raw.id],saved:[raw]};const current={read:['2610.01235'],saved:[]};const merged=mergeBackup(current,backup);assert.equal(merged.saved.length,1);assert.equal(merged.read.length,2);assert.equal(mergeBackup(merged,backup).saved.length,1);});
+test('unknown backup rejected',()=>assert.throws(()=>mergeBackup({},{})));
+test('unsafe records cannot enter backup state',()=>{const data=mergeBackup({read:[],saved:[]},{schema_version:1,read:['../evil'],saved:[{...raw,id:'../evil'}]});assert.equal(data.saved.length,0);assert.equal(data.read.length,0);});
+test('export formats contain canonical arXiv references and preserve math',()=>{const p=paper(raw);assert.match(markdown([p]),/arXiv:2610\.01234/);assert.match(bibtex([p]),/archivePrefix = \{arXiv\}/);assert.ok(bibtex([p]).includes('$m^2$'));});
+test('browser translation never receives TeX',async()=>{const calls=[];const source=String.raw`We study $m^2$, $$a+b$$, \(x\), and \[y\].`;const value=await safeTranslate(source,async t=>{calls.push(t);return t.toUpperCase();});for(const math of [String.raw`$m^2$`,String.raw`$$a+b$$`,String.raw`\(x\)`,String.raw`\[y\]`]){assert.ok(value.includes(math));assert.ok(calls.every(t=>!t.includes(math)));}});
+test('empty browser translation rejected',async()=>assert.rejects(safeTranslate('test',async()=>'')));
+test('legacy arXiv IDs supported',()=>assert.equal(paper({...raw,id:'hep-th/9901001'}).abs_url,'https://arxiv.org/abs/hep-th/9901001'));

@@ -1,0 +1,121 @@
+name: Update papers and deploy
+on:
+  schedule:
+    # 10:17 JST; avoid the top of the hour, after the normal arXiv release.
+    - cron: '17 1 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore: ['site/data/**', 'data/**', '**.md', 'tests/**', '.github/workflows/ci.yml']
+permissions:
+  contents: read
+concurrency:
+  group: hep-match-publish
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test code before publishing
+        run: |
+          python -m unittest discover -s tests -v
+          node --test tests/core.test.mjs
+          node --check site/app.mjs
+      - name: Read translation setting
+        id: config
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          c = json.load(open('config.json'))
+          print('engine=' + c['translation']['engine'])
+          PY
+      - name: Fetch recent arXiv metadata
+        env:
+          ARXIV_CONTACT: ${{ secrets.ARXIV_CONTACT }}
+        run: python scripts/fetch_papers.py
+      - name: Cache local translation model
+        if: steps.config.outputs.engine == 'argos'
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.local/share/argos-translate
+            ~/.cache/argos-translate
+            ~/stanza_resources
+          key: argos-en-ja-v1-py311-1.11.0
+      - name: Install and run local translation
+        if: steps.config.outputs.engine == 'argos'
+        continue-on-error: true
+        timeout-minutes: 15
+        env:
+          ARGOS_DEVICE_TYPE: cpu
+          OMP_NUM_THREADS: '2'
+        run: |
+          # CPU wheel avoids downloading CUDA runtimes on a CPU-only runner.
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -r requirements-translation.txt
+          python scripts/translate_papers.py
+      - name: Optional DeepL (explicit configuration only)
+        if: steps.config.outputs.engine == 'deepl'
+        continue-on-error: true
+        timeout-minutes: 10
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+          DEEPL_API_BASE: ${{ vars.DEEPL_API_BASE || 'https://api-free.deepl.com' }}
+          ALLOW_PAID_DEEPL: ${{ vars.ALLOW_PAID_DEEPL || 'false' }}
+        run: python scripts/translate_papers.py
+      - name: Translation disabled
+        if: steps.config.outputs.engine == 'none'
+        run: python scripts/translate_papers.py
+      - name: Validate and summarize data
+        run: |
+          python - <<'PY'
+          import json, os
+          d = json.load(open('site/data/latest.json'))
+          assert d['schema_version'] == 1 and d['papers']
+          assert len({p['id'] for p in d['papers']}) == len(d['papers'])
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as out:
+              out.write(f"## HEP Match\n\nPapers: {len(d['papers'])}\n\nTranslation: {d['translation']}\n")
+          PY
+      - name: Save generated data and translations
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/data/latest.json data/translations.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: update arXiv digest and translation cache'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Upload static site (no model or secrets included)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+          retention-days: 1
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check Pages configuration
+        uses: actions/configure-pages@v5
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

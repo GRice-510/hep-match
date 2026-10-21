@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0e1725">
+  <meta name="description" content="hep-thの新着論文をスワイプで整理する、API契約不要の個人用リーダー。">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="HEP Match">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; font-src 'self' https://cdn.jsdelivr.net; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <title>HEP Match · 今日の論文と出会う</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./math-config.js"></script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+  <a class="skip" href="#card">論文へ移動</a>
+  <header class="topbar">
+    <a class="brand" href="./"><img src="./icon.svg" alt="" width="36" height="36"><span>HEP <strong>Match</strong></span></a>
+    <nav aria-label="メインメニュー"><button id="refresh" class="quiet" title="配信データを再読み込み">更新</button><button id="saved-open" class="quiet">保存 <span id="saved-count">0</span></button><button id="settings-open" class="quiet">設定</button></nav>
+  </header>
+  <main class="workspace">
+    <aside class="intro">
+      <p class="eyebrow">YOUR DAILY ARXIV READER</p>
+      <h1>今日の論文と、<br><em>出会う。</em></h1>
+      <p class="intro-copy">気になった一本を、あとでじっくり。<br>理論物理の新着を一件ずつ確認します。</p>
+      <div class="stat"><strong id="remaining">—</strong><span>未確認の論文</span></div>
+      <p id="sync" class="muted">配信データを読み込んでいます。</p>
+      <p id="coverage" class="muted"></p>
+      <div class="guide"><p><span>←</span> 見送り <span>→</span> 保存</p><p>PCでは矢印キーも使えます。</p></div>
+      <p class="privacy">保存リストはこの端末だけに記録。<br>APIキー・アカウント登録は不要です。</p>
+    </aside>
+    <section class="reader" aria-label="新着論文">
+      <div class="filters">
+        <label class="sr-only" for="category">カテゴリ</label><select id="category"><option value="">すべて</option></select>
+        <label class="sr-only" for="search">タイトル・著者・アブストラクトを検索</label><input id="search" type="search" placeholder="キーワード・著者で絞り込む" autocomplete="off">
+      </div>
+      <div id="notice" class="notice" hidden></div>
+      <div id="storage-warning" class="notice" hidden></div>
+      <div class="reader-head"><span id="position">新着をチェック</span><button id="language" class="text-button" aria-pressed="true">日本語優先</button></div>
+      <article id="card" class="paper" tabindex="0" aria-label="論文カード">
+        <div id="paper-content"></div>
+        <div id="empty" class="empty" hidden><span class="empty-symbol" aria-hidden="true">∅</span><h2 id="empty-title">論文を読み込んでいます</h2><p id="empty-text"></p><button id="empty-action" class="quiet">再読み込み</button></div>
+      </article>
+      <div id="paper-tools" class="paper-tools"><button id="local-translate" class="text-button" hidden>この端末で翻訳</button><button id="copy-abstract" class="text-button">原文をコピー</button><a id="arxiv-link" target="_blank" rel="noopener noreferrer">arXiv ↗</a><a id="pdf-link" target="_blank" rel="noopener noreferrer">PDF ↗</a></div>
+      <div class="actions"><button id="skip" class="decision pass"><span aria-hidden="true">×</span> 見送り</button><button id="undo" class="undo" title="直前の操作を取り消す" aria-label="元に戻す" disabled>↶</button><button id="keep" class="decision keep"><span aria-hidden="true">＋</span> 保存する</button></div>
+      <p class="footnote">日本語訳は参考訳です。主張や数値は原文でもご確認ください。</p>
+    </section>
+  </main>
+  <footer>HEP Match <span>·</span> arXivの非公式リーダー <span>·</span> <a href="https://github.com/GRice-510/hep-match" target="_blank" rel="noopener noreferrer">使い方とソース</a></footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="settings-dialog" aria-labelledby="settings-title">
+    <div class="dialog-head"><h2 id="settings-title">表示とデータ</h2><button class="quiet" data-close="settings-dialog">閉じる</button></div>
+    <label class="check"><input id="show-read" type="checkbox">確認済みの論文も表示する</label>
+    <h3>翻訳について</h3><p>標準のArgos翻訳は、GitHub Actionsで事前に生成します。未翻訳の論文は原文で表示します。専門用語や文の解釈が不自然な場合は原文を確認してください。</p>
+    <p id="browser-info"></p><p>アプリにAPIキーを入力する必要はありません。DeepLを使う場合は、リポジトリの設定とGitHub Secretsを使います。</p>
+    <h3>バックアップ</h3><p>保存・既読はこのブラウザだけに記録されます。端末を変える前に書き出してください。読み込みは現在の記録に追加します。</p>
+    <div class="button-row"><button id="backup-export" class="quiet">JSONを書き出す</button><button id="backup-import" class="quiet">JSONを読み込む</button></div>
+    <input id="backup-file" type="file" accept="application/json,.json" hidden>
+    <p class="muted">ホーム画面から開く場合とブラウザのタブでは、保存先が別になることがあります。利用する開き方を統一してください。</p>
+  </dialog>
+  <dialog id="saved-dialog" aria-labelledby="saved-title"><div class="dialog-head"><h2 id="saved-title">あとで読む</h2><button class="quiet" data-close="saved-dialog">閉じる</button></div><label class="sr-only" for="saved-search">保存した論文を検索</label><input id="saved-search" type="search" placeholder="保存リストを検索"><div class="button-row"><button id="export-md" class="quiet">Markdown</button><button id="export-bib" class="quiet">BibTeX</button><button id="saved-backup" class="quiet">バックアップ</button></div><p class="muted">書き出しには、検索で絞り込んだ論文ではなく保存した全件を含みます。</p><div id="saved-list"></div></dialog>
+  <noscript>HEP Matchを利用するにはJavaScriptを有効にしてください。</noscript>
+</body>
+</html>
