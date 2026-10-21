@@ -2,7 +2,6 @@
 from __future__ import annotations
 import functools
 import http.server
-import json
 from pathlib import Path
 import threading
 from playwright.sync_api import sync_playwright
@@ -35,6 +34,7 @@ def main():
                 page.goto(f'http://127.0.0.1:{server.server_port}/')
                 page.wait_for_selector('#paper-content h2')
                 assert page.locator('#remaining').inner_text() == '3'
+                assert 'Test paper' in page.locator('#paper-content h2').inner_text(), 'Default should be original'
                 assert page.locator('body').evaluate('(e)=>e.scrollWidth<=innerWidth'), 'Horizontal overflow'
                 page.locator('#keep').click()
                 page.wait_for_timeout(250)
@@ -59,19 +59,20 @@ def main():
                 assert page.locator('#empty').is_visible()
                 page.locator('#search').fill('')
                 page.locator('#language').click()
+                assert '検証用の論文' in page.locator('#paper-content h2').inner_text()
+                page.locator('#language').click()
                 assert 'Test paper' in page.locator('#paper-content h2').inner_text()
-                # Simulate the pointer sequence used by the touch/mouse swipe state machine.
+                # Vertical pointer movement should stay a scroll, not a classification.
                 page.locator('#card').dispatch_event('pointerdown', {'pointerId': 1, 'clientX': 150, 'clientY': 300, 'button': 0, 'isPrimary': True})
                 page.locator('#card').dispatch_event('pointermove', {'pointerId': 1, 'clientX': 152, 'clientY': 340, 'button': 0, 'isPrimary': True})
                 page.locator('#card').dispatch_event('pointerup', {'pointerId': 1, 'clientX': 152, 'clientY': 340, 'button': 0, 'isPrimary': True})
                 assert page.locator('#remaining').inner_text() == '2', 'Vertical scroll was treated as swipe'
-                # Screenshots are test artifacts only; no fake papers in site/data.
                 screenshot = ROOT / 'test-results' / f'ui-{width}.png'
                 screenshot.parent.mkdir(exist_ok=True)
                 page.screenshot(path=str(screenshot), full_page=True)
                 assert not errors, '\n'.join(errors)
                 context.close()
-            print('Browser smoke passed: desktop + mobile viewport, save/undo/reload/export/search/vertical-scroll.')
+            print('Browser smoke passed: desktop + mobile viewport, original-first, save/undo/reload/export/search/language/vertical-scroll.')
         finally:
             browser.close()
     server.shutdown()
