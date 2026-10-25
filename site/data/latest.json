@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T05:56:30Z",
-  "since": "2026-10-17T05:56:23.750253+00:00",
+  "generated_at": "2026-10-25T06:10:52Z",
+  "since": "2026-10-18T06:10:49.351797+00:00",
   "categories": [
     "hep-th"
   ],
@@ -11,9 +11,9 @@
     "status": "complete",
     "processed_fields": 0,
     "characters_this_run": 0,
-    "updated_at": "2026-10-24T05:57:05Z",
-    "titles": 203,
-    "abstracts": 203
+    "updated_at": "2026-10-25T06:11:32Z",
+    "titles": 194,
+    "abstracts": 194
   },
   "papers": [
     {
@@ -4822,223 +4822,6 @@
       "title_ja": "流体力学のトランスシリーズの線形構造、ConvergenceおよびResurgence",
       "title_translator": "argos",
       "abstract_ja": "常にリラクゼーションタイムでリラクティブな粘性流体力学を拡充し、後期のトランスシリーズ構造を導き出すための正確な配合を行っています。 線形補助式の2つの基本的なモードは指数関数的に抑制された一時的なモードからの流体力学の貢献を分けます。 この単一トランジェントモードは、非線形モード混合による非perturbativeセクターの階層全体を生成し、その決定は初期状態の依存の喪失と、遅い時間の流体力学的誘致者の動作の出現を説明します。 流体力学的勾配の拡張は、輸送パラメータの一般的な値に対して非常に分散していますが、離散値で収束します $a=N^2$補助アシンプトティック拡張が終了したところ。 更に、補助線形式の厳密な固定定数を決定し、logarithmic Borelの単数係数に関連して確立します。 これらの例外的な値で固定された固定子の消火は、補助シリーズの終了、流体力学的収斂、および流体力学的および非流体力学的過渡セクター間の分離を直接接続する確立します。",
-      "abstract_translator": "argos"
-    },
-    {
-      "id": "2610.24978",
-      "version": 1,
-      "title": "Complex spinodals and supercritical crossovers in Kerr-Newman-AdS$_4$ black holes",
-      "abstract": "We study supercritical crossovers in four-dimensional Kerr-Newman-AdS black holes at fixed angular momentum and charge. From the exact enthalpy, we prove uniqueness of the physical critical point and positivity of the quartic Landau coefficient throughout the charge-rotation family, treating the uncharged Kerr-AdS endpoint in separate scaling variables. An exact quartic reduction determines the coexistence entropies and latent heat throughout the subcritical regime. Above criticality, the two physical spinodals continue as a complex conjugate pair. Their real temperature projection defines a Widom-type line, and varying the charge-rotation ratio assembles these lines into a crossover surface. The Landau cusp fixes the imaginary entropy and temperature to scale with the square root and three-halves powers of the pressure displacement from criticality. The projected fold and the local heat capacity ridge share a critical tangent. We derive their leading quadratic temperature separation and prove that the ridge lies at a higher temperature near criticality. Exact endpoint solutions and numerical continuation check these predictions. The cusp exponents are common to the family, while the crossover temperature depends on the thermodynamic criterion used to define it.",
-      "authors": [
-        "Bum-Hoon Lee",
-        "Hocheol Lee",
-        "Somyadip Thakur"
-      ],
-      "categories": [
-        "hep-th",
-        "gr-qc"
-      ],
-      "primary": "hep-th",
-      "published": "2026-10-18T03:15:40Z",
-      "updated": "2026-10-18T03:15:40Z",
-      "comment": "38 pages, 8 figures, 3 tables",
-      "abs_url": "https://arxiv.org/abs/2610.24978",
-      "pdf_url": "https://arxiv.org/pdf/2610.24978",
-      "title_ja": "Kerr-Newman-AdSの複雑な脊柱と超臨界クロスオーバー$_4$ 黒い穴",
-      "title_translator": "argos",
-      "abstract_ja": "4次元Kerr-Newman-AdSブラックホールの超臨界クロスオーバーを固定角の勢力で検討し、充電します。 厳密なエンタルピーから、チャージ回転家族全体でクォリティカルポイントとクォリティカル・ランドロー係数の陽性を一意に証明し、別々のスケーリング変数で非チャージされたKerr-AdSエンドポイントを扱う。 正確な量子減少は、実質的な政権を通して、共存不全および潜伏熱を決定する。 重要度を上回る2つの物理的な脊柱は複雑な対として継続します。 実際の温度予測では、Widom型ラインを定義し、充電回転比を変化させ、これらのラインをクロスオーバー面に組み立てます。 Landau cusp は、初期のエントロピーと温度を固定し、平方根と 3 つの半分の電力をクリティカルからスケールアップします。 投影された折目およびローカル熱容量のリッジは重要なtangentを共有します。 私たちは、その主要な量体温度の分離を導き出し、リッジが重大に近い高温にあることを証明します。 正確なエンドポイントソリューションと数値継続は、これらの予測をチェックします。 カスプ指数は家族に共通していますが、クロスオーバー温度はそれを定義するために使用される熱力学の基準に依存します。",
-      "abstract_translator": "argos"
-    },
-    {
-      "id": "2610.24909",
-      "version": 1,
-      "title": "Scalar fields in the background of a linear Vaidya spacetime",
-      "abstract": "We study, in a semiclassical, quasi-stationary approximation, the entanglement properties of massless scalar fields near the event horizon of a dynamical black hole modeled by an ingoing Vaidya metric with a linearly decaying mass. In the near-horizon limit, the geometry becomes conformally equivalent to an eternal black hole, allowing the use of modular theory to analyze vacuum entanglement. We first study the modifications to the entanglement across the bifurcation surface of such a black hole from that of an eternal one. The conformal factor accounting for the evaporation modifies the Bogoliubov transformation, inducing a phase in the thermofield-double-like structure of the global vacuum. This phase change of the vacuum state is a consequence of the adiabatic shift of the horizon. A quantitative measure of the entanglement change due to the phase is obtained through the Clauser-Horne-Shimony-Holt (CHSH) inequality. We compare the CHSH inequalities in the vacuum states for the static and the linear Vaidya black holes and find that the CHSH correlation quantity for the latter is decreased by a factor depending on the evaporation rate. Next, we discuss the changes that must be considered for the linear Vaidya black hole formed from gravitational collapse. For this purpose we adapt an analysis by Wald for the case of the Schwarzschild black hole. We find, as expected, the near-horizon structure and state do not approach that of the eternal black hole. Rather, the thermal factor is modified by a factor incorporating the change in the black hole mass due to evaporation. The entangled global vacuum state again has a thermofield double structure with the modification mentioned above.",
-      "authors": [
-        "Arielle Schutz",
-        "Ratindranath Akhoury"
-      ],
-      "categories": [
-        "gr-qc",
-        "hep-th"
-      ],
-      "primary": "gr-qc",
-      "published": "2026-10-17T23:11:10Z",
-      "updated": "2026-10-17T23:11:10Z",
-      "comment": "45 pages, 2 figures, 2 tables",
-      "abs_url": "https://arxiv.org/abs/2610.24909",
-      "pdf_url": "https://arxiv.org/pdf/2610.24909",
-      "title_ja": "線形Vaidyaの空間時間の背景にあるスカラーフィールド",
-      "title_translator": "argos",
-      "abstract_ja": "セミクラシカルで、クォーシステナリの近似で、無数のスカラーフィールドのエンタングルメント特性は、Vaidyaのインゴイドによってモデル化された動的ブラックホールのでき事のhorizonの近くで、リニアなデケイリング質量で検討します。 水平線の限界では、幾何学は永遠の黒い穴に正式に等しい、真空の絡みを分析するモジュラー理論の使用を可能にします。 私たちは、まず、永遠のものからそのような黒い穴の膨張面を横断して囲むことに修正を研究します。 蒸発のコンフィギュレーションのコンフィギュレーションファクタリングは、ボゴリボフ変換を修正し、サーモフィールド-グローバルな真空の両面構造におけるフェーズを誘導します。 真空状態のこの相変化は、地平線の異常シフトの結果として生じる。 Clauser-Horne-Shimony-Holt(CHSH) の平等により、相続変化の定量測定が得られる。 静的および線形Vaidyaの黒い穴のための真空の状態のCHHの不等率を比較し、後者のCHSHの相関関係の量は蒸発率によって要因によって減ります。 次に、重力崩壊から形成されたリニアVaidyaブラックホールのために考慮しなければならない変更について説明します。 この目的のために、我々は、シュワルツシルドブラックホールの場合には、ウォルドによる分析を適応させます。 私たちは、予想通り、近平線構造と状態が永遠の黒い穴のそれに近づくことはありません見つける。 むしろ、熱因子は、蒸発による黒い穴の質量の変化を組み込む要因によって変更されます。 entangledの全体的な真空状態は再度上記の変更を用いるthermfieldの二重構造を備えています。",
-      "abstract_translator": "argos"
-    },
-    {
-      "id": "2610.24905",
-      "version": 2,
-      "title": "A Casimir turning point as the beginning of a small flat universe",
-      "abstract": "We study a flat three-torus universe whose contraction is turned around by the negative Casimir energy of Standard Model fields. The trace anomaly forbids conformal matter alone to turn an anisotropic universe around, so matter with $w<1/3$, most cheaply a positive potential, must supply the negative trace; with antiperiodic fermions the Standard Model supplies the negative energy, and the universe turns at an edge of 722 reduced Planck lengths. The turning point can hold only about five quanta of the lowest modes, whereas a reheating coupling in a time-symmetric past would produce radiation exceeding the Casimir energy by at least $10^{94}$, so we read the turn as a beginning rather than a bounce. Negative Casimir energy cannot hold the shape of the torus: its shape state can be real at most once, and for a real Gaussian state survival of the shape on both branches with $90\\%$ probability requires that moment to lie within $0.35$ Hubble times of the turn. The natural state, real at the turn, freezes the torus into a nearly rectangular box whose sides typically differ by $16$--$18\\%$. The microwave background can read this fossil only if the shortest cycle lies between $0.985$ and about $1.04$ last-scattering diameters. At the turn the Higgs quartic coupling is negative, yet zero-point fluctuations of the gauge zero modes keep the Higgs zero mode near the origin with probability above one half for a top-quark pole mass below $172.96$ GeV, given a curvature coupling $ξ_H\\gtrsim0.08$; a pole mass above $173.7$ GeV, within reach of FCC-ee, would exclude this beginning.",
-      "authors": [
-        "Alan Zhang"
-      ],
-      "categories": [
-        "gr-qc",
-        "hep-ph",
-        "hep-th"
-      ],
-      "primary": "gr-qc",
-      "published": "2026-10-17T23:06:10Z",
-      "updated": "2026-10-22T09:31:01Z",
-      "comment": "36 pages, 7 figures, 5 tables. v2: abstract shortened; minor corrections. Companion Letter: arXiv:2610.28704. Code and data: https://doi.org/10.5281/zenodo.23434067 and technical report: https://doi.org/10.5281/zenodo.23434139",
-      "abs_url": "https://arxiv.org/abs/2610.24905",
-      "pdf_url": "https://arxiv.org/pdf/2610.24905",
-      "title_ja": "小さなフラットな宇宙の始まりとしてカシミールの回転点",
-      "title_translator": "argos",
-      "abstract_ja": "スタンダードモデル分野のネガティブ・カシミール・エネルギーによって契約が回っているフラットな3トルス・ユニバースを研究しています。 トレースの異常は、周囲の異方性宇宙を回すために、唯一の適合性物質を禁じます $w<1/3$、最も安く肯定的なポテンシャルは、マイナスの痕跡を供給しなければなりません。 抗周期のフェミニオンと標準モデルは負のエネルギーを供給し、宇宙は722の端で回ります プランクの長さを削減しました。 旋回ポイントは、最小モードの約5カタンしか保持でき、時間対称過去の再加熱カップリングは、少なくともカシミールエネルギーを超える放射線を生成します $10^{94}$ですから、バウンスではなく最初からターンを読みます。 負のカシミールエネルギーは、トーラスの形状を保持することはできません。その形状の状態は、ほとんどの場合、そして両方の枝の形状の実際のガウス状態の生存のために $90\\%$ 確率は、その瞬間が内側にある必要があります $0.35$ ターンの可動時間。 自然な状態、回転の実質は側面が通常異なるほぼ長方形の箱にトーラスを凍らせます $16$お問い合わせ$18\\%$. マイクロウェーブ背景は、最も短いサイクルが間にある場合にのみ、この化石を読むことができます $0.985$ お問い合わせ $1.04$ 最後の散布の直径。 ターンでは、Higgsの量子カップリングは負であり、ゲージゼロモードのゼロポイントの変動は、以下のトップクォークポール質量のための1つの半分以上の確率で起源に近いハイグゼロモードを維持します $172.96$ 湾曲カップリングを与えられたGeV $ξ_H\\gtrsim0.08$;上の棒の固まり $173.7$ FCC-eeの範囲内でGeVは、この始まりを除外します。",
-      "abstract_translator": "argos"
-    },
-    {
-      "id": "2610.24857",
-      "version": 1,
-      "title": "Where should we look for the deviation from quantum mechanics?",
-      "abstract": "We argue that the experimental measurement of the lifetime and decay law of metastable helium is a promising way to find a deviation from quantum mechanics. We analyze the decay of the metastable state for a quartic deformation of quantum mechanics. We find that the absolute change of the mean lifetime can be significant even if the modification is small. We show that, in the Wigner--Weisskopf approximation, the deviation from the exponential law in the modified theory can occur on time scales comparable with the lifetime.",
-      "authors": [
-        "Jerome Nicolas",
-        "Albert Schwarz"
-      ],
-      "categories": [
-        "quant-ph",
-        "hep-ex",
-        "hep-th",
-        "math-ph"
-      ],
-      "primary": "quant-ph",
-      "published": "2026-10-17T20:18:00Z",
-      "updated": "2026-10-17T20:18:00Z",
-      "comment": "11 pages",
-      "abs_url": "https://arxiv.org/abs/2610.24857",
-      "pdf_url": "https://arxiv.org/pdf/2610.24857",
-      "title_ja": "量子力学の偏差はどこで見るべきですか?",
-      "title_translator": "argos",
-      "abstract_ja": "メタテーブルヘリウムの寿命と腐敗法の実験的測定は量子力学からの偏差を見つけるための有望な方法です。 量子力学の量子変形のために転移状態の崩壊を分析します。 変更が小さい場合でも、平均寿命の絶対的な変化が著しいことがわかります。 私たちは、Wigner---Weisskopfの近似で、変更された理論の指数関数法からの偏差は、寿命と同等の時間スケールで起こりうることを示しています。",
-      "abstract_translator": "argos"
-    },
-    {
-      "id": "2610.24754",
-      "version": 1,
-      "title": "Bootstrapping Fermionic Veneziano Amplitudes from Regge Zeros",
-      "abstract": "We extend the Regge-zero bootstrap of the Veneziano amplitude to tree-level scattering with external fermions. We consider the colour-ordered four-point amplitude of a massless scalar and a massless spin-$\\frac12$ fermion, in which fermionic resonances appear in the $s$-channel and bosonic resonances in the $t$-channel. Factoring out a spinor structure that carries the little-group weight of the amplitude, we bootstrap the resulting reduced amplitude, whose residues in each channel vanish at Regge zeros controlled by the trajectory of the opposite channel. Assuming ultrasoft Regge behaviour and that the residues have no zeros other than Regge zeros, we show that both Regge trajectories are linear and that the maximal spins grow with the level as $J_F=n+\\frac12$ and $J_B=m+1$. Duality between the fermionic- and bosonic-pole expansions then fixes the reduced amplitude to a Beta function, up to its normalisation and the ratio of the two Regge slopes. Requiring the fermionic and bosonic spectra to be degenerate equates the slopes, and the resulting amplitude coincides with the open superstring amplitude.",
-      "authors": [
-        "Pongwit Srisangyingcharoen"
-      ],
-      "categories": [
-        "hep-th"
-      ],
-      "primary": "hep-th",
-      "published": "2026-10-17T15:49:54Z",
-      "updated": "2026-10-17T15:49:54Z",
-      "comment": "",
-      "abs_url": "https://arxiv.org/abs/2610.24754",
-      "pdf_url": "https://arxiv.org/pdf/2610.24754",
-      "title_ja": "Regge ZerosのFermionic Venezianoの振幅をブートストラップ",
-      "title_translator": "argos",
-      "abstract_ja": "ヴェネツィアーノの振幅のRegge-zeroブーツストラップを拡張し、外部のフェームでツリーレベルのスキャタリングを行います。 マスレススカラーと無数のスピンの4点の広さを考慮します。$\\frac12$ フェミオン、フェミオニック共鳴が現れる $s$-チャンネルとボソニック共鳴 $t$-チャンネル。 振幅の小グループ重量を運ぶ背骨構造をファクター, 私たちは、結果の減少振幅をブートストラップします, 対向チャネルの軌跡によって制御されたReggeゼロで各チャネルの残余. Ultrasoft Reggeの振る舞いと、残留物がReggeゼロ以外のゼロを持たないと仮定すると、Reggeの軌跡が線形であり、最大スピンがレベルと成長していることが示す $J_F=n+\\frac12$ そして、 $J_B=m+1$. フェミオニックとボソニックポールの拡張間の二重性は、その正規化と2つのReggeの斜面の比率まで、ベータ機能に減少した振幅を固定します。 フェミオニックとボソニックのスペクトルを必要とすると、ゲレンデを生成し、結果の振幅は開いたスーパー弦振幅と一致します。",
-      "abstract_translator": "argos"
-    },
-    {
-      "id": "2610.24698",
-      "version": 1,
-      "title": "Holomorphic extremal surfaces for pseudoentropy in dS/CFT",
-      "abstract": "We formulate the extremization problem for codimension-two hypersurfaces in de Sitter space in holomorphic coordinates, with real anchoring conditions at future infinity. The resulting equation ($K^I=0$) describes complex bulk realizations extending the usual piecewise Hartle--Hawking construction. We compute holographic pseudoentropy for harmonic deformations of spherical regions of arbitrary size and dimension, confirming its universal expansion through second order in the deformation parameter. The result is independent of the integration contour within each homology class on the complexified extremal surface. Inequivalent classes, labeled by an integer associated with a discrete global-coordinate isometry, differ by a sign of the universal term in odd boundary dimensions and by real finite shifts in even dimensions. For conical defects in dS$_3$ parametrized by a Schwarzschild-dS mass, we also verify the first law of pseudoentropy and the persistence of contour degeneracy within each homology class.",
-      "authors": [
-        "Giorgos Anastasiou",
-        "Ignacio J. Araya",
-        "Avijit Das",
-        "Javier Moreno"
-      ],
-      "categories": [
-        "hep-th",
-        "gr-qc"
-      ],
-      "primary": "hep-th",
-      "published": "2026-10-17T13:56:17Z",
-      "updated": "2026-10-17T13:56:17Z",
-      "comment": "44 pages, 4 figures",
-      "abs_url": "https://arxiv.org/abs/2610.24698",
-      "pdf_url": "https://arxiv.org/pdf/2610.24698",
-      "title_ja": "dS/CFTの擬似不規則性のためのホロモルフィックの経皮の表面",
-      "title_translator": "argos",
-      "abstract_ja": "私たちは、未来の無限の実質の固定条件で、ホローモルフィック座標のデシッター空間におけるコディメンションツーハイパーサーフェスのための排泄問題を策定します。 結果の式($K^I=0$)は、通常の片道のHartle-Hawkingの構造を拡張する複雑なバルク実現を記述します。 任意のサイズと寸法の球面領域の調和的な変形のためのホログラフィック擬態性不規則性を計算し、変形パラメータの秒順で普遍的な拡張を確認します。 結果は、複雑化した経熱面上の各均質学のクラス内の統合輪郭とは独立しています。 不等価なクラスは、分離されたグローバル座標法に関連した整数者によって分類され、奇数次元における普遍的な用語の記号と、次元の実質の有限シフトによって異なっています。 dSの円錐欠陥のため$_3$ Schwarzschild-dS の質量によってパラメタライズ, 我々はまた、擬似的所有権の第一法と各均質クラス内の輪郭の逸脱の持続性を検証します.",
-      "abstract_translator": "argos"
-    },
-    {
-      "id": "2610.24694",
-      "version": 1,
-      "title": "Complexification of the Kerr-AdS black hole thermodynamic phase transition",
-      "abstract": "In this paper, we establish a systematic complex-analytical framework for investigating the thermodynamics of high-dimensional singly spinning Kerr-AdS black holes. By performing an analytical continuation of the black hole horizon radius into the complex plane, we map the thermodynamic behavior for the black hole to the zeros distribution of the corresponding analytical function. In the region below the critical point, this approach provides the criterion for identifying phase transitions and reveals that the zeroth-order phase transition does not alter the underlying thermodynamic topological structure of the black hole. In the supercritical region, based on the Lee-Yang theory of phase transition, we construct the Widom line to characterize the supercritical crossover behavior for the Kerr-AdS black holes. This study provides a new perspective on the thermodynamic analysis of black holes.",
-      "authors": [
-        "Fei Guo",
-        "Zhen-Ming Xu",
-        "Robert B. Mann"
-      ],
-      "categories": [
-        "gr-qc",
-        "hep-th"
-      ],
-      "primary": "gr-qc",
-      "published": "2026-10-17T13:47:11Z",
-      "updated": "2026-10-17T13:47:11Z",
-      "comment": "v1:12 pages, 8 figures;",
-      "abs_url": "https://arxiv.org/abs/2610.24694",
-      "pdf_url": "https://arxiv.org/pdf/2610.24694",
-      "title_ja": "Kerr-AdSブラックホール熱力学位移行の複雑化",
-      "title_translator": "argos",
-      "abstract_ja": "この論文では、高次元のシンギュラ・アド・ブラックホールを紡ぐ熱力学を調査するための体系的な複合分析フレームワークを確立しています。 黒い穴の地平線の分析的な続きを複雑な平面にすることによって、私達は対応する分析機能のゼロの配分に黒い穴のための熱力学の行動をマッピングします。 重要なポイントの下の領域では、このアプローチは、位相トランジションを特定するための基準を提供し、ゼロの位相トランジションは、黒い穴の熱力学的地質構造を変えないと明らかにします。 超臨界地域では、相変遷のイ・ヤン理論に基づいて、我々は、Kerr-AdSブラックホールの超臨界横断動作を特徴付けるために、Widomラインを構築します。 この研究では、黒い穴の熱力学的分析に関する新たな視点が提供されます。",
-      "abstract_translator": "argos"
-    },
-    {
-      "id": "2610.24594",
-      "version": 1,
-      "title": "Strong generation of the chiral algebra of $\\mathcal N=4$~$SU(N)$ super Yang--Mills theory",
-      "abstract": "The Schur sector of four-dimensional $\\mathcal N=4$ super Yang--Mills theory contains infinitely many protected operators, while the invariant polynomials of a single adjoint scalar are organized by finitely many Casimir degrees. I prove that the small $\\mathcal N=4$ short multiplets built from these invariants strongly generate the associated chiral algebra, thereby establishing the $SU(N)$ case of the strong-generation conjecture of Beem et al. For every $N\\ge2$, all field components associated with degrees $2,\\ldots,N$ suffice, in every conformal weight and every degree of the standard relative quantum BRST cohomology. The proof brings together cyclic trace cohomology, quantum lifting, and an arbitrary-degree quartic--odd transport identity. Exact field relations and a finite-rank Newton obstruction exclude every additional lowest space, including non-scalar flavor representations; the required normal-ordering corrections and BRST primitives are derived explicitly. The resulting completeness theorem explains how a finite family of supersymmetric multiplets organizes an unbounded quantum spectrum. Every Schur class is a normal polynomial in their components and derivatives, even when its gauge-theory representative involves fermions and arbitrarily many derivatives. This supplies a uniform set of local inputs for meromorphic operator products, bounds protected state multiplicities before cancellations in an index, and gives an algebraic account of the finite-rank reorganization of protected trace operators.",
-      "authors": [
-        "Yifan He"
-      ],
-      "categories": [
-        "hep-th",
-        "math-ph"
-      ],
-      "primary": "hep-th",
-      "published": "2026-10-17T09:57:54Z",
-      "updated": "2026-10-17T09:57:54Z",
-      "comment": "",
-      "abs_url": "https://arxiv.org/abs/2610.24594",
-      "pdf_url": "https://arxiv.org/pdf/2610.24594",
-      "title_ja": "チャラル・アルゲブラの強い世代 $\\mathcal N=4$ふりがな$SU(N)$ スーパーヤン・ミルズ理論",
-      "title_translator": "argos",
-      "abstract_ja": "4次元のシュールセクター $\\mathcal N=4$ スーパー・ヤン・ミルズ理論には、無限に多くの保護された演算子が含まれています。一方、単一のアドジョイントスカラーの不変性多項は、ほぼ多くのカシミール度によって編成されています。 小さいことを証明する $\\mathcal N=4$ これらのinvariantsから構築されたショートマルチントは、関連するchiralアルゲブラを強く生成し、それによって確立します $SU(N)$ Beem et al の強発症例。 全てのために $N\\ge2$、度に関連付けられるすべての分野のコンポーネント $2,\\ldots,N$ suffice、すべての適合重量および標準的な相対量子BRSTのcohomologyのあらゆる程度。 証拠は、循環トレースのコホモロジー、量子の持ち上がることおよび任意程度の量的なodd輸送のアイデンティティを一緒に持って来ます。 正確なフィールドリレーションとフィニトランクニュートンの閉塞は、非スカラーの風味表現を含む、すべての追加の最小スペースを除外します。 必要な正規注文補正とBRSTのプリミティブが明示的に誘導されます。 結果の完全性理論は、超症例の多重症の有限家族が、比類のない量子スペクトルを整理する方法を説明しています。 すべてのSchurクラスは、そのゲージ理論の代表者がfermionsとarbitrarily多くの派生物を含む場合でも、その成分と派生物の通常の多項的です。 これは、meromorphic演算子製品のためのローカル入力の均一なセットを供給します。, インデックスでキャンセルする前に保護された状態の多重性をバインド, 保護されたトレース演算子の有限ランク再編の有利なアカウントを与えます.",
-      "abstract_translator": "argos"
-    },
-    {
-      "id": "2610.24496",
-      "version": 1,
-      "title": "Gravity as Large Scale Structure: Families of CFTs and the Higher-Spin Gap",
-      "abstract": "We observe an apparently universal behavior in large $N$ conformal field theory (CFT) in $d\\geq 2$ dimensions: the single-trace, higher-spin gap obeys the parametric bound $Δ_{\\rm gap} \\lesssim (δc)^{1/d}$, where $δc$ is the central charge increment between successive theories. The origin of this bound is explained heuristically, using a generalized notion of branes that interpolate between conformal points in theory space. Seeking a more precise framework for this picture leads to the central concept of families of CFTs, which tacitly underlies various features and puzzles of AdS/CFT. We develop a working definition of families, with inspiration from families of $L$-functions in number theory, and formulate a family-level version of the gap bound. Interpreted holographically for families of AdS$_{d+1}$ vacua, this bound, when applicable, rules out Planckian scale separation, constrains the size and number of extra dimensions, and explains simple scaling patterns in string/M-theory. It also accounts for why all known large $N$ vector models have a bounded gap.",
-      "authors": [
-        "Eric Perlmutter"
-      ],
-      "categories": [
-        "hep-th"
-      ],
-      "primary": "hep-th",
-      "published": "2026-10-17T06:37:27Z",
-      "updated": "2026-10-17T06:37:27Z",
-      "comment": "45 pages",
-      "abs_url": "https://arxiv.org/abs/2610.24496",
-      "pdf_url": "https://arxiv.org/pdf/2610.24496",
-      "title_ja": "大規模構造としての重力:CFTと高スピンギャップの家族",
-      "title_translator": "argos",
-      "abstract_ja": "大きくてはっきり普遍的な行動を観察します。 $N$ コンフォーマルフィールド理論(CFT) $d\\geq 2$ 次元: 単一トレース、より高いスピンのギャップはパラメトリックの境界を従います $Δ_{\\rm gap} \\lesssim (δc)^{1/d}$, どこ $δc$ 成功理論間の中央チャージ増分です。 この境界の起源は、理論空間のコンフィギュレーションポイント間で補間する曲の一般化された概念を使用して、強固に説明されています。 この写真のより精密なフレームワークを見ると、さまざまな機能とAdS / CFTのパズルをたどるCFTの家族の中央概念につながります。 家族の働き方の定義を開発し、家族からインスピレーションを得て $L$- 数値理論における機能、およびギャップ境界の家族レベルのバージョンを策定します。 AdSの家族のための解釈されたレーザー光線写真$_{d+1}$ vacuaは、適用可能であれば、Planckianのスケールの分離を規定し、余分次元のサイズそして数を制約し、ひも/M理論の簡単なスケーリングパターンを記述します。 それはまた、すべての既知の大きな理由のアカウント $N$ ベクトルモデルは、境界ギャップを持っています。",
       "abstract_translator": "argos"
     }
   ]
