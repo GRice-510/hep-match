@@ -134,9 +134,12 @@ def main() -> None:
     cfg = config()
     since = dt.datetime.now(UTC) - dt.timedelta(days=cfg['days'])
     papers, truncated = collect(ArxivClient(), cfg['categories'], since, cfg['max_results'])
-    if not papers:
-        raise RuntimeError('No recent papers returned. Keeping the previous digest; check arXiv and the date window.')
     old = load_json(DATA, {'papers': []})
+    if not papers and old.get('papers'):
+        print('No recent papers in the requested window; keeping the previous digest.')
+        return
+    if not papers:
+        print('No recent papers in the requested window; creating an empty digest.')
     retain_translations(papers, old.get('papers', []))
     doc = {'schema_version': 1, 'generated_at': now_iso(), 'since': since.isoformat(),
            'categories': cfg['categories'], 'truncated': truncated,

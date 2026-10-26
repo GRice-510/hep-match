@@ -83,7 +83,7 @@ jobs:
           python - <<'PY'
           import json, os
           d = json.load(open('site/data/latest.json'))
-          assert d['schema_version'] == 1 and d['papers']
+          assert d['schema_version'] == 1 and isinstance(d['papers'], list)
           assert len({p['id'] for p in d['papers']}) == len(d['papers'])
           with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as out:
               out.write(f"## HEP Match\n\nPapers: {len(d['papers'])}\n\nTranslation: {d['translation']}\n")

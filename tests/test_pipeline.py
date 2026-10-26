@@ -111,6 +111,25 @@ class FeedTest(unittest.TestCase):
         self.assertEqual(new['title_ja'], '題名')
         self.assertNotIn('abstract_ja', new)
 
+    def test_no_recent_papers_keeps_previous_digest(self):
+        with tempfile.TemporaryDirectory() as root:
+            path = Path(root) / 'latest.json'
+            original = json.dumps({'schema_version': 1, 'generated_at': '2026-10-20',
+                                   'papers': [{'id': '2610.01234', 'title_ja': '保存済み'}]})
+            path.write_text(original)
+            with patch.object(fetch, 'DATA', path), patch.object(fetch, 'collect', return_value=([], False)):
+                fetch.main()
+            self.assertEqual(path.read_text(), original)
+
+    def test_no_recent_papers_without_previous_digest(self):
+        with tempfile.TemporaryDirectory() as root:
+            path = Path(root) / 'latest.json'
+            with patch.object(fetch, 'DATA', path), patch.object(fetch, 'collect', return_value=([], False)):
+                fetch.main()
+            doc = common.load_json(path)
+            self.assertEqual(doc['schema_version'], 1)
+            self.assertEqual(doc['papers'], [])
+
     def test_fetch_error_does_not_overwrite(self):
         with tempfile.TemporaryDirectory() as root:
             path = Path(root) / 'latest.json'
