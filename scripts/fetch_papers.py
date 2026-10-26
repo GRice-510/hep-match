@@ -67,7 +67,7 @@ class ArxivClient:
 
     def get(self, query: dict) -> tuple[list[dict], int]:
         url = API + '?' + urllib.parse.urlencode(query)
-        for attempt in range(3):
+        for attempt in range(5):
             time.sleep(max(0, 3.2 - (time.monotonic() - self.last_request)))
             self.last_request = time.monotonic()
             try:
@@ -79,11 +79,17 @@ class ArxivClient:
                     raise ValueError('Unexpected empty page')
                 return rows, total
             except (urllib.error.URLError, TimeoutError, ValueError, ET.ParseError) as exc:
-                print(f'arXiv request attempt {attempt + 1}/3 failed: '
+                print(f'arXiv request attempt {attempt + 1}/5 failed: '
                       f'{type(exc).__name__}: {exc}', file=sys.stderr)
-                if attempt == 2:
+                if attempt == 4:
                     raise RuntimeError('arXiv fetch failed; previous data has not been changed') from exc
-                time.sleep(5 * (attempt + 1))
+                # Give rate limits and temporary service failures time to recover.
+                delay = 30 * (2 ** attempt)
+                if isinstance(exc, urllib.error.HTTPError):
+                    retry_after = exc.headers.get('Retry-After', '') if exc.headers else ''
+                    if retry_after.isdigit():
+                        delay = max(delay, int(retry_after))
+                time.sleep(min(delay, 600))
         raise RuntimeError('Unreachable')
 
 
