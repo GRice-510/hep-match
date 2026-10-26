@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T03:49:52Z",
-  "since": "2026-10-19T03:49:46.334734+00:00",
+  "generated_at": "2026-10-26T06:42:13Z",
+  "since": "2026-10-19T06:42:06.979736+00:00",
   "categories": [
     "hep-th"
   ],
@@ -9,9 +9,9 @@
   "translation": {
     "engine": "argos",
     "status": "complete",
-    "processed_fields": 72,
-    "characters_this_run": 39114,
-    "updated_at": "2026-10-26T03:51:24Z",
+    "processed_fields": 0,
+    "characters_this_run": 0,
+    "updated_at": "2026-10-26T06:42:47Z",
     "titles": 223,
     "abstracts": 223
   },
