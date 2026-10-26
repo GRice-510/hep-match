@@ -79,6 +79,8 @@ class ArxivClient:
                     raise ValueError('Unexpected empty page')
                 return rows, total
             except (urllib.error.URLError, TimeoutError, ValueError, ET.ParseError) as exc:
+                print(f'arXiv request attempt {attempt + 1}/3 failed: '
+                      f'{type(exc).__name__}: {exc}', file=sys.stderr)
                 if attempt == 2:
                     raise RuntimeError('arXiv fetch failed; previous data has not been changed') from exc
                 time.sleep(5 * (attempt + 1))
